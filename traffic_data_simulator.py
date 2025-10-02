@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
-# traffic_simulator_final_v2.py
+# traffic_simulator_final_v4.py
+# Enhanced version: adds real street direction, realistic event direction logic (85% correct),
+# realistic speed distribution, and prints/stores street direction in events.
 
 import os
 import random
@@ -113,6 +115,56 @@ STREET_TO_CITY = {
 
 STREET_NAMES = list(STREET_TO_CITY.keys())
 
+# --------------- STREET DIRECTIONS ---------------
+# STREET_DIRECTIONS — محدثة: قيم إما "NS", "EW", أو "CIRCULAR" (للطريق الحلقي)
+STREET_DIRECTIONS = {
+    "Salah Salem": "NS",
+    "Nasr City": "EW",           # محور غالبًا شرقي-غربي للممرات الرئيسية بالمنطقة
+    # طريق حلقي - معاملة خاصة (شاملة كل الاتجاهات). :contentReference[oaicite:5]{index=5}
+    "Ring Road": "CIRCULAR",
+    # محور شرقي-غربي عبر النيل. :contentReference[oaicite:6]{index=6}
+    "6th October Bridge": "EW",
+    # بمحاذاة النيل — شمال/جنوب. :contentReference[oaicite:7]{index=7}
+    "Corniche El Nil": "NS",
+    "Tahrir": "EW",
+    "Al Haram": "EW",
+    "El Nasr Road": "EW",
+    "26 July": "EW",
+    "El Teseen": "EW",
+    "El Geish": "EW",
+    "El Thawra": "NS",
+    "El Mokattam": "NS",
+    "Ramses": "EW",
+    # استنادًا لموقع الحي ومحاوره على الخريطة. :contentReference[oaicite:8]{index=8}
+    "Dokki": "EW",
+    "Moustafa Kamel": "EW",
+    "Kamel Ibrahim": "EW",
+    "El Tayaran": "EW",
+    "El Maadi Corniche": "NS",
+    "Abbass Al Akkad": "NS",
+    "El Omraniya": "EW",
+    "Gamaat El Dowal": "EW",
+    "El Orouba": "NS",
+    "Abdel Aziz Fahmy": "NS",
+    "Wahat Road": "EW",
+    "Sheikh Zayed Road": "EW",
+    "October Corridor": "EW",
+    "El Shorouk Road": "EW",
+    "El Sakkakini": "EW",
+    "El Marg": "NS",
+    "El Nozha": "NS",
+    "Heliopolis Avenue": "EW",
+    "Masr El Gedida": "EW",
+    "Sayeda Zeinab": "NS",
+    "Giza Corniche": "NS",
+    # استنادًا لتخطيط الشوارع بالمنطقة. :contentReference[oaicite:9]{index=9}
+    "Mohandessin": "EW",
+    "El Qahera Street": "EW",
+    "Smart Village Road": "EW",
+    "Al Rehab Road": "EW",
+    "El Obour Road": "EW",
+    "Al Amiriya Road": "EW"
+}
 # ----------------- HELPERS -----------------
 
 
@@ -157,8 +209,8 @@ def build_locations(target_count):
             base["lat"], base["lon"], meters=random.uniform(30, 1000))
         road_type = weighted_choice(ROAD_TYPE_WEIGHTS)
         speed_limit = random.choice([40, 50, 60, 70, 80, 100])
-        # city fixed per street
         city = STREET_TO_CITY.get(base["name"], "Cairo")
+        direction = STREET_DIRECTIONS.get(base["name"], "Both")
         suffix = f" (segment {idx})" if random.random() < 0.35 else ""
         street_name = f"{base['name']}{suffix}"
         locations.append({
@@ -168,7 +220,8 @@ def build_locations(target_count):
             "lat": lat,
             "lon": lon,
             "road_type": road_type,
-            "speed_limit": speed_limit
+            "speed_limit": speed_limit,
+            "direction": direction
         })
     return locations
 
@@ -184,8 +237,8 @@ def build_sensors(locations, coverage_ratio=0.55):
         clean = slugify(loc["street_name"])
         kind = random.choice(
             ["CCTV", "Radar", "TrafficCounter", "MultiSensor"])
-        status = random.choices(["Active", "Inactive", "Under Maintenance"], weights=[
-                                0.8, 0.1, 0.1], k=1)[0]
+        status = random.choices(["Active", "Inactive", "Under Maintenance"],
+                                weights=[0.8, 0.1, 0.1], k=1)[0]
         sid = f"{kind}_{clean}_{i:04d}"
         sensors.append({
             "sensor_id": sid,
@@ -200,11 +253,10 @@ def build_sensors(locations, coverage_ratio=0.55):
         numeric += 1
     return sensors
 
-# ------------- BUILD VEHICLES (owner kept) -------------
+# ------------- BUILD VEHICLES -------------
 
 
 def build_vehicles_with_owner(total):
-    # allocate counts per type
     types = list(VEHICLE_TYPE_DISTRIBUTION.keys())
     probs = [VEHICLE_TYPE_DISTRIBUTION[t] for t in types]
     counts = [int(round(p * total)) for p in probs]
@@ -226,14 +278,12 @@ def build_vehicles_with_owner(total):
         model_pool = VEHICLE_MODELS_BY_TYPE.get(
             t, VEHICLE_MODELS_BY_TYPE["Car"])
         for _ in range(cnt):
-            # ensure unique plate numbers
             plate = fake.license_plate()
             while plate in plates_seen:
                 plate = fake.license_plate()
             plates_seen.add(plate)
-            owner_id = str(uuid.uuid4())  # owner identifier (kept)
+            owner_id = str(uuid.uuid4())
             vehicles.append({
-                # no vehicle_id; owner_id kept as requested
                 "owner_id": owner_id,
                 "plate_number": plate,
                 "vehicle_type": t,
@@ -243,31 +293,57 @@ def build_vehicles_with_owner(total):
     random.shuffle(vehicles)
     return vehicles
 
-# --------------- EVENT LOGIC ---------------
+# --------------- SPEED LOGIC ---------------
 
 
 def generate_speed(location, vehicle_type):
     sl = location.get("speed_limit", 60)
     r = random.random()
     if vehicle_type in ("Truck", "Bus"):
-        sl_eff = max(30, int(sl * random.uniform(0.8, 1.0)))
+        base_factor = random.uniform(0.75, 0.95)
     elif vehicle_type == "Motorcycle":
-        sl_eff = int(sl * random.uniform(0.9, 1.15))
+        base_factor = random.uniform(0.95, 1.15)
     else:
-        sl_eff = sl
-    if r < 0.75:
-        speed = max(1, int(sl_eff * (1 + random.uniform(-0.12, 0.12))))
-    elif r < 0.95:
-        var = random.uniform(0.12, 0.30)
-        speed = int(
-            sl_eff * (1 + var)) if random.random() < 0.6 else max(1, int(sl_eff * (1 - var)))
+        base_factor = 1.0
+
+    effective_limit = max(20, int(sl * base_factor))
+
+    if r < 0.50:
+        var = random.uniform(-0.10, 0.10)
+        speed = max(1, int(effective_limit * (1 + var)))
+    elif r < 0.80:
+        var = random.uniform(0.20, 0.50)
+        speed = int(effective_limit * (1 + var))
     else:
-        speed = random.randint(1, max(5, sl_eff + 60))
+        var = random.uniform(0.20, 0.50)
+        speed = max(1, int(effective_limit * (1 - var)))
+
     return int(speed)
+
+# --------------- EVENT LOGIC ---------------
 
 
 def generate_event(event_id, sensor, location, vehicle):
-    direction = random.choice(["N", "S", "E", "W"])
+    street_dir = location.get("direction", "CIRCULAR")
+    if street_dir == "NS":
+        possible = ["N", "S"]
+    elif street_dir == "EW":
+        possible = ["E", "W"]
+    elif street_dir == "CIRCULAR":
+        # للطريق الحلقي (مثل Ring Road) نسمح بكل الاتجاهات
+        possible = ["N", "S", "E", "W"]
+    else:
+        # أي قيمة مفردة غير متوقعة -> احتفظ بكل الاتجاهات كاحتياط
+        possible = ["N", "S", "E", "W"]
+
+    if random.random() < 0.85:
+        direction = random.choice(possible)
+    else:
+        all_dirs = ["N", "S", "E", "W"]
+        others = [d for d in all_dirs if d not in possible]
+        direction = random.choice(
+            others) if others else random.choice(possible)
+
     speed = generate_speed(location, vehicle["vehicle_type"])
     ev = {
         "event_id": event_id,
@@ -276,7 +352,6 @@ def generate_event(event_id, sensor, location, vehicle):
         "sensor_numeric_id": sensor["numeric_id"],
         "sensor_lat": sensor["lat"],
         "sensor_lon": sensor["lon"],
-        # vehicle reference via plate + owner_id (owner lookup realistic)
         "plate_number": vehicle["plate_number"],
         "owner_id": vehicle["owner_id"],
         "vehicle_type": vehicle["vehicle_type"],
@@ -288,10 +363,10 @@ def generate_event(event_id, sensor, location, vehicle):
         "location_name": location["street_name"],
         "location_lat": location["lat"],
         "location_lon": location["lon"],
-        "road_type": location.get("road_type")
+        "road_type": location.get("road_type"),
+        "street_direction": location.get("direction")
     }
     return ev
-
 # --------------- RUN ---------------
 
 
@@ -311,10 +386,11 @@ def run():
     with open(VEHICLES_FILE, "w", encoding="utf-8") as f:
         json.dump(vehicles, f, ensure_ascii=False, indent=2)
 
-    # print base tables (top samples and counts)
+    # print base tables (samples and counts)
     print("\n=== LOCATIONS (sample 50) ===")
     for loc in locations[:50]:
-        print(f"{loc['location_id']:4d} | {loc['street_name'][:50]:50s} | {loc['road_type']:11s} | speed_limit:{loc['speed_limit']:3d} | ({loc['lat']},{loc['lon']})")
+        print(f"{loc['location_id']:4d} | {loc['street_name'][:40]:40s} | {loc['road_type']:11s} | "
+              f"Dir:{loc['direction']:4s} | speed_limit:{loc['speed_limit']:3d} | ({loc['lat']},{loc['lon']})")
     print(f"(Total locations: {len(locations)})")
 
     print("\n=== SENSORS (sample 50) ===")
@@ -324,12 +400,12 @@ def run():
 
     print("\n=== VEHICLES (sample 50) ===")
     for v in vehicles[:50]:
-        print(f"Owner:{v['owner_id'][:8]}... | Plate:{v['plate_number']:10s} | Type:{v['vehicle_type']:10s} | Model:{v['model'][:20]:20s} | Color:{v['color']}")
+        print(f"Owner:{v['owner_id'][:8]}... | Plate:{v['plate_number']:10s} | Type:{v['vehicle_type']:10s} "
+              f"| Model:{v['model'][:20]:20s} | Color:{v['color']}")
     print(f"(Total vehicles: {len(vehicles)})")
 
     input("\nReview base tables above. Press Enter to START streaming events (Ctrl+C to stop)...")
 
-    # create plate -> owner map for "lookup"
     plate_to_owner = {v["plate_number"]: v["owner_id"] for v in vehicles}
 
     event_count = 0
@@ -337,38 +413,36 @@ def run():
     with open(EVENTS_FILE, "w", encoding="utf-8") as fe:
         try:
             while event_count < TOTAL_EVENTS:
-                # choose only active sensors
                 active_sensors = [
                     s for s in sensors if s.get("status") == "Active"]
                 if not active_sensors:
-                    print("⚠️ No active sensors available. Stopping simulation.")
+                    print("⚠ No active sensors available. Stopping simulation.")
                     break
                 sensor = random.choice(active_sensors)
                 location = next(
-                    (l for l in locations if l["location_id"] == sensor["location_id"]), random.choice(locations))
+                    (l for l in locations if l["location_id"]
+                     == sensor["location_id"]),
+                    random.choice(locations)
+                )
                 vehicle = random.choice(vehicles)
 
-                # owner lookup by plate (realistic path)
                 owner_id = plate_to_owner.get(vehicle["plate_number"])
-                # (should always exist since we built the map from vehicles)
                 if owner_id is None:
-                    # fallback - shouldn't happen
                     owner_id = vehicle.get("owner_id", str(uuid.uuid4()))
 
                 event_count += 1
                 ev = generate_event(event_count, sensor, location, vehicle)
-                # ensure owner_id is consistent with lookup
                 ev["owner_id"] = owner_id
 
                 fe.write(json.dumps(ev, ensure_ascii=False) + "\n")
                 if event_count % 100 == 0:
                     fe.flush()
 
-                # Print detailed info (accumulating)
+                # Print detailed info
                 print("\n--- LOCATION INFO ---")
                 print(f" Name        : {location['street_name']}")
-                print(f" City        : {location['city']}")
                 print(f" Road Type   : {location['road_type']}")
+                print(f" Direction   : {location['direction']}")
                 print(f" Coordinates : ({location['lat']}, {location['lon']})")
                 print(f" Speed Limit : {location['speed_limit']} km/h")
 
@@ -387,12 +461,14 @@ def run():
                 print(f" Color       : {vehicle['color']}")
 
                 print("\n--- EVENT INFO ---")
-                print(
-                    f" Event ID    : {ev['event_id']}   Timestamp: {ev['timestamp']}")
-                print(
-                    f" Speed       : {ev['speed']} km/h   Direction: {ev['direction']}")
-                print("-------------------------------")
-                # also print compact JSON line for convenience
+                print(f" Event ID    : {ev['event_id']}")
+                print(f" Timestamp   : {ev['timestamp']}")
+                print(f" Sensor ID   : {ev['sensor_id']}")
+                print(f" Plate       : {ev['plate_number']}")
+                print(f" Speed       : {ev['speed']} km/h")
+                print(f" Direction   : {ev['direction']}")
+                print(f" City        : {location['city']}")
+
                 print(json.dumps(ev, ensure_ascii=False))
 
                 if event_count % 1000 == 0:
