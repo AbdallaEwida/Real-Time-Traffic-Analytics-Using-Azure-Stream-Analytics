@@ -1,0 +1,5502 @@
+[
+  {
+    "sensor_id": "TrafficCounter_Abbass_Al_Akkad_segment_352_0001",
+    "numeric_id": 1,
+    "lat": 29.800943,
+    "lon": 31.020117,
+    "location_id": 352,
+    "install_date": "2025-07-06",
+    "status": "Active",
+    "sensor_type": "TrafficCounter"
+  },
+  {
+    "sensor_id": "MultiSensor_Sayeda_Zeinab_segment_265_0002",
+    "numeric_id": 2,
+    "lat": 30.151043,
+    "lon": 31.226077,
+    "location_id": 265,
+    "install_date": "2022-07-21",
+    "status": "Active",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "CCTV_El_Nasr_Road_0003",
+    "numeric_id": 3,
+    "lat": 30.189242,
+    "lon": 31.540884,
+    "location_id": 911,
+    "install_date": "2022-06-19",
+    "status": "Active",
+    "sensor_type": "CCTV"
+  },
+  {
+    "sensor_id": "Radar_Smart_Village_Road_0004",
+    "numeric_id": 4,
+    "lat": 29.779648,
+    "lon": 31.532147,
+    "location_id": 252,
+    "install_date": "2024-03-23",
+    "status": "Active",
+    "sensor_type": "Radar"
+  },
+  {
+    "sensor_id": "TrafficCounter_El_Tayaran_0005",
+    "numeric_id": 5,
+    "lat": 29.839924,
+    "lon": 31.070678,
+    "location_id": 202,
+    "install_date": "2020-11-27",
+    "status": "Active",
+    "sensor_type": "TrafficCounter"
+  },
+  {
+    "sensor_id": "CCTV_El_Geish_0006",
+    "numeric_id": 6,
+    "lat": 29.92227,
+    "lon": 31.32105,
+    "location_id": 117,
+    "install_date": "2022-09-14",
+    "status": "Active",
+    "sensor_type": "CCTV"
+  },
+  {
+    "sensor_id": "TrafficCounter_26_July_segment_880_0007",
+    "numeric_id": 7,
+    "lat": 30.066268,
+    "lon": 31.531383,
+    "location_id": 880,
+    "install_date": "2025-06-03",
+    "status": "Active",
+    "sensor_type": "TrafficCounter"
+  },
+  {
+    "sensor_id": "MultiSensor_Wahat_Road_segment_740_0008",
+    "numeric_id": 8,
+    "lat": 29.801239,
+    "lon": 31.011675,
+    "location_id": 740,
+    "install_date": "2021-08-15",
+    "status": "Inactive",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "TrafficCounter_Abbass_Al_Akkad_0009",
+    "numeric_id": 9,
+    "lat": 29.802405,
+    "lon": 31.019151,
+    "location_id": 583,
+    "install_date": "2024-11-01",
+    "status": "Inactive",
+    "sensor_type": "TrafficCounter"
+  },
+  {
+    "sensor_id": "Radar_Mohandessin_0010",
+    "numeric_id": 10,
+    "lat": 30.000871,
+    "lon": 31.268273,
+    "location_id": 59,
+    "install_date": "2022-11-02",
+    "status": "Active",
+    "sensor_type": "Radar"
+  },
+  {
+    "sensor_id": "Radar_Dokki_segment_705_0011",
+    "numeric_id": 11,
+    "lat": 30.000017,
+    "lon": 31.046828,
+    "location_id": 705,
+    "install_date": "2025-04-20",
+    "status": "Active",
+    "sensor_type": "Radar"
+  },
+  {
+    "sensor_id": "Radar_Al_Rehab_Road_0012",
+    "numeric_id": 12,
+    "lat": 29.902644,
+    "lon": 31.031695,
+    "location_id": 566,
+    "install_date": "2025-02-17",
+    "status": "Active",
+    "sensor_type": "Radar"
+  },
+  {
+    "sensor_id": "CCTV_Al_Rehab_Road_0013",
+    "numeric_id": 13,
+    "lat": 29.898864,
+    "lon": 31.031923,
+    "location_id": 742,
+    "install_date": "2025-02-11",
+    "status": "Under Maintenance",
+    "sensor_type": "CCTV"
+  },
+  {
+    "sensor_id": "Radar_El_Shorouk_Road_0014",
+    "numeric_id": 14,
+    "lat": 29.983887,
+    "lon": 31.507976,
+    "location_id": 512,
+    "install_date": "2021-10-25",
+    "status": "Active",
+    "sensor_type": "Radar"
+  },
+  {
+    "sensor_id": "Radar_Ramses_segment_179_0015",
+    "numeric_id": 15,
+    "lat": 29.955334,
+    "lon": 31.411654,
+    "location_id": 179,
+    "install_date": "2025-08-16",
+    "status": "Active",
+    "sensor_type": "Radar"
+  },
+  {
+    "sensor_id": "Radar_El_Omraniya_segment_821_0016",
+    "numeric_id": 16,
+    "lat": 30.088732,
+    "lon": 31.230907,
+    "location_id": 821,
+    "install_date": "2021-09-01",
+    "status": "Active",
+    "sensor_type": "Radar"
+  },
+  {
+    "sensor_id": "TrafficCounter_El_Nozha_0017",
+    "numeric_id": 17,
+    "lat": 29.808718,
+    "lon": 31.067144,
+    "location_id": 553,
+    "install_date": "2024-01-25",
+    "status": "Active",
+    "sensor_type": "TrafficCounter"
+  },
+  {
+    "sensor_id": "MultiSensor_Al_Amiriya_Road_segment_116_0018",
+    "numeric_id": 18,
+    "lat": 30.137222,
+    "lon": 31.357934,
+    "location_id": 116,
+    "install_date": "2025-10-04",
+    "status": "Active",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "MultiSensor_Kamel_Ibrahim_0019",
+    "numeric_id": 19,
+    "lat": 30.167967,
+    "lon": 31.19545,
+    "location_id": 511,
+    "install_date": "2025-07-08",
+    "status": "Active",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "TrafficCounter_Abbass_Al_Akkad_0020",
+    "numeric_id": 20,
+    "lat": 29.802613,
+    "lon": 31.019976,
+    "location_id": 581,
+    "install_date": "2022-09-13",
+    "status": "Active",
+    "sensor_type": "TrafficCounter"
+  },
+  {
+    "sensor_id": "TrafficCounter_El_Maadi_Corniche_0021",
+    "numeric_id": 21,
+    "lat": 29.811811,
+    "lon": 31.328874,
+    "location_id": 898,
+    "install_date": "2022-06-02",
+    "status": "Active",
+    "sensor_type": "TrafficCounter"
+  },
+  {
+    "sensor_id": "MultiSensor_El_Obour_Road_0022",
+    "numeric_id": 22,
+    "lat": 29.97731,
+    "lon": 31.079212,
+    "location_id": 354,
+    "install_date": "2025-01-17",
+    "status": "Active",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "MultiSensor_El_Shorouk_Road_0023",
+    "numeric_id": 23,
+    "lat": 29.980804,
+    "lon": 31.507813,
+    "location_id": 267,
+    "install_date": "2022-07-31",
+    "status": "Active",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "CCTV_El_Qahera_Street_0024",
+    "numeric_id": 24,
+    "lat": 29.878546,
+    "lon": 31.337862,
+    "location_id": 736,
+    "install_date": "2025-05-07",
+    "status": "Inactive",
+    "sensor_type": "CCTV"
+  },
+  {
+    "sensor_id": "CCTV_Wahat_Road_segment_858_0025",
+    "numeric_id": 25,
+    "lat": 29.804888,
+    "lon": 31.012321,
+    "location_id": 858,
+    "install_date": "2024-02-16",
+    "status": "Inactive",
+    "sensor_type": "CCTV"
+  },
+  {
+    "sensor_id": "TrafficCounter_Giza_Corniche_0026",
+    "numeric_id": 26,
+    "lat": 29.77268,
+    "lon": 31.082857,
+    "location_id": 641,
+    "install_date": "2021-07-10",
+    "status": "Active",
+    "sensor_type": "TrafficCounter"
+  },
+  {
+    "sensor_id": "MultiSensor_Abdel_Aziz_Fahmy_0027",
+    "numeric_id": 27,
+    "lat": 30.045793,
+    "lon": 31.000418,
+    "location_id": 219,
+    "install_date": "2025-04-21",
+    "status": "Active",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "TrafficCounter_El_Omraniya_0028",
+    "numeric_id": 28,
+    "lat": 30.087675,
+    "lon": 31.23146,
+    "location_id": 640,
+    "install_date": "2021-01-10",
+    "status": "Active",
+    "sensor_type": "TrafficCounter"
+  },
+  {
+    "sensor_id": "TrafficCounter_El_Nozha_0029",
+    "numeric_id": 29,
+    "lat": 29.804117,
+    "lon": 31.067765,
+    "location_id": 738,
+    "install_date": "2024-11-22",
+    "status": "Active",
+    "sensor_type": "TrafficCounter"
+  },
+  {
+    "sensor_id": "Radar_Moustafa_Kamel_segment_359_0030",
+    "numeric_id": 30,
+    "lat": 30.186562,
+    "lon": 31.120804,
+    "location_id": 359,
+    "install_date": "2024-12-30",
+    "status": "Active",
+    "sensor_type": "Radar"
+  },
+  {
+    "sensor_id": "TrafficCounter_6th_October_Bridge_segment_940_0031",
+    "numeric_id": 31,
+    "lat": 29.851583,
+    "lon": 31.195246,
+    "location_id": 940,
+    "install_date": "2020-12-23",
+    "status": "Active",
+    "sensor_type": "TrafficCounter"
+  },
+  {
+    "sensor_id": "Radar_Moustafa_Kamel_0032",
+    "numeric_id": 32,
+    "lat": 30.188081,
+    "lon": 31.120384,
+    "location_id": 147,
+    "install_date": "2021-06-21",
+    "status": "Active",
+    "sensor_type": "Radar"
+  },
+  {
+    "sensor_id": "TrafficCounter_Abbass_Al_Akkad_0033",
+    "numeric_id": 33,
+    "lat": 29.80401,
+    "lon": 31.02004,
+    "location_id": 760,
+    "install_date": "2024-10-30",
+    "status": "Inactive",
+    "sensor_type": "TrafficCounter"
+  },
+  {
+    "sensor_id": "TrafficCounter_Heliopolis_Avenue_0034",
+    "numeric_id": 34,
+    "lat": 30.102876,
+    "lon": 31.373983,
+    "location_id": 379,
+    "install_date": "2022-10-07",
+    "status": "Inactive",
+    "sensor_type": "TrafficCounter"
+  },
+  {
+    "sensor_id": "Radar_Corniche_El_Nil_0035",
+    "numeric_id": 35,
+    "lat": 29.959088,
+    "lon": 31.451533,
+    "location_id": 815,
+    "install_date": "2023-04-14",
+    "status": "Inactive",
+    "sensor_type": "Radar"
+  },
+  {
+    "sensor_id": "TrafficCounter_Masr_El_Gedida_0036",
+    "numeric_id": 36,
+    "lat": 29.988537,
+    "lon": 31.328862,
+    "location_id": 774,
+    "install_date": "2021-12-23",
+    "status": "Active",
+    "sensor_type": "TrafficCounter"
+  },
+  {
+    "sensor_id": "CCTV_El_Geish_0037",
+    "numeric_id": 37,
+    "lat": 29.921186,
+    "lon": 31.320376,
+    "location_id": 712,
+    "install_date": "2024-11-19",
+    "status": "Active",
+    "sensor_type": "CCTV"
+  },
+  {
+    "sensor_id": "Radar_El_Maadi_Corniche_segment_985_0038",
+    "numeric_id": 38,
+    "lat": 29.814596,
+    "lon": 31.33038,
+    "location_id": 985,
+    "install_date": "2023-05-01",
+    "status": "Active",
+    "sensor_type": "Radar"
+  },
+  {
+    "sensor_id": "MultiSensor_Mohandessin_0039",
+    "numeric_id": 39,
+    "lat": 29.999749,
+    "lon": 31.268715,
+    "location_id": 949,
+    "install_date": "2022-12-24",
+    "status": "Active",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "TrafficCounter_Salah_Salem_segment_699_0040",
+    "numeric_id": 40,
+    "lat": 29.80819,
+    "lon": 31.283449,
+    "location_id": 699,
+    "install_date": "2021-12-21",
+    "status": "Active",
+    "sensor_type": "TrafficCounter"
+  },
+  {
+    "sensor_id": "CCTV_Sheikh_Zayed_Road_0041",
+    "numeric_id": 41,
+    "lat": 29.95346,
+    "lon": 31.089088,
+    "location_id": 480,
+    "install_date": "2022-08-07",
+    "status": "Inactive",
+    "sensor_type": "CCTV"
+  },
+  {
+    "sensor_id": "Radar_Nasr_City_0042",
+    "numeric_id": 42,
+    "lat": 30.048188,
+    "lon": 31.074705,
+    "location_id": 2,
+    "install_date": "2025-02-24",
+    "status": "Active",
+    "sensor_type": "Radar"
+  },
+  {
+    "sensor_id": "Radar_Ramses_0043",
+    "numeric_id": 43,
+    "lat": 29.96032,
+    "lon": 31.410071,
+    "location_id": 644,
+    "install_date": "2024-07-10",
+    "status": "Inactive",
+    "sensor_type": "Radar"
+  },
+  {
+    "sensor_id": "Radar_Al_Haram_segment_606_0044",
+    "numeric_id": 44,
+    "lat": 30.009818,
+    "lon": 31.231818,
+    "location_id": 606,
+    "install_date": "2025-01-27",
+    "status": "Active",
+    "sensor_type": "Radar"
+  },
+  {
+    "sensor_id": "TrafficCounter_Sayeda_Zeinab_0045",
+    "numeric_id": 45,
+    "lat": 30.151858,
+    "lon": 31.226174,
+    "location_id": 132,
+    "install_date": "2024-06-11",
+    "status": "Active",
+    "sensor_type": "TrafficCounter"
+  },
+  {
+    "sensor_id": "MultiSensor_Ramses_0046",
+    "numeric_id": 46,
+    "lat": 29.957448,
+    "lon": 31.411138,
+    "location_id": 421,
+    "install_date": "2022-08-31",
+    "status": "Active",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "Radar_Moustafa_Kamel_0047",
+    "numeric_id": 47,
+    "lat": 30.186537,
+    "lon": 31.120137,
+    "location_id": 894,
+    "install_date": "2025-06-29",
+    "status": "Active",
+    "sensor_type": "Radar"
+  },
+  {
+    "sensor_id": "Radar_El_Shorouk_Road_0048",
+    "numeric_id": 48,
+    "lat": 29.981073,
+    "lon": 31.507043,
+    "location_id": 15,
+    "install_date": "2024-04-06",
+    "status": "Active",
+    "sensor_type": "Radar"
+  },
+  {
+    "sensor_id": "Radar_Heliopolis_Avenue_segment_87_0049",
+    "numeric_id": 49,
+    "lat": 30.103812,
+    "lon": 31.372819,
+    "location_id": 87,
+    "install_date": "2025-03-10",
+    "status": "Under Maintenance",
+    "sensor_type": "Radar"
+  },
+  {
+    "sensor_id": "MultiSensor_Al_Haram_segment_741_0050",
+    "numeric_id": 50,
+    "lat": 30.012989,
+    "lon": 31.231017,
+    "location_id": 741,
+    "install_date": "2021-10-31",
+    "status": "Active",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "MultiSensor_Abdel_Aziz_Fahmy_segment_570_0051",
+    "numeric_id": 51,
+    "lat": 30.045446,
+    "lon": 30.999984,
+    "location_id": 570,
+    "install_date": "2025-09-16",
+    "status": "Active",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "TrafficCounter_Ramses_0052",
+    "numeric_id": 52,
+    "lat": 29.953841,
+    "lon": 31.410312,
+    "location_id": 398,
+    "install_date": "2022-12-07",
+    "status": "Active",
+    "sensor_type": "TrafficCounter"
+  },
+  {
+    "sensor_id": "MultiSensor_El_Geish_0053",
+    "numeric_id": 53,
+    "lat": 29.917173,
+    "lon": 31.320168,
+    "location_id": 19,
+    "install_date": "2021-10-20",
+    "status": "Active",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "CCTV_El_Obour_Road_0054",
+    "numeric_id": 54,
+    "lat": 29.983764,
+    "lon": 31.079402,
+    "location_id": 849,
+    "install_date": "2021-05-28",
+    "status": "Active",
+    "sensor_type": "CCTV"
+  },
+  {
+    "sensor_id": "CCTV_El_Teseen_0055",
+    "numeric_id": 55,
+    "lat": 30.07015,
+    "lon": 31.070997,
+    "location_id": 881,
+    "install_date": "2022-11-09",
+    "status": "Active",
+    "sensor_type": "CCTV"
+  },
+  {
+    "sensor_id": "CCTV_Giza_Corniche_0056",
+    "numeric_id": 56,
+    "lat": 29.772462,
+    "lon": 31.082315,
+    "location_id": 643,
+    "install_date": "2025-03-31",
+    "status": "Active",
+    "sensor_type": "CCTV"
+  },
+  {
+    "sensor_id": "CCTV_Wahat_Road_0057",
+    "numeric_id": 57,
+    "lat": 29.800036,
+    "lon": 31.012285,
+    "location_id": 956,
+    "install_date": "2021-09-23",
+    "status": "Active",
+    "sensor_type": "CCTV"
+  },
+  {
+    "sensor_id": "TrafficCounter_El_Sakkakini_0058",
+    "numeric_id": 58,
+    "lat": 29.851425,
+    "lon": 31.29164,
+    "location_id": 889,
+    "install_date": "2025-04-01",
+    "status": "Active",
+    "sensor_type": "TrafficCounter"
+  },
+  {
+    "sensor_id": "MultiSensor_Gamaat_El_Dowal_0059",
+    "numeric_id": 59,
+    "lat": 30.167703,
+    "lon": 31.011996,
+    "location_id": 621,
+    "install_date": "2021-09-22",
+    "status": "Active",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "CCTV_El_Orouba_segment_472_0060",
+    "numeric_id": 60,
+    "lat": 29.970298,
+    "lon": 31.426213,
+    "location_id": 472,
+    "install_date": "2025-06-24",
+    "status": "Active",
+    "sensor_type": "CCTV"
+  },
+  {
+    "sensor_id": "MultiSensor_El_Shorouk_Road_0061",
+    "numeric_id": 61,
+    "lat": 29.977782,
+    "lon": 31.506278,
+    "location_id": 362,
+    "install_date": "2025-04-09",
+    "status": "Inactive",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "TrafficCounter_Mohandessin_segment_113_0062",
+    "numeric_id": 62,
+    "lat": 30.003408,
+    "lon": 31.269568,
+    "location_id": 113,
+    "install_date": "2025-03-25",
+    "status": "Active",
+    "sensor_type": "TrafficCounter"
+  },
+  {
+    "sensor_id": "MultiSensor_Wahat_Road_segment_341_0063",
+    "numeric_id": 63,
+    "lat": 29.799669,
+    "lon": 31.010876,
+    "location_id": 341,
+    "install_date": "2022-09-19",
+    "status": "Active",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "Radar_Moustafa_Kamel_0064",
+    "numeric_id": 64,
+    "lat": 30.18674,
+    "lon": 31.121326,
+    "location_id": 221,
+    "install_date": "2025-01-16",
+    "status": "Active",
+    "sensor_type": "Radar"
+  },
+  {
+    "sensor_id": "Radar_Abdel_Aziz_Fahmy_segment_151_0065",
+    "numeric_id": 65,
+    "lat": 30.048173,
+    "lon": 31.00108,
+    "location_id": 151,
+    "install_date": "2022-02-02",
+    "status": "Inactive",
+    "sensor_type": "Radar"
+  },
+  {
+    "sensor_id": "MultiSensor_6th_October_Bridge_0066",
+    "numeric_id": 66,
+    "lat": 29.854741,
+    "lon": 31.194034,
+    "location_id": 653,
+    "install_date": "2023-07-01",
+    "status": "Active",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "CCTV_Sheikh_Zayed_Road_0067",
+    "numeric_id": 67,
+    "lat": 29.958115,
+    "lon": 31.089915,
+    "location_id": 331,
+    "install_date": "2022-01-12",
+    "status": "Active",
+    "sensor_type": "CCTV"
+  },
+  {
+    "sensor_id": "MultiSensor_El_Nozha_0068",
+    "numeric_id": 68,
+    "lat": 29.810728,
+    "lon": 31.067372,
+    "location_id": 696,
+    "install_date": "2025-08-09",
+    "status": "Under Maintenance",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "TrafficCounter_El_Mokattam_0069",
+    "numeric_id": 69,
+    "lat": 29.877695,
+    "lon": 31.176003,
+    "location_id": 369,
+    "install_date": "2023-11-15",
+    "status": "Active",
+    "sensor_type": "TrafficCounter"
+  },
+  {
+    "sensor_id": "MultiSensor_El_Mokattam_segment_586_0070",
+    "numeric_id": 70,
+    "lat": 29.884239,
+    "lon": 31.175786,
+    "location_id": 586,
+    "install_date": "2025-03-20",
+    "status": "Active",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "MultiSensor_Kamel_Ibrahim_segment_545_0071",
+    "numeric_id": 71,
+    "lat": 30.170563,
+    "lon": 31.196062,
+    "location_id": 545,
+    "install_date": "2021-02-17",
+    "status": "Active",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "MultiSensor_Smart_Village_Road_0072",
+    "numeric_id": 72,
+    "lat": 29.780684,
+    "lon": 31.533019,
+    "location_id": 522,
+    "install_date": "2024-10-16",
+    "status": "Active",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "MultiSensor_Nasr_City_0073",
+    "numeric_id": 73,
+    "lat": 30.049608,
+    "lon": 31.075513,
+    "location_id": 396,
+    "install_date": "2021-06-07",
+    "status": "Active",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "MultiSensor_Gamaat_El_Dowal_0074",
+    "numeric_id": 74,
+    "lat": 30.165904,
+    "lon": 31.011794,
+    "location_id": 745,
+    "install_date": "2021-11-11",
+    "status": "Active",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "Radar_Heliopolis_Avenue_segment_875_0075",
+    "numeric_id": 75,
+    "lat": 30.102952,
+    "lon": 31.372592,
+    "location_id": 875,
+    "install_date": "2023-10-21",
+    "status": "Active",
+    "sensor_type": "Radar"
+  },
+  {
+    "sensor_id": "TrafficCounter_El_Qahera_Street_0076",
+    "numeric_id": 76,
+    "lat": 29.874861,
+    "lon": 31.33778,
+    "location_id": 562,
+    "install_date": "2023-05-21",
+    "status": "Active",
+    "sensor_type": "TrafficCounter"
+  },
+  {
+    "sensor_id": "Radar_Dokki_segment_115_0077",
+    "numeric_id": 77,
+    "lat": 30.004653,
+    "lon": 31.046569,
+    "location_id": 115,
+    "install_date": "2023-03-31",
+    "status": "Active",
+    "sensor_type": "Radar"
+  },
+  {
+    "sensor_id": "CCTV_El_Maadi_Corniche_segment_485_0078",
+    "numeric_id": 78,
+    "lat": 29.809628,
+    "lon": 31.33017,
+    "location_id": 485,
+    "install_date": "2024-12-03",
+    "status": "Active",
+    "sensor_type": "CCTV"
+  },
+  {
+    "sensor_id": "Radar_El_Teseen_0079",
+    "numeric_id": 79,
+    "lat": 30.072315,
+    "lon": 31.071525,
+    "location_id": 146,
+    "install_date": "2020-11-27",
+    "status": "Under Maintenance",
+    "sensor_type": "Radar"
+  },
+  {
+    "sensor_id": "Radar_El_Qahera_Street_segment_934_0080",
+    "numeric_id": 80,
+    "lat": 29.880636,
+    "lon": 31.336566,
+    "location_id": 934,
+    "install_date": "2022-10-23",
+    "status": "Active",
+    "sensor_type": "Radar"
+  },
+  {
+    "sensor_id": "CCTV_Ring_Road_0081",
+    "numeric_id": 81,
+    "lat": 30.144217,
+    "lon": 31.442667,
+    "location_id": 778,
+    "install_date": "2021-12-24",
+    "status": "Active",
+    "sensor_type": "CCTV"
+  },
+  {
+    "sensor_id": "CCTV_El_Mokattam_0082",
+    "numeric_id": 82,
+    "lat": 29.876863,
+    "lon": 31.175065,
+    "location_id": 461,
+    "install_date": "2023-04-06",
+    "status": "Active",
+    "sensor_type": "CCTV"
+  },
+  {
+    "sensor_id": "CCTV_El_Geish_segment_68_0083",
+    "numeric_id": 83,
+    "lat": 29.922847,
+    "lon": 31.321716,
+    "location_id": 68,
+    "install_date": "2025-04-19",
+    "status": "Active",
+    "sensor_type": "CCTV"
+  },
+  {
+    "sensor_id": "CCTV_Abbass_Al_Akkad_0084",
+    "numeric_id": 84,
+    "lat": 29.802705,
+    "lon": 31.020562,
+    "location_id": 787,
+    "install_date": "2025-07-09",
+    "status": "Inactive",
+    "sensor_type": "CCTV"
+  },
+  {
+    "sensor_id": "MultiSensor_Masr_El_Gedida_0085",
+    "numeric_id": 85,
+    "lat": 29.98421,
+    "lon": 31.328027,
+    "location_id": 56,
+    "install_date": "2025-02-10",
+    "status": "Inactive",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "MultiSensor_Ramses_segment_856_0086",
+    "numeric_id": 86,
+    "lat": 29.949076,
+    "lon": 31.411607,
+    "location_id": 856,
+    "install_date": "2025-08-27",
+    "status": "Active",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "CCTV_El_Maadi_Corniche_0087",
+    "numeric_id": 87,
+    "lat": 29.81164,
+    "lon": 31.329105,
+    "location_id": 967,
+    "install_date": "2025-07-28",
+    "status": "Active",
+    "sensor_type": "CCTV"
+  },
+  {
+    "sensor_id": "TrafficCounter_Nasr_City_0088",
+    "numeric_id": 88,
+    "lat": 30.053816,
+    "lon": 31.074955,
+    "location_id": 591,
+    "install_date": "2023-03-06",
+    "status": "Active",
+    "sensor_type": "TrafficCounter"
+  },
+  {
+    "sensor_id": "TrafficCounter_El_Nasr_Road_segment_871_0089",
+    "numeric_id": 89,
+    "lat": 30.186336,
+    "lon": 31.540801,
+    "location_id": 871,
+    "install_date": "2023-05-06",
+    "status": "Active",
+    "sensor_type": "TrafficCounter"
+  },
+  {
+    "sensor_id": "TrafficCounter_Nasr_City_0090",
+    "numeric_id": 90,
+    "lat": 30.048777,
+    "lon": 31.075021,
+    "location_id": 603,
+    "install_date": "2020-11-03",
+    "status": "Active",
+    "sensor_type": "TrafficCounter"
+  },
+  {
+    "sensor_id": "TrafficCounter_Gamaat_El_Dowal_0091",
+    "numeric_id": 91,
+    "lat": 30.166019,
+    "lon": 31.01129,
+    "location_id": 441,
+    "install_date": "2021-05-14",
+    "status": "Active",
+    "sensor_type": "TrafficCounter"
+  },
+  {
+    "sensor_id": "Radar_Wahat_Road_segment_89_0092",
+    "numeric_id": 92,
+    "lat": 29.798951,
+    "lon": 31.011389,
+    "location_id": 89,
+    "install_date": "2023-07-04",
+    "status": "Active",
+    "sensor_type": "Radar"
+  },
+  {
+    "sensor_id": "Radar_Abbass_Al_Akkad_0093",
+    "numeric_id": 93,
+    "lat": 29.800888,
+    "lon": 31.01916,
+    "location_id": 241,
+    "install_date": "2022-04-11",
+    "status": "Under Maintenance",
+    "sensor_type": "Radar"
+  },
+  {
+    "sensor_id": "MultiSensor_Smart_Village_Road_0094",
+    "numeric_id": 94,
+    "lat": 29.782898,
+    "lon": 31.532493,
+    "location_id": 573,
+    "install_date": "2021-11-07",
+    "status": "Active",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "CCTV_El_Nozha_0095",
+    "numeric_id": 95,
+    "lat": 29.807043,
+    "lon": 31.068073,
+    "location_id": 936,
+    "install_date": "2022-04-11",
+    "status": "Active",
+    "sensor_type": "CCTV"
+  },
+  {
+    "sensor_id": "MultiSensor_El_Orouba_segment_124_0096",
+    "numeric_id": 96,
+    "lat": 29.979701,
+    "lon": 31.425719,
+    "location_id": 124,
+    "install_date": "2024-02-17",
+    "status": "Active",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "TrafficCounter_El_Maadi_Corniche_0097",
+    "numeric_id": 97,
+    "lat": 29.80272,
+    "lon": 31.329027,
+    "location_id": 131,
+    "install_date": "2025-04-24",
+    "status": "Under Maintenance",
+    "sensor_type": "TrafficCounter"
+  },
+  {
+    "sensor_id": "Radar_Al_Amiriya_Road_0098",
+    "numeric_id": 98,
+    "lat": 30.132912,
+    "lon": 31.357952,
+    "location_id": 52,
+    "install_date": "2024-11-28",
+    "status": "Active",
+    "sensor_type": "Radar"
+  },
+  {
+    "sensor_id": "TrafficCounter_Sheikh_Zayed_Road_0099",
+    "numeric_id": 99,
+    "lat": 29.951433,
+    "lon": 31.088847,
+    "location_id": 767,
+    "install_date": "2022-03-25",
+    "status": "Active",
+    "sensor_type": "TrafficCounter"
+  },
+  {
+    "sensor_id": "CCTV_Al_Rehab_Road_0100",
+    "numeric_id": 100,
+    "lat": 29.894278,
+    "lon": 31.03134,
+    "location_id": 204,
+    "install_date": "2022-10-05",
+    "status": "Active",
+    "sensor_type": "CCTV"
+  },
+  {
+    "sensor_id": "Radar_Al_Amiriya_Road_0101",
+    "numeric_id": 101,
+    "lat": 30.138589,
+    "lon": 31.357884,
+    "location_id": 837,
+    "install_date": "2025-04-26",
+    "status": "Active",
+    "sensor_type": "Radar"
+  },
+  {
+    "sensor_id": "Radar_El_Nozha_0102",
+    "numeric_id": 102,
+    "lat": 29.809161,
+    "lon": 31.068112,
+    "location_id": 394,
+    "install_date": "2023-11-19",
+    "status": "Active",
+    "sensor_type": "Radar"
+  },
+  {
+    "sensor_id": "MultiSensor_Heliopolis_Avenue_0103",
+    "numeric_id": 103,
+    "lat": 30.10283,
+    "lon": 31.37269,
+    "location_id": 54,
+    "install_date": "2025-09-02",
+    "status": "Active",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "TrafficCounter_El_Obour_Road_0104",
+    "numeric_id": 104,
+    "lat": 29.981535,
+    "lon": 31.078446,
+    "location_id": 109,
+    "install_date": "2022-05-04",
+    "status": "Active",
+    "sensor_type": "TrafficCounter"
+  },
+  {
+    "sensor_id": "Radar_Mohandessin_segment_798_0105",
+    "numeric_id": 105,
+    "lat": 30.009622,
+    "lon": 31.269598,
+    "location_id": 798,
+    "install_date": "2022-09-17",
+    "status": "Under Maintenance",
+    "sensor_type": "Radar"
+  },
+  {
+    "sensor_id": "Radar_26_July_0106",
+    "numeric_id": 106,
+    "lat": 30.053764,
+    "lon": 31.531458,
+    "location_id": 555,
+    "install_date": "2022-06-23",
+    "status": "Active",
+    "sensor_type": "Radar"
+  },
+  {
+    "sensor_id": "CCTV_Mohandessin_0107",
+    "numeric_id": 107,
+    "lat": 30.00512,
+    "lon": 31.269368,
+    "location_id": 446,
+    "install_date": "2023-04-13",
+    "status": "Inactive",
+    "sensor_type": "CCTV"
+  },
+  {
+    "sensor_id": "MultiSensor_El_Marg_segment_918_0108",
+    "numeric_id": 108,
+    "lat": 29.796646,
+    "lon": 31.429328,
+    "location_id": 918,
+    "install_date": "2020-10-25",
+    "status": "Active",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "Radar_Gamaat_El_Dowal_0109",
+    "numeric_id": 109,
+    "lat": 30.1741,
+    "lon": 31.012385,
+    "location_id": 346,
+    "install_date": "2024-02-12",
+    "status": "Active",
+    "sensor_type": "Radar"
+  },
+  {
+    "sensor_id": "Radar_Sayeda_Zeinab_0110",
+    "numeric_id": 110,
+    "lat": 30.152822,
+    "lon": 31.226954,
+    "location_id": 995,
+    "install_date": "2024-01-18",
+    "status": "Active",
+    "sensor_type": "Radar"
+  },
+  {
+    "sensor_id": "Radar_El_Omraniya_segment_726_0111",
+    "numeric_id": 111,
+    "lat": 30.091625,
+    "lon": 31.231055,
+    "location_id": 726,
+    "install_date": "2021-01-27",
+    "status": "Under Maintenance",
+    "sensor_type": "Radar"
+  },
+  {
+    "sensor_id": "CCTV_Moustafa_Kamel_0112",
+    "numeric_id": 112,
+    "lat": 30.193146,
+    "lon": 31.120258,
+    "location_id": 176,
+    "install_date": "2021-01-22",
+    "status": "Active",
+    "sensor_type": "CCTV"
+  },
+  {
+    "sensor_id": "CCTV_El_Geish_segment_719_0113",
+    "numeric_id": 113,
+    "lat": 29.918362,
+    "lon": 31.320332,
+    "location_id": 719,
+    "install_date": "2022-02-11",
+    "status": "Under Maintenance",
+    "sensor_type": "CCTV"
+  },
+  {
+    "sensor_id": "CCTV_Sheikh_Zayed_Road_segment_610_0114",
+    "numeric_id": 114,
+    "lat": 29.95074,
+    "lon": 31.089771,
+    "location_id": 610,
+    "install_date": "2021-03-28",
+    "status": "Active",
+    "sensor_type": "CCTV"
+  },
+  {
+    "sensor_id": "MultiSensor_Sheikh_Zayed_Road_0115",
+    "numeric_id": 115,
+    "lat": 29.956564,
+    "lon": 31.089636,
+    "location_id": 883,
+    "install_date": "2025-08-16",
+    "status": "Active",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "MultiSensor_Sheikh_Zayed_Road_0116",
+    "numeric_id": 116,
+    "lat": 29.949739,
+    "lon": 31.09036,
+    "location_id": 251,
+    "install_date": "2024-01-29",
+    "status": "Active",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "CCTV_Moustafa_Kamel_0117",
+    "numeric_id": 117,
+    "lat": 30.193155,
+    "lon": 31.122133,
+    "location_id": 666,
+    "install_date": "2025-08-24",
+    "status": "Active",
+    "sensor_type": "CCTV"
+  },
+  {
+    "sensor_id": "MultiSensor_Ring_Road_0118",
+    "numeric_id": 118,
+    "lat": 30.156097,
+    "lon": 31.441943,
+    "location_id": 559,
+    "install_date": "2024-04-13",
+    "status": "Active",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "MultiSensor_El_Tayaran_segment_434_0119",
+    "numeric_id": 119,
+    "lat": 29.843637,
+    "lon": 31.070535,
+    "location_id": 434,
+    "install_date": "2022-11-10",
+    "status": "Active",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "TrafficCounter_Tahrir_0120",
+    "numeric_id": 120,
+    "lat": 30.125577,
+    "lon": 31.220893,
+    "location_id": 175,
+    "install_date": "2024-06-17",
+    "status": "Active",
+    "sensor_type": "TrafficCounter"
+  },
+  {
+    "sensor_id": "MultiSensor_El_Orouba_0121",
+    "numeric_id": 121,
+    "lat": 29.97532,
+    "lon": 31.425966,
+    "location_id": 844,
+    "install_date": "2020-11-23",
+    "status": "Under Maintenance",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "TrafficCounter_Al_Rehab_Road_0122",
+    "numeric_id": 122,
+    "lat": 29.901079,
+    "lon": 31.03207,
+    "location_id": 426,
+    "install_date": "2023-04-17",
+    "status": "Inactive",
+    "sensor_type": "TrafficCounter"
+  },
+  {
+    "sensor_id": "MultiSensor_El_Maadi_Corniche_segment_847_0123",
+    "numeric_id": 123,
+    "lat": 29.816191,
+    "lon": 31.328826,
+    "location_id": 847,
+    "install_date": "2025-05-14",
+    "status": "Active",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "MultiSensor_Tahrir_0124",
+    "numeric_id": 124,
+    "lat": 30.121768,
+    "lon": 31.221383,
+    "location_id": 725,
+    "install_date": "2024-11-09",
+    "status": "Active",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "TrafficCounter_26_July_0125",
+    "numeric_id": 125,
+    "lat": 30.05917,
+    "lon": 31.530933,
+    "location_id": 24,
+    "install_date": "2021-10-27",
+    "status": "Active",
+    "sensor_type": "TrafficCounter"
+  },
+  {
+    "sensor_id": "MultiSensor_Kamel_Ibrahim_segment_990_0126",
+    "numeric_id": 126,
+    "lat": 30.175749,
+    "lon": 31.196508,
+    "location_id": 990,
+    "install_date": "2021-07-01",
+    "status": "Active",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "MultiSensor_Mohandessin_segment_256_0127",
+    "numeric_id": 127,
+    "lat": 30.006188,
+    "lon": 31.269632,
+    "location_id": 256,
+    "install_date": "2023-06-03",
+    "status": "Active",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "MultiSensor_El_Sakkakini_segment_98_0128",
+    "numeric_id": 128,
+    "lat": 29.854955,
+    "lon": 31.291805,
+    "location_id": 98,
+    "install_date": "2022-01-16",
+    "status": "Active",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "Radar_Al_Amiriya_Road_0129",
+    "numeric_id": 129,
+    "lat": 30.141343,
+    "lon": 31.358414,
+    "location_id": 37,
+    "install_date": "2020-12-26",
+    "status": "Active",
+    "sensor_type": "Radar"
+  },
+  {
+    "sensor_id": "MultiSensor_Smart_Village_Road_segment_506_0130",
+    "numeric_id": 130,
+    "lat": 29.77616,
+    "lon": 31.532775,
+    "location_id": 506,
+    "install_date": "2024-05-17",
+    "status": "Under Maintenance",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "CCTV_El_Sakkakini_segment_414_0131",
+    "numeric_id": 131,
+    "lat": 29.855468,
+    "lon": 31.291397,
+    "location_id": 414,
+    "install_date": "2021-04-12",
+    "status": "Active",
+    "sensor_type": "CCTV"
+  },
+  {
+    "sensor_id": "Radar_Corniche_El_Nil_0132",
+    "numeric_id": 132,
+    "lat": 29.962769,
+    "lon": 31.45126,
+    "location_id": 972,
+    "install_date": "2024-08-31",
+    "status": "Active",
+    "sensor_type": "Radar"
+  },
+  {
+    "sensor_id": "Radar_6th_October_Bridge_0133",
+    "numeric_id": 133,
+    "lat": 29.852968,
+    "lon": 31.194868,
+    "location_id": 73,
+    "install_date": "2021-03-11",
+    "status": "Active",
+    "sensor_type": "Radar"
+  },
+  {
+    "sensor_id": "MultiSensor_Al_Amiriya_Road_0134",
+    "numeric_id": 134,
+    "lat": 30.136574,
+    "lon": 31.358363,
+    "location_id": 596,
+    "install_date": "2023-10-04",
+    "status": "Active",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "TrafficCounter_Moustafa_Kamel_0135",
+    "numeric_id": 135,
+    "lat": 30.196511,
+    "lon": 31.121918,
+    "location_id": 196,
+    "install_date": "2022-02-12",
+    "status": "Active",
+    "sensor_type": "TrafficCounter"
+  },
+  {
+    "sensor_id": "Radar_Ramses_segment_187_0136",
+    "numeric_id": 136,
+    "lat": 29.956608,
+    "lon": 31.411611,
+    "location_id": 187,
+    "install_date": "2022-10-03",
+    "status": "Active",
+    "sensor_type": "Radar"
+  },
+  {
+    "sensor_id": "CCTV_El_Marg_segment_710_0137",
+    "numeric_id": 137,
+    "lat": 29.801442,
+    "lon": 31.429445,
+    "location_id": 710,
+    "install_date": "2022-04-26",
+    "status": "Active",
+    "sensor_type": "CCTV"
+  },
+  {
+    "sensor_id": "Radar_Abdel_Aziz_Fahmy_0138",
+    "numeric_id": 138,
+    "lat": 30.044092,
+    "lon": 31.000889,
+    "location_id": 965,
+    "install_date": "2023-04-21",
+    "status": "Under Maintenance",
+    "sensor_type": "Radar"
+  },
+  {
+    "sensor_id": "TrafficCounter_October_Corridor_segment_80_0139",
+    "numeric_id": 139,
+    "lat": 29.94356,
+    "lon": 31.380453,
+    "location_id": 80,
+    "install_date": "2024-04-02",
+    "status": "Active",
+    "sensor_type": "TrafficCounter"
+  },
+  {
+    "sensor_id": "TrafficCounter_Ring_Road_segment_869_0140",
+    "numeric_id": 140,
+    "lat": 30.14976,
+    "lon": 31.441704,
+    "location_id": 869,
+    "install_date": "2024-01-26",
+    "status": "Active",
+    "sensor_type": "TrafficCounter"
+  },
+  {
+    "sensor_id": "TrafficCounter_Moustafa_Kamel_0141",
+    "numeric_id": 141,
+    "lat": 30.18944,
+    "lon": 31.121795,
+    "location_id": 961,
+    "install_date": "2025-03-02",
+    "status": "Active",
+    "sensor_type": "TrafficCounter"
+  },
+  {
+    "sensor_id": "MultiSensor_Masr_El_Gedida_0142",
+    "numeric_id": 142,
+    "lat": 29.982627,
+    "lon": 31.329039,
+    "location_id": 214,
+    "install_date": "2021-03-22",
+    "status": "Active",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "TrafficCounter_Sheikh_Zayed_Road_0143",
+    "numeric_id": 143,
+    "lat": 29.95737,
+    "lon": 31.089345,
+    "location_id": 182,
+    "install_date": "2025-05-15",
+    "status": "Active",
+    "sensor_type": "TrafficCounter"
+  },
+  {
+    "sensor_id": "Radar_Masr_El_Gedida_0144",
+    "numeric_id": 144,
+    "lat": 29.982335,
+    "lon": 31.327648,
+    "location_id": 830,
+    "install_date": "2021-06-07",
+    "status": "Active",
+    "sensor_type": "Radar"
+  },
+  {
+    "sensor_id": "TrafficCounter_Smart_Village_Road_segment_602_0145",
+    "numeric_id": 145,
+    "lat": 29.781041,
+    "lon": 31.53216,
+    "location_id": 602,
+    "install_date": "2025-02-08",
+    "status": "Active",
+    "sensor_type": "TrafficCounter"
+  },
+  {
+    "sensor_id": "MultiSensor_Tahrir_0146",
+    "numeric_id": 146,
+    "lat": 30.129494,
+    "lon": 31.221687,
+    "location_id": 547,
+    "install_date": "2021-05-09",
+    "status": "Inactive",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "TrafficCounter_Dokki_segment_246_0147",
+    "numeric_id": 147,
+    "lat": 30.00597,
+    "lon": 31.047657,
+    "location_id": 246,
+    "install_date": "2022-10-01",
+    "status": "Active",
+    "sensor_type": "TrafficCounter"
+  },
+  {
+    "sensor_id": "CCTV_El_Nozha_segment_658_0148",
+    "numeric_id": 148,
+    "lat": 29.807603,
+    "lon": 31.068206,
+    "location_id": 658,
+    "install_date": "2022-12-20",
+    "status": "Active",
+    "sensor_type": "CCTV"
+  },
+  {
+    "sensor_id": "TrafficCounter_Mohandessin_segment_507_0149",
+    "numeric_id": 149,
+    "lat": 30.014097,
+    "lon": 31.269245,
+    "location_id": 507,
+    "install_date": "2025-03-20",
+    "status": "Active",
+    "sensor_type": "TrafficCounter"
+  },
+  {
+    "sensor_id": "CCTV_October_Corridor_0150",
+    "numeric_id": 150,
+    "lat": 29.938717,
+    "lon": 31.381262,
+    "location_id": 963,
+    "install_date": "2025-09-26",
+    "status": "Active",
+    "sensor_type": "CCTV"
+  },
+  {
+    "sensor_id": "MultiSensor_26_July_0151",
+    "numeric_id": 151,
+    "lat": 30.05381,
+    "lon": 31.532083,
+    "location_id": 108,
+    "install_date": "2021-01-03",
+    "status": "Active",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "MultiSensor_El_Maadi_Corniche_0152",
+    "numeric_id": 152,
+    "lat": 29.814075,
+    "lon": 31.33023,
+    "location_id": 69,
+    "install_date": "2023-12-25",
+    "status": "Active",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "CCTV_Sheikh_Zayed_Road_segment_739_0153",
+    "numeric_id": 153,
+    "lat": 29.952719,
+    "lon": 31.090343,
+    "location_id": 739,
+    "install_date": "2022-03-05",
+    "status": "Inactive",
+    "sensor_type": "CCTV"
+  },
+  {
+    "sensor_id": "Radar_Kamel_Ibrahim_0154",
+    "numeric_id": 154,
+    "lat": 30.170565,
+    "lon": 31.196465,
+    "location_id": 215,
+    "install_date": "2021-07-02",
+    "status": "Active",
+    "sensor_type": "Radar"
+  },
+  {
+    "sensor_id": "MultiSensor_Abdel_Aziz_Fahmy_0155",
+    "numeric_id": 155,
+    "lat": 30.044405,
+    "lon": 31.001191,
+    "location_id": 338,
+    "install_date": "2024-08-15",
+    "status": "Under Maintenance",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "Radar_6th_October_Bridge_segment_885_0156",
+    "numeric_id": 156,
+    "lat": 29.853803,
+    "lon": 31.195004,
+    "location_id": 885,
+    "install_date": "2023-01-16",
+    "status": "Inactive",
+    "sensor_type": "Radar"
+  },
+  {
+    "sensor_id": "MultiSensor_Nasr_City_0157",
+    "numeric_id": 157,
+    "lat": 30.047611,
+    "lon": 31.074643,
+    "location_id": 825,
+    "install_date": "2024-11-30",
+    "status": "Active",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "MultiSensor_Gamaat_El_Dowal_segment_857_0158",
+    "numeric_id": 158,
+    "lat": 30.168204,
+    "lon": 31.012059,
+    "location_id": 857,
+    "install_date": "2022-06-07",
+    "status": "Active",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "Radar_Heliopolis_Avenue_0159",
+    "numeric_id": 159,
+    "lat": 30.105252,
+    "lon": 31.372611,
+    "location_id": 148,
+    "install_date": "2022-10-30",
+    "status": "Under Maintenance",
+    "sensor_type": "Radar"
+  },
+  {
+    "sensor_id": "Radar_El_Mokattam_segment_928_0160",
+    "numeric_id": 160,
+    "lat": 29.878672,
+    "lon": 31.175508,
+    "location_id": 928,
+    "install_date": "2020-12-18",
+    "status": "Active",
+    "sensor_type": "Radar"
+  },
+  {
+    "sensor_id": "CCTV_El_Shorouk_Road_0161",
+    "numeric_id": 161,
+    "lat": 29.983914,
+    "lon": 31.507557,
+    "location_id": 239,
+    "install_date": "2024-02-19",
+    "status": "Active",
+    "sensor_type": "CCTV"
+  },
+  {
+    "sensor_id": "MultiSensor_Ring_Road_segment_982_0162",
+    "numeric_id": 162,
+    "lat": 30.148215,
+    "lon": 31.442049,
+    "location_id": 982,
+    "install_date": "2024-12-18",
+    "status": "Active",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "MultiSensor_Nasr_City_segment_768_0163",
+    "numeric_id": 163,
+    "lat": 30.049236,
+    "lon": 31.075311,
+    "location_id": 768,
+    "install_date": "2022-05-11",
+    "status": "Active",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "CCTV_Sheikh_Zayed_Road_0164",
+    "numeric_id": 164,
+    "lat": 29.950152,
+    "lon": 31.090154,
+    "location_id": 867,
+    "install_date": "2020-10-19",
+    "status": "Under Maintenance",
+    "sensor_type": "CCTV"
+  },
+  {
+    "sensor_id": "TrafficCounter_October_Corridor_0165",
+    "numeric_id": 165,
+    "lat": 29.944178,
+    "lon": 31.380772,
+    "location_id": 385,
+    "install_date": "2022-08-05",
+    "status": "Active",
+    "sensor_type": "TrafficCounter"
+  },
+  {
+    "sensor_id": "CCTV_Sayeda_Zeinab_0166",
+    "numeric_id": 166,
+    "lat": 30.150165,
+    "lon": 31.22572,
+    "location_id": 299,
+    "install_date": "2023-02-20",
+    "status": "Under Maintenance",
+    "sensor_type": "CCTV"
+  },
+  {
+    "sensor_id": "MultiSensor_Giza_Corniche_0167",
+    "numeric_id": 167,
+    "lat": 29.776135,
+    "lon": 31.082898,
+    "location_id": 853,
+    "install_date": "2023-07-06",
+    "status": "Active",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "Radar_El_Teseen_0168",
+    "numeric_id": 168,
+    "lat": 30.071282,
+    "lon": 31.070309,
+    "location_id": 605,
+    "install_date": "2023-10-04",
+    "status": "Active",
+    "sensor_type": "Radar"
+  },
+  {
+    "sensor_id": "CCTV_Giza_Corniche_segment_616_0169",
+    "numeric_id": 169,
+    "lat": 29.769754,
+    "lon": 31.083745,
+    "location_id": 616,
+    "install_date": "2022-08-01",
+    "status": "Active",
+    "sensor_type": "CCTV"
+  },
+  {
+    "sensor_id": "MultiSensor_October_Corridor_segment_900_0170",
+    "numeric_id": 170,
+    "lat": 29.935627,
+    "lon": 31.37991,
+    "location_id": 900,
+    "install_date": "2023-11-22",
+    "status": "Under Maintenance",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "TrafficCounter_Kamel_Ibrahim_segment_207_0171",
+    "numeric_id": 171,
+    "lat": 30.17294,
+    "lon": 31.195699,
+    "location_id": 207,
+    "install_date": "2020-12-06",
+    "status": "Active",
+    "sensor_type": "TrafficCounter"
+  },
+  {
+    "sensor_id": "TrafficCounter_El_Thawra_0172",
+    "numeric_id": 172,
+    "lat": 29.803459,
+    "lon": 31.222622,
+    "location_id": 449,
+    "install_date": "2023-01-09",
+    "status": "Active",
+    "sensor_type": "TrafficCounter"
+  },
+  {
+    "sensor_id": "MultiSensor_Salah_Salem_0173",
+    "numeric_id": 173,
+    "lat": 29.8055,
+    "lon": 31.283076,
+    "location_id": 44,
+    "install_date": "2021-11-19",
+    "status": "Active",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "Radar_El_Maadi_Corniche_0174",
+    "numeric_id": 174,
+    "lat": 29.811931,
+    "lon": 31.328973,
+    "location_id": 129,
+    "install_date": "2021-07-05",
+    "status": "Active",
+    "sensor_type": "Radar"
+  },
+  {
+    "sensor_id": "MultiSensor_Al_Rehab_Road_0175",
+    "numeric_id": 175,
+    "lat": 29.898406,
+    "lon": 31.031707,
+    "location_id": 765,
+    "install_date": "2023-10-09",
+    "status": "Active",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "TrafficCounter_October_Corridor_0176",
+    "numeric_id": 176,
+    "lat": 29.937952,
+    "lon": 31.380358,
+    "location_id": 227,
+    "install_date": "2023-04-14",
+    "status": "Under Maintenance",
+    "sensor_type": "TrafficCounter"
+  },
+  {
+    "sensor_id": "TrafficCounter_El_Tayaran_segment_733_0177",
+    "numeric_id": 177,
+    "lat": 29.845457,
+    "lon": 31.070034,
+    "location_id": 733,
+    "install_date": "2022-12-04",
+    "status": "Inactive",
+    "sensor_type": "TrafficCounter"
+  },
+  {
+    "sensor_id": "Radar_El_Sakkakini_0178",
+    "numeric_id": 178,
+    "lat": 29.846861,
+    "lon": 31.292158,
+    "location_id": 993,
+    "install_date": "2021-05-23",
+    "status": "Active",
+    "sensor_type": "Radar"
+  },
+  {
+    "sensor_id": "CCTV_Kamel_Ibrahim_segment_197_0179",
+    "numeric_id": 179,
+    "lat": 30.166273,
+    "lon": 31.196459,
+    "location_id": 197,
+    "install_date": "2021-05-24",
+    "status": "Under Maintenance",
+    "sensor_type": "CCTV"
+  },
+  {
+    "sensor_id": "MultiSensor_Mohandessin_0180",
+    "numeric_id": 180,
+    "lat": 30.003279,
+    "lon": 31.268477,
+    "location_id": 262,
+    "install_date": "2025-10-10",
+    "status": "Active",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "TrafficCounter_Smart_Village_Road_0181",
+    "numeric_id": 181,
+    "lat": 29.781633,
+    "lon": 31.532955,
+    "location_id": 805,
+    "install_date": "2023-10-15",
+    "status": "Active",
+    "sensor_type": "TrafficCounter"
+  },
+  {
+    "sensor_id": "MultiSensor_6th_October_Bridge_0182",
+    "numeric_id": 182,
+    "lat": 29.85734,
+    "lon": 31.19496,
+    "location_id": 893,
+    "install_date": "2025-02-19",
+    "status": "Under Maintenance",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "Radar_Kamel_Ibrahim_0183",
+    "numeric_id": 183,
+    "lat": 30.165002,
+    "lon": 31.197198,
+    "location_id": 412,
+    "install_date": "2023-08-01",
+    "status": "Inactive",
+    "sensor_type": "Radar"
+  },
+  {
+    "sensor_id": "MultiSensor_Al_Haram_segment_263_0184",
+    "numeric_id": 184,
+    "lat": 30.008485,
+    "lon": 31.231678,
+    "location_id": 263,
+    "install_date": "2024-04-08",
+    "status": "Active",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "CCTV_El_Qahera_Street_0185",
+    "numeric_id": 185,
+    "lat": 29.884465,
+    "lon": 31.338111,
+    "location_id": 891,
+    "install_date": "2023-08-07",
+    "status": "Active",
+    "sensor_type": "CCTV"
+  },
+  {
+    "sensor_id": "TrafficCounter_El_Shorouk_Road_0186",
+    "numeric_id": 186,
+    "lat": 29.983911,
+    "lon": 31.507925,
+    "location_id": 420,
+    "install_date": "2021-03-23",
+    "status": "Active",
+    "sensor_type": "TrafficCounter"
+  },
+  {
+    "sensor_id": "CCTV_El_Maadi_Corniche_0187",
+    "numeric_id": 187,
+    "lat": 29.809286,
+    "lon": 31.330295,
+    "location_id": 652,
+    "install_date": "2025-09-08",
+    "status": "Under Maintenance",
+    "sensor_type": "CCTV"
+  },
+  {
+    "sensor_id": "CCTV_26_July_segment_947_0188",
+    "numeric_id": 188,
+    "lat": 30.058894,
+    "lon": 31.531472,
+    "location_id": 947,
+    "install_date": "2024-06-14",
+    "status": "Active",
+    "sensor_type": "CCTV"
+  },
+  {
+    "sensor_id": "Radar_El_Omraniya_0189",
+    "numeric_id": 189,
+    "lat": 30.086929,
+    "lon": 31.231093,
+    "location_id": 465,
+    "install_date": "2022-07-26",
+    "status": "Inactive",
+    "sensor_type": "Radar"
+  },
+  {
+    "sensor_id": "CCTV_El_Nozha_0190",
+    "numeric_id": 190,
+    "lat": 29.802373,
+    "lon": 31.067638,
+    "location_id": 728,
+    "install_date": "2021-06-22",
+    "status": "Active",
+    "sensor_type": "CCTV"
+  },
+  {
+    "sensor_id": "CCTV_Sheikh_Zayed_Road_segment_97_0191",
+    "numeric_id": 191,
+    "lat": 29.956235,
+    "lon": 31.089951,
+    "location_id": 97,
+    "install_date": "2022-07-02",
+    "status": "Active",
+    "sensor_type": "CCTV"
+  },
+  {
+    "sensor_id": "CCTV_6th_October_Bridge_0192",
+    "numeric_id": 192,
+    "lat": 29.856764,
+    "lon": 31.194528,
+    "location_id": 233,
+    "install_date": "2021-03-30",
+    "status": "Under Maintenance",
+    "sensor_type": "CCTV"
+  },
+  {
+    "sensor_id": "MultiSensor_El_Geish_0193",
+    "numeric_id": 193,
+    "lat": 29.921365,
+    "lon": 31.320913,
+    "location_id": 613,
+    "install_date": "2021-05-14",
+    "status": "Active",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "CCTV_Tahrir_0194",
+    "numeric_id": 194,
+    "lat": 30.121244,
+    "lon": 31.221921,
+    "location_id": 668,
+    "install_date": "2021-01-05",
+    "status": "Active",
+    "sensor_type": "CCTV"
+  },
+  {
+    "sensor_id": "Radar_October_Corridor_0195",
+    "numeric_id": 195,
+    "lat": 29.942904,
+    "lon": 31.380116,
+    "location_id": 721,
+    "install_date": "2024-04-28",
+    "status": "Under Maintenance",
+    "sensor_type": "Radar"
+  },
+  {
+    "sensor_id": "TrafficCounter_Sheikh_Zayed_Road_0196",
+    "numeric_id": 196,
+    "lat": 29.953106,
+    "lon": 31.089755,
+    "location_id": 344,
+    "install_date": "2023-07-04",
+    "status": "Inactive",
+    "sensor_type": "TrafficCounter"
+  },
+  {
+    "sensor_id": "CCTV_Nasr_City_0197",
+    "numeric_id": 197,
+    "lat": 30.045795,
+    "lon": 31.075134,
+    "location_id": 288,
+    "install_date": "2025-03-24",
+    "status": "Active",
+    "sensor_type": "CCTV"
+  },
+  {
+    "sensor_id": "TrafficCounter_El_Nasr_Road_0198",
+    "numeric_id": 198,
+    "lat": 30.184796,
+    "lon": 31.541592,
+    "location_id": 156,
+    "install_date": "2022-07-28",
+    "status": "Active",
+    "sensor_type": "TrafficCounter"
+  },
+  {
+    "sensor_id": "TrafficCounter_Nasr_City_0199",
+    "numeric_id": 199,
+    "lat": 30.046531,
+    "lon": 31.075179,
+    "location_id": 950,
+    "install_date": "2024-03-28",
+    "status": "Active",
+    "sensor_type": "TrafficCounter"
+  },
+  {
+    "sensor_id": "TrafficCounter_El_Teseen_0200",
+    "numeric_id": 200,
+    "lat": 30.068857,
+    "lon": 31.070797,
+    "location_id": 948,
+    "install_date": "2024-03-15",
+    "status": "Active",
+    "sensor_type": "TrafficCounter"
+  },
+  {
+    "sensor_id": "Radar_Moustafa_Kamel_0201",
+    "numeric_id": 201,
+    "lat": 30.191007,
+    "lon": 31.121279,
+    "location_id": 992,
+    "install_date": "2021-08-09",
+    "status": "Active",
+    "sensor_type": "Radar"
+  },
+  {
+    "sensor_id": "MultiSensor_Wahat_Road_segment_756_0202",
+    "numeric_id": 202,
+    "lat": 29.80058,
+    "lon": 31.012402,
+    "location_id": 756,
+    "install_date": "2024-08-18",
+    "status": "Active",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "CCTV_Abbass_Al_Akkad_segment_775_0203",
+    "numeric_id": 203,
+    "lat": 29.804105,
+    "lon": 31.019801,
+    "location_id": 775,
+    "install_date": "2021-05-30",
+    "status": "Active",
+    "sensor_type": "CCTV"
+  },
+  {
+    "sensor_id": "Radar_Ring_Road_0204",
+    "numeric_id": 204,
+    "lat": 30.147535,
+    "lon": 31.441698,
+    "location_id": 490,
+    "install_date": "2021-01-21",
+    "status": "Active",
+    "sensor_type": "Radar"
+  },
+  {
+    "sensor_id": "CCTV_Corniche_El_Nil_segment_422_0205",
+    "numeric_id": 205,
+    "lat": 29.958543,
+    "lon": 31.450495,
+    "location_id": 422,
+    "install_date": "2023-10-01",
+    "status": "Active",
+    "sensor_type": "CCTV"
+  },
+  {
+    "sensor_id": "CCTV_Al_Amiriya_Road_0206",
+    "numeric_id": 206,
+    "lat": 30.135964,
+    "lon": 31.357629,
+    "location_id": 17,
+    "install_date": "2020-11-04",
+    "status": "Active",
+    "sensor_type": "CCTV"
+  },
+  {
+    "sensor_id": "CCTV_Heliopolis_Avenue_0207",
+    "numeric_id": 207,
+    "lat": 30.104663,
+    "lon": 31.373831,
+    "location_id": 944,
+    "install_date": "2022-09-19",
+    "status": "Active",
+    "sensor_type": "CCTV"
+  },
+  {
+    "sensor_id": "CCTV_El_Shorouk_Road_0208",
+    "numeric_id": 208,
+    "lat": 29.983088,
+    "lon": 31.507141,
+    "location_id": 587,
+    "install_date": "2022-06-03",
+    "status": "Active",
+    "sensor_type": "CCTV"
+  },
+  {
+    "sensor_id": "MultiSensor_El_Marg_segment_469_0209",
+    "numeric_id": 209,
+    "lat": 29.80009,
+    "lon": 31.42936,
+    "location_id": 469,
+    "install_date": "2024-08-15",
+    "status": "Inactive",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "CCTV_Sheikh_Zayed_Road_0210",
+    "numeric_id": 210,
+    "lat": 29.955812,
+    "lon": 31.088886,
+    "location_id": 211,
+    "install_date": "2021-04-25",
+    "status": "Active",
+    "sensor_type": "CCTV"
+  },
+  {
+    "sensor_id": "CCTV_6th_October_Bridge_0211",
+    "numeric_id": 211,
+    "lat": 29.851458,
+    "lon": 31.194438,
+    "location_id": 333,
+    "install_date": "2024-04-02",
+    "status": "Active",
+    "sensor_type": "CCTV"
+  },
+  {
+    "sensor_id": "CCTV_Mohandessin_0212",
+    "numeric_id": 212,
+    "lat": 30.004847,
+    "lon": 31.268202,
+    "location_id": 363,
+    "install_date": "2021-08-20",
+    "status": "Active",
+    "sensor_type": "CCTV"
+  },
+  {
+    "sensor_id": "Radar_El_Nozha_segment_921_0213",
+    "numeric_id": 213,
+    "lat": 29.807643,
+    "lon": 31.06777,
+    "location_id": 921,
+    "install_date": "2023-09-18",
+    "status": "Active",
+    "sensor_type": "Radar"
+  },
+  {
+    "sensor_id": "MultiSensor_El_Teseen_0214",
+    "numeric_id": 214,
+    "lat": 30.074987,
+    "lon": 31.070601,
+    "location_id": 403,
+    "install_date": "2021-01-15",
+    "status": "Active",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "Radar_El_Obour_Road_segment_924_0215",
+    "numeric_id": 215,
+    "lat": 29.982586,
+    "lon": 31.0796,
+    "location_id": 924,
+    "install_date": "2022-06-08",
+    "status": "Active",
+    "sensor_type": "Radar"
+  },
+  {
+    "sensor_id": "MultiSensor_Mohandessin_segment_597_0216",
+    "numeric_id": 216,
+    "lat": 30.005022,
+    "lon": 31.268344,
+    "location_id": 597,
+    "install_date": "2025-05-13",
+    "status": "Active",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "TrafficCounter_Gamaat_El_Dowal_segment_306_0217",
+    "numeric_id": 217,
+    "lat": 30.170293,
+    "lon": 31.011451,
+    "location_id": 306,
+    "install_date": "2023-07-28",
+    "status": "Active",
+    "sensor_type": "TrafficCounter"
+  },
+  {
+    "sensor_id": "TrafficCounter_Nasr_City_segment_443_0218",
+    "numeric_id": 218,
+    "lat": 30.050751,
+    "lon": 31.075497,
+    "location_id": 443,
+    "install_date": "2023-10-23",
+    "status": "Active",
+    "sensor_type": "TrafficCounter"
+  },
+  {
+    "sensor_id": "MultiSensor_El_Sakkakini_0219",
+    "numeric_id": 219,
+    "lat": 29.854556,
+    "lon": 31.291978,
+    "location_id": 656,
+    "install_date": "2024-06-03",
+    "status": "Active",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "CCTV_Moustafa_Kamel_0220",
+    "numeric_id": 220,
+    "lat": 30.18405,
+    "lon": 31.120363,
+    "location_id": 612,
+    "install_date": "2023-10-13",
+    "status": "Active",
+    "sensor_type": "CCTV"
+  },
+  {
+    "sensor_id": "CCTV_El_Maadi_Corniche_0221",
+    "numeric_id": 221,
+    "lat": 29.812303,
+    "lon": 31.329579,
+    "location_id": 655,
+    "install_date": "2022-09-26",
+    "status": "Active",
+    "sensor_type": "CCTV"
+  },
+  {
+    "sensor_id": "MultiSensor_October_Corridor_segment_94_0222",
+    "numeric_id": 222,
+    "lat": 29.940283,
+    "lon": 31.380943,
+    "location_id": 94,
+    "install_date": "2022-10-13",
+    "status": "Inactive",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "MultiSensor_Ramses_0223",
+    "numeric_id": 223,
+    "lat": 29.957531,
+    "lon": 31.411368,
+    "location_id": 882,
+    "install_date": "2022-11-04",
+    "status": "Active",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "MultiSensor_Abbass_Al_Akkad_0224",
+    "numeric_id": 224,
+    "lat": 29.805843,
+    "lon": 31.019262,
+    "location_id": 63,
+    "install_date": "2021-12-30",
+    "status": "Active",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "TrafficCounter_Ramses_0225",
+    "numeric_id": 225,
+    "lat": 29.956109,
+    "lon": 31.410456,
+    "location_id": 814,
+    "install_date": "2021-11-20",
+    "status": "Active",
+    "sensor_type": "TrafficCounter"
+  },
+  {
+    "sensor_id": "MultiSensor_Ring_Road_0226",
+    "numeric_id": 226,
+    "lat": 30.142084,
+    "lon": 31.441679,
+    "location_id": 620,
+    "install_date": "2024-08-30",
+    "status": "Active",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "Radar_Corniche_El_Nil_segment_781_0227",
+    "numeric_id": 227,
+    "lat": 29.964014,
+    "lon": 31.449986,
+    "location_id": 781,
+    "install_date": "2024-05-25",
+    "status": "Active",
+    "sensor_type": "Radar"
+  },
+  {
+    "sensor_id": "TrafficCounter_October_Corridor_0228",
+    "numeric_id": 228,
+    "lat": 29.938535,
+    "lon": 31.379698,
+    "location_id": 554,
+    "install_date": "2024-06-02",
+    "status": "Inactive",
+    "sensor_type": "TrafficCounter"
+  },
+  {
+    "sensor_id": "CCTV_Al_Amiriya_Road_segment_971_0229",
+    "numeric_id": 229,
+    "lat": 30.133437,
+    "lon": 31.356944,
+    "location_id": 971,
+    "install_date": "2024-06-28",
+    "status": "Active",
+    "sensor_type": "CCTV"
+  },
+  {
+    "sensor_id": "Radar_Ring_Road_0230",
+    "numeric_id": 230,
+    "lat": 30.147825,
+    "lon": 31.441881,
+    "location_id": 479,
+    "install_date": "2023-07-28",
+    "status": "Active",
+    "sensor_type": "Radar"
+  },
+  {
+    "sensor_id": "CCTV_Salah_Salem_segment_569_0231",
+    "numeric_id": 231,
+    "lat": 29.800173,
+    "lon": 31.282742,
+    "location_id": 569,
+    "install_date": "2025-04-28",
+    "status": "Inactive",
+    "sensor_type": "CCTV"
+  },
+  {
+    "sensor_id": "CCTV_6th_October_Bridge_0232",
+    "numeric_id": 232,
+    "lat": 29.862546,
+    "lon": 31.194628,
+    "location_id": 301,
+    "install_date": "2022-12-12",
+    "status": "Active",
+    "sensor_type": "CCTV"
+  },
+  {
+    "sensor_id": "MultiSensor_El_Geish_segment_657_0233",
+    "numeric_id": 233,
+    "lat": 29.91886,
+    "lon": 31.32073,
+    "location_id": 657,
+    "install_date": "2025-03-31",
+    "status": "Inactive",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "MultiSensor_El_Teseen_0234",
+    "numeric_id": 234,
+    "lat": 30.069387,
+    "lon": 31.070038,
+    "location_id": 895,
+    "install_date": "2022-12-18",
+    "status": "Active",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "Radar_El_Qahera_Street_0235",
+    "numeric_id": 235,
+    "lat": 29.875299,
+    "lon": 31.33743,
+    "location_id": 732,
+    "install_date": "2024-12-18",
+    "status": "Active",
+    "sensor_type": "Radar"
+  },
+  {
+    "sensor_id": "TrafficCounter_October_Corridor_segment_437_0236",
+    "numeric_id": 236,
+    "lat": 29.938082,
+    "lon": 31.380543,
+    "location_id": 437,
+    "install_date": "2022-08-26",
+    "status": "Active",
+    "sensor_type": "TrafficCounter"
+  },
+  {
+    "sensor_id": "Radar_Moustafa_Kamel_0237",
+    "numeric_id": 237,
+    "lat": 30.183212,
+    "lon": 31.121519,
+    "location_id": 406,
+    "install_date": "2022-07-17",
+    "status": "Active",
+    "sensor_type": "Radar"
+  },
+  {
+    "sensor_id": "MultiSensor_El_Thawra_0238",
+    "numeric_id": 238,
+    "lat": 29.805489,
+    "lon": 31.222598,
+    "location_id": 864,
+    "install_date": "2022-02-06",
+    "status": "Active",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "Radar_Al_Haram_0239",
+    "numeric_id": 239,
+    "lat": 30.012676,
+    "lon": 31.231275,
+    "location_id": 90,
+    "install_date": "2023-09-26",
+    "status": "Active",
+    "sensor_type": "Radar"
+  },
+  {
+    "sensor_id": "TrafficCounter_Sayeda_Zeinab_0240",
+    "numeric_id": 240,
+    "lat": 30.155959,
+    "lon": 31.22608,
+    "location_id": 450,
+    "install_date": "2022-11-09",
+    "status": "Under Maintenance",
+    "sensor_type": "TrafficCounter"
+  },
+  {
+    "sensor_id": "CCTV_Al_Amiriya_Road_0241",
+    "numeric_id": 241,
+    "lat": 30.136674,
+    "lon": 31.357619,
+    "location_id": 779,
+    "install_date": "2022-10-27",
+    "status": "Active",
+    "sensor_type": "CCTV"
+  },
+  {
+    "sensor_id": "MultiSensor_El_Sakkakini_0242",
+    "numeric_id": 242,
+    "lat": 29.853728,
+    "lon": 31.29161,
+    "location_id": 782,
+    "install_date": "2025-03-01",
+    "status": "Active",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "TrafficCounter_Smart_Village_Road_segment_838_0243",
+    "numeric_id": 243,
+    "lat": 29.779966,
+    "lon": 31.532335,
+    "location_id": 838,
+    "install_date": "2022-11-14",
+    "status": "Active",
+    "sensor_type": "TrafficCounter"
+  },
+  {
+    "sensor_id": "CCTV_El_Orouba_0244",
+    "numeric_id": 244,
+    "lat": 29.978698,
+    "lon": 31.425558,
+    "location_id": 957,
+    "install_date": "2023-01-02",
+    "status": "Inactive",
+    "sensor_type": "CCTV"
+  },
+  {
+    "sensor_id": "MultiSensor_Sayeda_Zeinab_0245",
+    "numeric_id": 245,
+    "lat": 30.152425,
+    "lon": 31.226266,
+    "location_id": 704,
+    "install_date": "2023-07-01",
+    "status": "Active",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "MultiSensor_Kamel_Ibrahim_0246",
+    "numeric_id": 246,
+    "lat": 30.166479,
+    "lon": 31.196923,
+    "location_id": 488,
+    "install_date": "2024-10-24",
+    "status": "Inactive",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "MultiSensor_El_Nasr_Road_segment_229_0247",
+    "numeric_id": 247,
+    "lat": 30.187019,
+    "lon": 31.541208,
+    "location_id": 229,
+    "install_date": "2023-12-01",
+    "status": "Active",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "Radar_El_Omraniya_segment_802_0248",
+    "numeric_id": 248,
+    "lat": 30.089477,
+    "lon": 31.230144,
+    "location_id": 802,
+    "install_date": "2023-05-13",
+    "status": "Active",
+    "sensor_type": "Radar"
+  },
+  {
+    "sensor_id": "CCTV_Tahrir_segment_254_0249",
+    "numeric_id": 249,
+    "lat": 30.125486,
+    "lon": 31.222359,
+    "location_id": 254,
+    "install_date": "2021-12-07",
+    "status": "Inactive",
+    "sensor_type": "CCTV"
+  },
+  {
+    "sensor_id": "MultiSensor_26_July_segment_601_0250",
+    "numeric_id": 250,
+    "lat": 30.055905,
+    "lon": 31.531726,
+    "location_id": 601,
+    "install_date": "2021-02-20",
+    "status": "Active",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "CCTV_Wahat_Road_segment_771_0251",
+    "numeric_id": 251,
+    "lat": 29.807312,
+    "lon": 31.011791,
+    "location_id": 771,
+    "install_date": "2024-10-29",
+    "status": "Active",
+    "sensor_type": "CCTV"
+  },
+  {
+    "sensor_id": "Radar_Masr_El_Gedida_0252",
+    "numeric_id": 252,
+    "lat": 29.988998,
+    "lon": 31.328775,
+    "location_id": 133,
+    "install_date": "2022-11-08",
+    "status": "Active",
+    "sensor_type": "Radar"
+  },
+  {
+    "sensor_id": "CCTV_October_Corridor_0253",
+    "numeric_id": 253,
+    "lat": 29.939122,
+    "lon": 31.380186,
+    "location_id": 12,
+    "install_date": "2021-11-27",
+    "status": "Active",
+    "sensor_type": "CCTV"
+  },
+  {
+    "sensor_id": "Radar_El_Obour_Road_0254",
+    "numeric_id": 254,
+    "lat": 29.985648,
+    "lon": 31.078704,
+    "location_id": 390,
+    "install_date": "2023-10-22",
+    "status": "Inactive",
+    "sensor_type": "Radar"
+  },
+  {
+    "sensor_id": "MultiSensor_El_Geish_segment_984_0255",
+    "numeric_id": 255,
+    "lat": 29.910434,
+    "lon": 31.321491,
+    "location_id": 984,
+    "install_date": "2020-12-26",
+    "status": "Active",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "MultiSensor_El_Tayaran_0256",
+    "numeric_id": 256,
+    "lat": 29.839757,
+    "lon": 31.071799,
+    "location_id": 938,
+    "install_date": "2025-10-12",
+    "status": "Active",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "MultiSensor_Abbass_Al_Akkad_0257",
+    "numeric_id": 257,
+    "lat": 29.797823,
+    "lon": 31.020231,
+    "location_id": 220,
+    "install_date": "2024-08-04",
+    "status": "Active",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "MultiSensor_El_Teseen_0258",
+    "numeric_id": 258,
+    "lat": 30.071374,
+    "lon": 31.07049,
+    "location_id": 137,
+    "install_date": "2020-12-27",
+    "status": "Active",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "CCTV_El_Marg_0259",
+    "numeric_id": 259,
+    "lat": 29.797802,
+    "lon": 31.428885,
+    "location_id": 185,
+    "install_date": "2020-12-17",
+    "status": "Active",
+    "sensor_type": "CCTV"
+  },
+  {
+    "sensor_id": "Radar_El_Obour_Road_0260",
+    "numeric_id": 260,
+    "lat": 29.979248,
+    "lon": 31.078713,
+    "location_id": 230,
+    "install_date": "2022-01-29",
+    "status": "Active",
+    "sensor_type": "Radar"
+  },
+  {
+    "sensor_id": "CCTV_Abbass_Al_Akkad_0261",
+    "numeric_id": 261,
+    "lat": 29.80572,
+    "lon": 31.02087,
+    "location_id": 592,
+    "install_date": "2023-09-13",
+    "status": "Active",
+    "sensor_type": "CCTV"
+  },
+  {
+    "sensor_id": "TrafficCounter_El_Obour_Road_segment_701_0262",
+    "numeric_id": 262,
+    "lat": 29.9808,
+    "lon": 31.079746,
+    "location_id": 701,
+    "install_date": "2024-04-18",
+    "status": "Under Maintenance",
+    "sensor_type": "TrafficCounter"
+  },
+  {
+    "sensor_id": "TrafficCounter_El_Shorouk_Road_0263",
+    "numeric_id": 263,
+    "lat": 29.977091,
+    "lon": 31.506592,
+    "location_id": 718,
+    "install_date": "2023-06-26",
+    "status": "Active",
+    "sensor_type": "TrafficCounter"
+  },
+  {
+    "sensor_id": "TrafficCounter_Al_Haram_segment_119_0264",
+    "numeric_id": 264,
+    "lat": 30.012366,
+    "lon": 31.231921,
+    "location_id": 119,
+    "install_date": "2023-09-08",
+    "status": "Active",
+    "sensor_type": "TrafficCounter"
+  },
+  {
+    "sensor_id": "MultiSensor_Abdel_Aziz_Fahmy_0265",
+    "numeric_id": 265,
+    "lat": 30.046967,
+    "lon": 30.999461,
+    "location_id": 678,
+    "install_date": "2021-11-09",
+    "status": "Active",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "Radar_Gamaat_El_Dowal_segment_184_0266",
+    "numeric_id": 266,
+    "lat": 30.163217,
+    "lon": 31.011954,
+    "location_id": 184,
+    "install_date": "2022-09-11",
+    "status": "Active",
+    "sensor_type": "Radar"
+  },
+  {
+    "sensor_id": "MultiSensor_Mohandessin_0267",
+    "numeric_id": 267,
+    "lat": 30.004786,
+    "lon": 31.268539,
+    "location_id": 84,
+    "install_date": "2021-10-27",
+    "status": "Active",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "CCTV_Smart_Village_Road_0268",
+    "numeric_id": 268,
+    "lat": 29.780635,
+    "lon": 31.53209,
+    "location_id": 65,
+    "install_date": "2025-04-30",
+    "status": "Active",
+    "sensor_type": "CCTV"
+  },
+  {
+    "sensor_id": "Radar_El_Maadi_Corniche_0269",
+    "numeric_id": 269,
+    "lat": 29.814022,
+    "lon": 31.328954,
+    "location_id": 810,
+    "install_date": "2021-02-19",
+    "status": "Active",
+    "sensor_type": "Radar"
+  },
+  {
+    "sensor_id": "Radar_El_Nozha_0270",
+    "numeric_id": 270,
+    "lat": 29.80072,
+    "lon": 31.066857,
+    "location_id": 552,
+    "install_date": "2025-06-02",
+    "status": "Under Maintenance",
+    "sensor_type": "Radar"
+  },
+  {
+    "sensor_id": "Radar_26_July_segment_25_0271",
+    "numeric_id": 271,
+    "lat": 30.05938,
+    "lon": 31.532046,
+    "location_id": 25,
+    "install_date": "2022-01-06",
+    "status": "Active",
+    "sensor_type": "Radar"
+  },
+  {
+    "sensor_id": "Radar_October_Corridor_0272",
+    "numeric_id": 272,
+    "lat": 29.936772,
+    "lon": 31.380488,
+    "location_id": 955,
+    "install_date": "2021-08-29",
+    "status": "Active",
+    "sensor_type": "Radar"
+  },
+  {
+    "sensor_id": "CCTV_El_Omraniya_segment_812_0273",
+    "numeric_id": 273,
+    "lat": 30.086486,
+    "lon": 31.230735,
+    "location_id": 812,
+    "install_date": "2021-07-13",
+    "status": "Active",
+    "sensor_type": "CCTV"
+  },
+  {
+    "sensor_id": "MultiSensor_El_Marg_segment_92_0274",
+    "numeric_id": 274,
+    "lat": 29.802196,
+    "lon": 31.428891,
+    "location_id": 92,
+    "install_date": "2023-01-04",
+    "status": "Under Maintenance",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "TrafficCounter_El_Nasr_Road_segment_126_0275",
+    "numeric_id": 275,
+    "lat": 30.188198,
+    "lon": 31.541125,
+    "location_id": 126,
+    "install_date": "2021-06-30",
+    "status": "Active",
+    "sensor_type": "TrafficCounter"
+  },
+  {
+    "sensor_id": "CCTV_Wahat_Road_segment_734_0276",
+    "numeric_id": 276,
+    "lat": 29.802788,
+    "lon": 31.01115,
+    "location_id": 734,
+    "install_date": "2024-11-16",
+    "status": "Active",
+    "sensor_type": "CCTV"
+  },
+  {
+    "sensor_id": "Radar_El_Geish_segment_393_0277",
+    "numeric_id": 277,
+    "lat": 29.918886,
+    "lon": 31.321743,
+    "location_id": 393,
+    "install_date": "2022-10-24",
+    "status": "Active",
+    "sensor_type": "Radar"
+  },
+  {
+    "sensor_id": "MultiSensor_Abdel_Aziz_Fahmy_segment_679_0278",
+    "numeric_id": 278,
+    "lat": 30.049829,
+    "lon": 31.000014,
+    "location_id": 679,
+    "install_date": "2021-09-12",
+    "status": "Active",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "Radar_El_Geish_0279",
+    "numeric_id": 279,
+    "lat": 29.91919,
+    "lon": 31.320213,
+    "location_id": 442,
+    "install_date": "2024-08-26",
+    "status": "Active",
+    "sensor_type": "Radar"
+  },
+  {
+    "sensor_id": "MultiSensor_El_Nozha_0280",
+    "numeric_id": 280,
+    "lat": 29.797532,
+    "lon": 31.066984,
+    "location_id": 456,
+    "install_date": "2021-01-07",
+    "status": "Inactive",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "Radar_Al_Amiriya_Road_0281",
+    "numeric_id": 281,
+    "lat": 30.136371,
+    "lon": 31.357806,
+    "location_id": 273,
+    "install_date": "2025-01-19",
+    "status": "Under Maintenance",
+    "sensor_type": "Radar"
+  },
+  {
+    "sensor_id": "TrafficCounter_Al_Amiriya_Road_0282",
+    "numeric_id": 282,
+    "lat": 30.135683,
+    "lon": 31.357088,
+    "location_id": 387,
+    "install_date": "2022-05-31",
+    "status": "Under Maintenance",
+    "sensor_type": "TrafficCounter"
+  },
+  {
+    "sensor_id": "TrafficCounter_Abdel_Aziz_Fahmy_0283",
+    "numeric_id": 283,
+    "lat": 30.047306,
+    "lon": 31.001159,
+    "location_id": 58,
+    "install_date": "2024-12-09",
+    "status": "Inactive",
+    "sensor_type": "TrafficCounter"
+  },
+  {
+    "sensor_id": "MultiSensor_El_Thawra_0284",
+    "numeric_id": 284,
+    "lat": 29.804498,
+    "lon": 31.223764,
+    "location_id": 278,
+    "install_date": "2022-06-01",
+    "status": "Active",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "CCTV_El_Shorouk_Road_0285",
+    "numeric_id": 285,
+    "lat": 29.981615,
+    "lon": 31.507711,
+    "location_id": 584,
+    "install_date": "2020-10-14",
+    "status": "Active",
+    "sensor_type": "CCTV"
+  },
+  {
+    "sensor_id": "MultiSensor_Heliopolis_Avenue_0286",
+    "numeric_id": 286,
+    "lat": 30.097389,
+    "lon": 31.373403,
+    "location_id": 851,
+    "install_date": "2024-10-12",
+    "status": "Active",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "TrafficCounter_Gamaat_El_Dowal_0287",
+    "numeric_id": 287,
+    "lat": 30.165721,
+    "lon": 31.012024,
+    "location_id": 968,
+    "install_date": "2021-01-09",
+    "status": "Active",
+    "sensor_type": "TrafficCounter"
+  },
+  {
+    "sensor_id": "CCTV_26_July_segment_318_0288",
+    "numeric_id": 288,
+    "lat": 30.054843,
+    "lon": 31.531861,
+    "location_id": 318,
+    "install_date": "2020-11-16",
+    "status": "Active",
+    "sensor_type": "CCTV"
+  },
+  {
+    "sensor_id": "MultiSensor_Smart_Village_Road_0289",
+    "numeric_id": 289,
+    "lat": 29.784252,
+    "lon": 31.532147,
+    "location_id": 9,
+    "install_date": "2022-12-01",
+    "status": "Active",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "Radar_El_Tayaran_segment_22_0290",
+    "numeric_id": 290,
+    "lat": 29.844649,
+    "lon": 31.069893,
+    "location_id": 22,
+    "install_date": "2023-07-31",
+    "status": "Active",
+    "sensor_type": "Radar"
+  },
+  {
+    "sensor_id": "MultiSensor_El_Maadi_Corniche_0291",
+    "numeric_id": 291,
+    "lat": 29.817203,
+    "lon": 31.330501,
+    "location_id": 417,
+    "install_date": "2021-05-06",
+    "status": "Active",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "MultiSensor_Al_Amiriya_Road_0292",
+    "numeric_id": 292,
+    "lat": 30.139143,
+    "lon": 31.357846,
+    "location_id": 454,
+    "install_date": "2021-01-24",
+    "status": "Active",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "MultiSensor_Abdel_Aziz_Fahmy_0293",
+    "numeric_id": 293,
+    "lat": 30.043878,
+    "lon": 30.99973,
+    "location_id": 978,
+    "install_date": "2022-07-03",
+    "status": "Active",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "TrafficCounter_Dokki_0294",
+    "numeric_id": 294,
+    "lat": 30.005564,
+    "lon": 31.047409,
+    "location_id": 549,
+    "install_date": "2025-05-25",
+    "status": "Under Maintenance",
+    "sensor_type": "TrafficCounter"
+  },
+  {
+    "sensor_id": "Radar_Mohandessin_0295",
+    "numeric_id": 295,
+    "lat": 30.002523,
+    "lon": 31.268822,
+    "location_id": 374,
+    "install_date": "2024-10-31",
+    "status": "Active",
+    "sensor_type": "Radar"
+  },
+  {
+    "sensor_id": "TrafficCounter_Giza_Corniche_0296",
+    "numeric_id": 296,
+    "lat": 29.774842,
+    "lon": 31.083635,
+    "location_id": 234,
+    "install_date": "2021-10-08",
+    "status": "Active",
+    "sensor_type": "TrafficCounter"
+  },
+  {
+    "sensor_id": "Radar_Al_Haram_segment_475_0297",
+    "numeric_id": 297,
+    "lat": 30.0139,
+    "lon": 31.23107,
+    "location_id": 475,
+    "install_date": "2022-11-16",
+    "status": "Active",
+    "sensor_type": "Radar"
+  },
+  {
+    "sensor_id": "CCTV_Gamaat_El_Dowal_0298",
+    "numeric_id": 298,
+    "lat": 30.168748,
+    "lon": 31.011505,
+    "location_id": 459,
+    "install_date": "2023-08-31",
+    "status": "Active",
+    "sensor_type": "CCTV"
+  },
+  {
+    "sensor_id": "Radar_Ramses_0299",
+    "numeric_id": 299,
+    "lat": 29.952665,
+    "lon": 31.410945,
+    "location_id": 793,
+    "install_date": "2022-04-20",
+    "status": "Inactive",
+    "sensor_type": "Radar"
+  },
+  {
+    "sensor_id": "MultiSensor_El_Tayaran_segment_574_0300",
+    "numeric_id": 300,
+    "lat": 29.845159,
+    "lon": 31.071326,
+    "location_id": 574,
+    "install_date": "2024-03-24",
+    "status": "Under Maintenance",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "Radar_El_Geish_0301",
+    "numeric_id": 301,
+    "lat": 29.920256,
+    "lon": 31.320721,
+    "location_id": 222,
+    "install_date": "2022-03-31",
+    "status": "Active",
+    "sensor_type": "Radar"
+  },
+  {
+    "sensor_id": "Radar_Sayeda_Zeinab_segment_659_0302",
+    "numeric_id": 302,
+    "lat": 30.151712,
+    "lon": 31.226081,
+    "location_id": 659,
+    "install_date": "2025-09-28",
+    "status": "Active",
+    "sensor_type": "Radar"
+  },
+  {
+    "sensor_id": "CCTV_Al_Amiriya_Road_0303",
+    "numeric_id": 303,
+    "lat": 30.136027,
+    "lon": 31.357635,
+    "location_id": 920,
+    "install_date": "2021-07-14",
+    "status": "Under Maintenance",
+    "sensor_type": "CCTV"
+  },
+  {
+    "sensor_id": "MultiSensor_El_Teseen_segment_339_0304",
+    "numeric_id": 304,
+    "lat": 30.067088,
+    "lon": 31.071349,
+    "location_id": 339,
+    "install_date": "2024-09-04",
+    "status": "Active",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "CCTV_Salah_Salem_segment_170_0305",
+    "numeric_id": 305,
+    "lat": 29.805363,
+    "lon": 31.283106,
+    "location_id": 170,
+    "install_date": "2023-03-03",
+    "status": "Active",
+    "sensor_type": "CCTV"
+  },
+  {
+    "sensor_id": "CCTV_Ring_Road_0306",
+    "numeric_id": 306,
+    "lat": 30.1495,
+    "lon": 31.44142,
+    "location_id": 326,
+    "install_date": "2022-05-20",
+    "status": "Active",
+    "sensor_type": "CCTV"
+  },
+  {
+    "sensor_id": "MultiSensor_Ramses_segment_748_0307",
+    "numeric_id": 307,
+    "lat": 29.959271,
+    "lon": 31.410169,
+    "location_id": 748,
+    "install_date": "2020-11-06",
+    "status": "Under Maintenance",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "TrafficCounter_Sayeda_Zeinab_0308",
+    "numeric_id": 308,
+    "lat": 30.152277,
+    "lon": 31.226129,
+    "location_id": 669,
+    "install_date": "2021-11-30",
+    "status": "Active",
+    "sensor_type": "TrafficCounter"
+  },
+  {
+    "sensor_id": "CCTV_Kamel_Ibrahim_0309",
+    "numeric_id": 309,
+    "lat": 30.164046,
+    "lon": 31.196698,
+    "location_id": 317,
+    "install_date": "2023-02-18",
+    "status": "Inactive",
+    "sensor_type": "CCTV"
+  },
+  {
+    "sensor_id": "CCTV_Smart_Village_Road_0310",
+    "numeric_id": 310,
+    "lat": 29.781843,
+    "lon": 31.532024,
+    "location_id": 416,
+    "install_date": "2022-09-04",
+    "status": "Under Maintenance",
+    "sensor_type": "CCTV"
+  },
+  {
+    "sensor_id": "MultiSensor_El_Nozha_0311",
+    "numeric_id": 311,
+    "lat": 29.797036,
+    "lon": 31.067246,
+    "location_id": 884,
+    "install_date": "2022-03-27",
+    "status": "Active",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "MultiSensor_Masr_El_Gedida_segment_302_0312",
+    "numeric_id": 312,
+    "lat": 29.984076,
+    "lon": 31.329307,
+    "location_id": 302,
+    "install_date": "2021-08-12",
+    "status": "Active",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "TrafficCounter_El_Qahera_Street_0313",
+    "numeric_id": 313,
+    "lat": 29.877735,
+    "lon": 31.337621,
+    "location_id": 458,
+    "install_date": "2025-04-09",
+    "status": "Active",
+    "sensor_type": "TrafficCounter"
+  },
+  {
+    "sensor_id": "CCTV_Sayeda_Zeinab_segment_400_0314",
+    "numeric_id": 314,
+    "lat": 30.149769,
+    "lon": 31.226616,
+    "location_id": 400,
+    "install_date": "2021-09-18",
+    "status": "Active",
+    "sensor_type": "CCTV"
+  },
+  {
+    "sensor_id": "CCTV_El_Mokattam_0315",
+    "numeric_id": 315,
+    "lat": 29.876264,
+    "lon": 31.174876,
+    "location_id": 189,
+    "install_date": "2022-03-29",
+    "status": "Active",
+    "sensor_type": "CCTV"
+  },
+  {
+    "sensor_id": "CCTV_El_Thawra_segment_401_0316",
+    "numeric_id": 316,
+    "lat": 29.802728,
+    "lon": 31.223511,
+    "location_id": 401,
+    "install_date": "2021-10-12",
+    "status": "Active",
+    "sensor_type": "CCTV"
+  },
+  {
+    "sensor_id": "TrafficCounter_El_Thawra_segment_638_0317",
+    "numeric_id": 317,
+    "lat": 29.807502,
+    "lon": 31.222121,
+    "location_id": 638,
+    "install_date": "2024-03-27",
+    "status": "Active",
+    "sensor_type": "TrafficCounter"
+  },
+  {
+    "sensor_id": "Radar_El_Maadi_Corniche_segment_931_0318",
+    "numeric_id": 318,
+    "lat": 29.8136,
+    "lon": 31.329274,
+    "location_id": 931,
+    "install_date": "2023-02-18",
+    "status": "Under Maintenance",
+    "sensor_type": "Radar"
+  },
+  {
+    "sensor_id": "Radar_26_July_0319",
+    "numeric_id": 319,
+    "lat": 30.051679,
+    "lon": 31.531377,
+    "location_id": 913,
+    "install_date": "2023-09-20",
+    "status": "Active",
+    "sensor_type": "Radar"
+  },
+  {
+    "sensor_id": "Radar_El_Marg_0320",
+    "numeric_id": 320,
+    "lat": 29.798285,
+    "lon": 31.429288,
+    "location_id": 34,
+    "install_date": "2020-10-22",
+    "status": "Active",
+    "sensor_type": "Radar"
+  },
+  {
+    "sensor_id": "Radar_Wahat_Road_0321",
+    "numeric_id": 321,
+    "lat": 29.806921,
+    "lon": 31.011553,
+    "location_id": 829,
+    "install_date": "2022-01-30",
+    "status": "Active",
+    "sensor_type": "Radar"
+  },
+  {
+    "sensor_id": "Radar_El_Omraniya_segment_470_0322",
+    "numeric_id": 322,
+    "lat": 30.085933,
+    "lon": 31.230306,
+    "location_id": 470,
+    "install_date": "2023-03-05",
+    "status": "Active",
+    "sensor_type": "Radar"
+  },
+  {
+    "sensor_id": "MultiSensor_Corniche_El_Nil_segment_161_0323",
+    "numeric_id": 323,
+    "lat": 29.96685,
+    "lon": 31.451572,
+    "location_id": 161,
+    "install_date": "2022-08-30",
+    "status": "Active",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "MultiSensor_El_Shorouk_Road_0324",
+    "numeric_id": 324,
+    "lat": 29.985179,
+    "lon": 31.507019,
+    "location_id": 8,
+    "install_date": "2021-01-22",
+    "status": "Active",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "TrafficCounter_Wahat_Road_0325",
+    "numeric_id": 325,
+    "lat": 29.804124,
+    "lon": 31.011941,
+    "location_id": 468,
+    "install_date": "2024-06-18",
+    "status": "Active",
+    "sensor_type": "TrafficCounter"
+  },
+  {
+    "sensor_id": "CCTV_Al_Haram_segment_514_0326",
+    "numeric_id": 326,
+    "lat": 30.010589,
+    "lon": 31.231384,
+    "location_id": 514,
+    "install_date": "2022-01-16",
+    "status": "Active",
+    "sensor_type": "CCTV"
+  },
+  {
+    "sensor_id": "CCTV_Nasr_City_segment_163_0327",
+    "numeric_id": 327,
+    "lat": 30.051083,
+    "lon": 31.075851,
+    "location_id": 163,
+    "install_date": "2024-07-07",
+    "status": "Active",
+    "sensor_type": "CCTV"
+  },
+  {
+    "sensor_id": "MultiSensor_El_Marg_0328",
+    "numeric_id": 328,
+    "lat": 29.791476,
+    "lon": 31.42879,
+    "location_id": 210,
+    "install_date": "2024-06-27",
+    "status": "Active",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "CCTV_El_Maadi_Corniche_segment_598_0329",
+    "numeric_id": 329,
+    "lat": 29.813362,
+    "lon": 31.32986,
+    "location_id": 598,
+    "install_date": "2025-09-21",
+    "status": "Active",
+    "sensor_type": "CCTV"
+  },
+  {
+    "sensor_id": "Radar_Smart_Village_Road_segment_275_0330",
+    "numeric_id": 330,
+    "lat": 29.781633,
+    "lon": 31.532156,
+    "location_id": 275,
+    "install_date": "2025-10-06",
+    "status": "Active",
+    "sensor_type": "Radar"
+  },
+  {
+    "sensor_id": "CCTV_El_Obour_Road_0331",
+    "numeric_id": 331,
+    "lat": 29.979734,
+    "lon": 31.078396,
+    "location_id": 257,
+    "install_date": "2024-08-12",
+    "status": "Active",
+    "sensor_type": "CCTV"
+  },
+  {
+    "sensor_id": "CCTV_Sheikh_Zayed_Road_segment_57_0332",
+    "numeric_id": 332,
+    "lat": 29.957126,
+    "lon": 31.088572,
+    "location_id": 57,
+    "install_date": "2022-07-17",
+    "status": "Active",
+    "sensor_type": "CCTV"
+  },
+  {
+    "sensor_id": "CCTV_El_Geish_segment_114_0333",
+    "numeric_id": 333,
+    "lat": 29.919515,
+    "lon": 31.320686,
+    "location_id": 114,
+    "install_date": "2021-04-26",
+    "status": "Under Maintenance",
+    "sensor_type": "CCTV"
+  },
+  {
+    "sensor_id": "TrafficCounter_Corniche_El_Nil_segment_365_0334",
+    "numeric_id": 334,
+    "lat": 29.962199,
+    "lon": 31.451144,
+    "location_id": 365,
+    "install_date": "2024-10-08",
+    "status": "Active",
+    "sensor_type": "TrafficCounter"
+  },
+  {
+    "sensor_id": "MultiSensor_El_Geish_0335",
+    "numeric_id": 335,
+    "lat": 29.920221,
+    "lon": 31.320739,
+    "location_id": 809,
+    "install_date": "2023-11-01",
+    "status": "Under Maintenance",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "CCTV_El_Geish_0336",
+    "numeric_id": 336,
+    "lat": 29.915232,
+    "lon": 31.320896,
+    "location_id": 516,
+    "install_date": "2023-07-07",
+    "status": "Active",
+    "sensor_type": "CCTV"
+  },
+  {
+    "sensor_id": "TrafficCounter_Ramses_segment_70_0337",
+    "numeric_id": 337,
+    "lat": 29.956602,
+    "lon": 31.409969,
+    "location_id": 70,
+    "install_date": "2024-05-28",
+    "status": "Active",
+    "sensor_type": "TrafficCounter"
+  },
+  {
+    "sensor_id": "Radar_Sayeda_Zeinab_0338",
+    "numeric_id": 338,
+    "lat": 30.153618,
+    "lon": 31.225854,
+    "location_id": 328,
+    "install_date": "2024-09-01",
+    "status": "Active",
+    "sensor_type": "Radar"
+  },
+  {
+    "sensor_id": "CCTV_Abdel_Aziz_Fahmy_0339",
+    "numeric_id": 339,
+    "lat": 30.052163,
+    "lon": 31.000305,
+    "location_id": 703,
+    "install_date": "2023-05-04",
+    "status": "Active",
+    "sensor_type": "CCTV"
+  },
+  {
+    "sensor_id": "MultiSensor_Sheikh_Zayed_Road_segment_764_0340",
+    "numeric_id": 340,
+    "lat": 29.958582,
+    "lon": 31.088927,
+    "location_id": 764,
+    "install_date": "2021-05-09",
+    "status": "Active",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "Radar_Ramses_0341",
+    "numeric_id": 341,
+    "lat": 29.957322,
+    "lon": 31.410046,
+    "location_id": 763,
+    "install_date": "2025-09-21",
+    "status": "Active",
+    "sensor_type": "Radar"
+  },
+  {
+    "sensor_id": "CCTV_El_Orouba_0342",
+    "numeric_id": 342,
+    "lat": 29.977619,
+    "lon": 31.426419,
+    "location_id": 209,
+    "install_date": "2020-10-20",
+    "status": "Inactive",
+    "sensor_type": "CCTV"
+  },
+  {
+    "sensor_id": "MultiSensor_Salah_Salem_0343",
+    "numeric_id": 343,
+    "lat": 29.805426,
+    "lon": 31.283795,
+    "location_id": 425,
+    "install_date": "2023-10-14",
+    "status": "Active",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "CCTV_El_Teseen_0344",
+    "numeric_id": 344,
+    "lat": 30.068218,
+    "lon": 31.070467,
+    "location_id": 759,
+    "install_date": "2025-04-27",
+    "status": "Active",
+    "sensor_type": "CCTV"
+  },
+  {
+    "sensor_id": "MultiSensor_Moustafa_Kamel_0345",
+    "numeric_id": 345,
+    "lat": 30.181137,
+    "lon": 31.121412,
+    "location_id": 872,
+    "install_date": "2022-09-08",
+    "status": "Active",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "Radar_Giza_Corniche_segment_77_0346",
+    "numeric_id": 346,
+    "lat": 29.77667,
+    "lon": 31.082567,
+    "location_id": 77,
+    "install_date": "2022-02-12",
+    "status": "Under Maintenance",
+    "sensor_type": "Radar"
+  },
+  {
+    "sensor_id": "CCTV_El_Thawra_0347",
+    "numeric_id": 347,
+    "lat": 29.807183,
+    "lon": 31.222572,
+    "location_id": 50,
+    "install_date": "2021-11-22",
+    "status": "Active",
+    "sensor_type": "CCTV"
+  },
+  {
+    "sensor_id": "TrafficCounter_Nasr_City_segment_892_0348",
+    "numeric_id": 348,
+    "lat": 30.050907,
+    "lon": 31.075343,
+    "location_id": 892,
+    "install_date": "2025-06-26",
+    "status": "Inactive",
+    "sensor_type": "TrafficCounter"
+  },
+  {
+    "sensor_id": "TrafficCounter_Sheikh_Zayed_Road_0349",
+    "numeric_id": 349,
+    "lat": 29.953597,
+    "lon": 31.089142,
+    "location_id": 428,
+    "install_date": "2021-06-21",
+    "status": "Active",
+    "sensor_type": "TrafficCounter"
+  },
+  {
+    "sensor_id": "Radar_Ring_Road_0350",
+    "numeric_id": 350,
+    "lat": 30.1477,
+    "lon": 31.44194,
+    "location_id": 684,
+    "install_date": "2024-06-01",
+    "status": "Active",
+    "sensor_type": "Radar"
+  },
+  {
+    "sensor_id": "CCTV_Ring_Road_segment_101_0351",
+    "numeric_id": 351,
+    "lat": 30.150077,
+    "lon": 31.442116,
+    "location_id": 101,
+    "install_date": "2023-03-30",
+    "status": "Active",
+    "sensor_type": "CCTV"
+  },
+  {
+    "sensor_id": "Radar_El_Marg_segment_164_0352",
+    "numeric_id": 352,
+    "lat": 29.80119,
+    "lon": 31.430293,
+    "location_id": 164,
+    "install_date": "2024-12-06",
+    "status": "Active",
+    "sensor_type": "Radar"
+  },
+  {
+    "sensor_id": "CCTV_El_Geish_0353",
+    "numeric_id": 353,
+    "lat": 29.919421,
+    "lon": 31.321142,
+    "location_id": 433,
+    "install_date": "2021-02-24",
+    "status": "Active",
+    "sensor_type": "CCTV"
+  },
+  {
+    "sensor_id": "TrafficCounter_Masr_El_Gedida_0354",
+    "numeric_id": 354,
+    "lat": 29.982816,
+    "lon": 31.328199,
+    "location_id": 455,
+    "install_date": "2022-05-28",
+    "status": "Inactive",
+    "sensor_type": "TrafficCounter"
+  },
+  {
+    "sensor_id": "TrafficCounter_Heliopolis_Avenue_0355",
+    "numeric_id": 355,
+    "lat": 30.105269,
+    "lon": 31.373768,
+    "location_id": 253,
+    "install_date": "2023-04-25",
+    "status": "Active",
+    "sensor_type": "TrafficCounter"
+  },
+  {
+    "sensor_id": "MultiSensor_El_Shorouk_Road_0356",
+    "numeric_id": 356,
+    "lat": 29.985056,
+    "lon": 31.508039,
+    "location_id": 368,
+    "install_date": "2025-02-12",
+    "status": "Active",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "MultiSensor_Al_Amiriya_Road_segment_822_0357",
+    "numeric_id": 357,
+    "lat": 30.138151,
+    "lon": 31.357386,
+    "location_id": 822,
+    "install_date": "2021-06-30",
+    "status": "Active",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "Radar_Gamaat_El_Dowal_0358",
+    "numeric_id": 358,
+    "lat": 30.166569,
+    "lon": 31.012174,
+    "location_id": 635,
+    "install_date": "2022-09-26",
+    "status": "Active",
+    "sensor_type": "Radar"
+  },
+  {
+    "sensor_id": "TrafficCounter_Corniche_El_Nil_0359",
+    "numeric_id": 359,
+    "lat": 29.965557,
+    "lon": 31.450804,
+    "location_id": 642,
+    "install_date": "2021-10-29",
+    "status": "Active",
+    "sensor_type": "TrafficCounter"
+  },
+  {
+    "sensor_id": "MultiSensor_October_Corridor_0360",
+    "numeric_id": 360,
+    "lat": 29.942912,
+    "lon": 31.379808,
+    "location_id": 841,
+    "install_date": "2021-02-14",
+    "status": "Active",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "Radar_El_Obour_Road_0361",
+    "numeric_id": 361,
+    "lat": 29.980854,
+    "lon": 31.079848,
+    "location_id": 499,
+    "install_date": "2025-08-07",
+    "status": "Active",
+    "sensor_type": "Radar"
+  },
+  {
+    "sensor_id": "CCTV_Al_Rehab_Road_segment_563_0362",
+    "numeric_id": 362,
+    "lat": 29.89726,
+    "lon": 31.032268,
+    "location_id": 563,
+    "install_date": "2023-03-24",
+    "status": "Active",
+    "sensor_type": "CCTV"
+  },
+  {
+    "sensor_id": "Radar_El_Obour_Road_0363",
+    "numeric_id": 363,
+    "lat": 29.984671,
+    "lon": 31.078974,
+    "location_id": 694,
+    "install_date": "2021-04-30",
+    "status": "Active",
+    "sensor_type": "Radar"
+  },
+  {
+    "sensor_id": "MultiSensor_Sheikh_Zayed_Road_0364",
+    "numeric_id": 364,
+    "lat": 29.953548,
+    "lon": 31.08944,
+    "location_id": 329,
+    "install_date": "2021-02-20",
+    "status": "Active",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "MultiSensor_Wahat_Road_0365",
+    "numeric_id": 365,
+    "lat": 29.804995,
+    "lon": 31.011244,
+    "location_id": 865,
+    "install_date": "2022-06-08",
+    "status": "Active",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "CCTV_El_Maadi_Corniche_segment_665_0366",
+    "numeric_id": 366,
+    "lat": 29.808807,
+    "lon": 31.330208,
+    "location_id": 665,
+    "install_date": "2025-01-10",
+    "status": "Active",
+    "sensor_type": "CCTV"
+  },
+  {
+    "sensor_id": "Radar_October_Corridor_0367",
+    "numeric_id": 367,
+    "lat": 29.936241,
+    "lon": 31.379862,
+    "location_id": 803,
+    "install_date": "2024-03-08",
+    "status": "Active",
+    "sensor_type": "Radar"
+  },
+  {
+    "sensor_id": "TrafficCounter_El_Sakkakini_segment_166_0368",
+    "numeric_id": 368,
+    "lat": 29.847012,
+    "lon": 31.291888,
+    "location_id": 166,
+    "install_date": "2022-12-26",
+    "status": "Active",
+    "sensor_type": "TrafficCounter"
+  },
+  {
+    "sensor_id": "CCTV_Heliopolis_Avenue_0369",
+    "numeric_id": 369,
+    "lat": 30.100629,
+    "lon": 31.373934,
+    "location_id": 397,
+    "install_date": "2025-08-12",
+    "status": "Inactive",
+    "sensor_type": "CCTV"
+  },
+  {
+    "sensor_id": "MultiSensor_El_Shorouk_Road_0370",
+    "numeric_id": 370,
+    "lat": 29.983199,
+    "lon": 31.506759,
+    "location_id": 799,
+    "install_date": "2023-02-24",
+    "status": "Active",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "Radar_6th_October_Bridge_segment_720_0371",
+    "numeric_id": 371,
+    "lat": 29.860148,
+    "lon": 31.194069,
+    "location_id": 720,
+    "install_date": "2022-09-15",
+    "status": "Under Maintenance",
+    "sensor_type": "Radar"
+  },
+  {
+    "sensor_id": "CCTV_October_Corridor_segment_280_0372",
+    "numeric_id": 372,
+    "lat": 29.93345,
+    "lon": 31.379784,
+    "location_id": 280,
+    "install_date": "2023-01-30",
+    "status": "Active",
+    "sensor_type": "CCTV"
+  },
+  {
+    "sensor_id": "Radar_El_Marg_segment_951_0373",
+    "numeric_id": 373,
+    "lat": 29.805893,
+    "lon": 31.429954,
+    "location_id": 951,
+    "install_date": "2021-12-25",
+    "status": "Active",
+    "sensor_type": "Radar"
+  },
+  {
+    "sensor_id": "TrafficCounter_Giza_Corniche_0374",
+    "numeric_id": 374,
+    "lat": 29.777704,
+    "lon": 31.083594,
+    "location_id": 395,
+    "install_date": "2020-11-16",
+    "status": "Active",
+    "sensor_type": "TrafficCounter"
+  },
+  {
+    "sensor_id": "TrafficCounter_El_Geish_0375",
+    "numeric_id": 375,
+    "lat": 29.923471,
+    "lon": 31.320607,
+    "location_id": 749,
+    "install_date": "2023-09-15",
+    "status": "Active",
+    "sensor_type": "TrafficCounter"
+  },
+  {
+    "sensor_id": "Radar_Sayeda_Zeinab_0376",
+    "numeric_id": 376,
+    "lat": 30.153188,
+    "lon": 31.227002,
+    "location_id": 29,
+    "install_date": "2021-04-09",
+    "status": "Inactive",
+    "sensor_type": "Radar"
+  },
+  {
+    "sensor_id": "CCTV_Abdel_Aziz_Fahmy_segment_188_0377",
+    "numeric_id": 377,
+    "lat": 30.046487,
+    "lon": 30.999999,
+    "location_id": 188,
+    "install_date": "2023-07-28",
+    "status": "Active",
+    "sensor_type": "CCTV"
+  },
+  {
+    "sensor_id": "CCTV_El_Tayaran_0378",
+    "numeric_id": 378,
+    "lat": 29.838597,
+    "lon": 31.071217,
+    "location_id": 258,
+    "install_date": "2021-11-18",
+    "status": "Active",
+    "sensor_type": "CCTV"
+  },
+  {
+    "sensor_id": "MultiSensor_Moustafa_Kamel_0379",
+    "numeric_id": 379,
+    "lat": 30.188966,
+    "lon": 31.120247,
+    "location_id": 226,
+    "install_date": "2023-02-19",
+    "status": "Active",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "CCTV_Ring_Road_0380",
+    "numeric_id": 380,
+    "lat": 30.145117,
+    "lon": 31.441824,
+    "location_id": 463,
+    "install_date": "2021-06-10",
+    "status": "Active",
+    "sensor_type": "CCTV"
+  },
+  {
+    "sensor_id": "TrafficCounter_Smart_Village_Road_0381",
+    "numeric_id": 381,
+    "lat": 29.783086,
+    "lon": 31.532642,
+    "location_id": 674,
+    "install_date": "2024-03-13",
+    "status": "Under Maintenance",
+    "sensor_type": "TrafficCounter"
+  },
+  {
+    "sensor_id": "TrafficCounter_Smart_Village_Road_segment_877_0382",
+    "numeric_id": 382,
+    "lat": 29.782177,
+    "lon": 31.532192,
+    "location_id": 877,
+    "install_date": "2024-09-26",
+    "status": "Under Maintenance",
+    "sensor_type": "TrafficCounter"
+  },
+  {
+    "sensor_id": "CCTV_Corniche_El_Nil_0383",
+    "numeric_id": 383,
+    "lat": 29.957101,
+    "lon": 31.449765,
+    "location_id": 991,
+    "install_date": "2020-11-30",
+    "status": "Active",
+    "sensor_type": "CCTV"
+  },
+  {
+    "sensor_id": "CCTV_El_Nozha_segment_334_0384",
+    "numeric_id": 384,
+    "lat": 29.803668,
+    "lon": 31.067751,
+    "location_id": 334,
+    "install_date": "2025-05-09",
+    "status": "Active",
+    "sensor_type": "CCTV"
+  },
+  {
+    "sensor_id": "TrafficCounter_El_Nozha_segment_38_0385",
+    "numeric_id": 385,
+    "lat": 29.808641,
+    "lon": 31.068664,
+    "location_id": 38,
+    "install_date": "2024-01-07",
+    "status": "Inactive",
+    "sensor_type": "TrafficCounter"
+  },
+  {
+    "sensor_id": "MultiSensor_El_Obour_Road_0386",
+    "numeric_id": 386,
+    "lat": 29.979574,
+    "lon": 31.078539,
+    "location_id": 517,
+    "install_date": "2024-05-02",
+    "status": "Active",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "MultiSensor_Nasr_City_0387",
+    "numeric_id": 387,
+    "lat": 30.046079,
+    "lon": 31.075187,
+    "location_id": 531,
+    "install_date": "2025-04-20",
+    "status": "Under Maintenance",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "Radar_Masr_El_Gedida_segment_840_0388",
+    "numeric_id": 388,
+    "lat": 29.983659,
+    "lon": 31.327706,
+    "location_id": 840,
+    "install_date": "2024-01-25",
+    "status": "Active",
+    "sensor_type": "Radar"
+  },
+  {
+    "sensor_id": "TrafficCounter_Mohandessin_segment_445_0389",
+    "numeric_id": 389,
+    "lat": 30.009723,
+    "lon": 31.268463,
+    "location_id": 445,
+    "install_date": "2023-11-06",
+    "status": "Under Maintenance",
+    "sensor_type": "TrafficCounter"
+  },
+  {
+    "sensor_id": "CCTV_Ramses_segment_817_0390",
+    "numeric_id": 390,
+    "lat": 29.951994,
+    "lon": 31.411425,
+    "location_id": 817,
+    "install_date": "2025-06-22",
+    "status": "Active",
+    "sensor_type": "CCTV"
+  },
+  {
+    "sensor_id": "TrafficCounter_Al_Haram_0391",
+    "numeric_id": 391,
+    "lat": 30.012599,
+    "lon": 31.231866,
+    "location_id": 551,
+    "install_date": "2024-09-13",
+    "status": "Inactive",
+    "sensor_type": "TrafficCounter"
+  },
+  {
+    "sensor_id": "MultiSensor_El_Geish_segment_255_0392",
+    "numeric_id": 392,
+    "lat": 29.918394,
+    "lon": 31.321409,
+    "location_id": 255,
+    "install_date": "2022-04-25",
+    "status": "Active",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "Radar_Kamel_Ibrahim_segment_356_0393",
+    "numeric_id": 393,
+    "lat": 30.172129,
+    "lon": 31.195734,
+    "location_id": 356,
+    "install_date": "2025-06-12",
+    "status": "Inactive",
+    "sensor_type": "Radar"
+  },
+  {
+    "sensor_id": "MultiSensor_Corniche_El_Nil_0394",
+    "numeric_id": 394,
+    "lat": 29.959932,
+    "lon": 31.450283,
+    "location_id": 427,
+    "install_date": "2021-02-03",
+    "status": "Under Maintenance",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "MultiSensor_El_Maadi_Corniche_segment_415_0395",
+    "numeric_id": 395,
+    "lat": 29.815356,
+    "lon": 31.329594,
+    "location_id": 415,
+    "install_date": "2024-11-22",
+    "status": "Active",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "MultiSensor_Giza_Corniche_0396",
+    "numeric_id": 396,
+    "lat": 29.779426,
+    "lon": 31.082328,
+    "location_id": 223,
+    "install_date": "2023-09-28",
+    "status": "Active",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "Radar_6th_October_Bridge_segment_800_0397",
+    "numeric_id": 397,
+    "lat": 29.857453,
+    "lon": 31.195263,
+    "location_id": 800,
+    "install_date": "2022-04-29",
+    "status": "Under Maintenance",
+    "sensor_type": "Radar"
+  },
+  {
+    "sensor_id": "Radar_Heliopolis_Avenue_segment_411_0398",
+    "numeric_id": 398,
+    "lat": 30.101819,
+    "lon": 31.3726,
+    "location_id": 411,
+    "install_date": "2024-11-15",
+    "status": "Active",
+    "sensor_type": "Radar"
+  },
+  {
+    "sensor_id": "Radar_El_Nasr_Road_0399",
+    "numeric_id": 399,
+    "lat": 30.191667,
+    "lon": 31.540918,
+    "location_id": 790,
+    "install_date": "2021-12-07",
+    "status": "Inactive",
+    "sensor_type": "Radar"
+  },
+  {
+    "sensor_id": "MultiSensor_El_Mokattam_0400",
+    "numeric_id": 400,
+    "lat": 29.876583,
+    "lon": 31.174745,
+    "location_id": 71,
+    "install_date": "2022-10-07",
+    "status": "Active",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "MultiSensor_El_Omraniya_0401",
+    "numeric_id": 401,
+    "lat": 30.092172,
+    "lon": 31.231449,
+    "location_id": 111,
+    "install_date": "2025-05-03",
+    "status": "Active",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "Radar_Dokki_0402",
+    "numeric_id": 402,
+    "lat": 30.008633,
+    "lon": 31.046202,
+    "location_id": 558,
+    "install_date": "2022-10-15",
+    "status": "Active",
+    "sensor_type": "Radar"
+  },
+  {
+    "sensor_id": "CCTV_Moustafa_Kamel_0403",
+    "numeric_id": 403,
+    "lat": 30.190324,
+    "lon": 31.121565,
+    "location_id": 615,
+    "install_date": "2023-06-15",
+    "status": "Under Maintenance",
+    "sensor_type": "CCTV"
+  },
+  {
+    "sensor_id": "MultiSensor_Mohandessin_segment_62_0404",
+    "numeric_id": 404,
+    "lat": 29.99942,
+    "lon": 31.268679,
+    "location_id": 62,
+    "install_date": "2021-01-21",
+    "status": "Active",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "Radar_Corniche_El_Nil_segment_238_0405",
+    "numeric_id": 405,
+    "lat": 29.963688,
+    "lon": 31.451299,
+    "location_id": 238,
+    "install_date": "2021-04-02",
+    "status": "Active",
+    "sensor_type": "Radar"
+  },
+  {
+    "sensor_id": "CCTV_El_Qahera_Street_0406",
+    "numeric_id": 406,
+    "lat": 29.879212,
+    "lon": 31.337563,
+    "location_id": 527,
+    "install_date": "2023-06-28",
+    "status": "Active",
+    "sensor_type": "CCTV"
+  },
+  {
+    "sensor_id": "CCTV_Al_Haram_0407",
+    "numeric_id": 407,
+    "lat": 30.012769,
+    "lon": 31.23101,
+    "location_id": 457,
+    "install_date": "2021-03-14",
+    "status": "Active",
+    "sensor_type": "CCTV"
+  },
+  {
+    "sensor_id": "MultiSensor_Nasr_City_0408",
+    "numeric_id": 408,
+    "lat": 30.048672,
+    "lon": 31.075233,
+    "location_id": 240,
+    "install_date": "2021-08-04",
+    "status": "Under Maintenance",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "MultiSensor_El_Nozha_0409",
+    "numeric_id": 409,
+    "lat": 29.80297,
+    "lon": 31.067876,
+    "location_id": 828,
+    "install_date": "2023-08-10",
+    "status": "Active",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "CCTV_Salah_Salem_0410",
+    "numeric_id": 410,
+    "lat": 29.808519,
+    "lon": 31.283223,
+    "location_id": 304,
+    "install_date": "2021-05-13",
+    "status": "Inactive",
+    "sensor_type": "CCTV"
+  },
+  {
+    "sensor_id": "Radar_El_Maadi_Corniche_0411",
+    "numeric_id": 411,
+    "lat": 29.806197,
+    "lon": 31.330198,
+    "location_id": 409,
+    "install_date": "2022-09-14",
+    "status": "Under Maintenance",
+    "sensor_type": "Radar"
+  },
+  {
+    "sensor_id": "Radar_Wahat_Road_segment_322_0412",
+    "numeric_id": 412,
+    "lat": 29.798255,
+    "lon": 31.012703,
+    "location_id": 322,
+    "install_date": "2024-01-16",
+    "status": "Active",
+    "sensor_type": "Radar"
+  },
+  {
+    "sensor_id": "Radar_Mohandessin_0413",
+    "numeric_id": 413,
+    "lat": 30.002083,
+    "lon": 31.269217,
+    "location_id": 23,
+    "install_date": "2024-04-27",
+    "status": "Under Maintenance",
+    "sensor_type": "Radar"
+  },
+  {
+    "sensor_id": "TrafficCounter_Mohandessin_0414",
+    "numeric_id": 414,
+    "lat": 30.003316,
+    "lon": 31.267942,
+    "location_id": 954,
+    "install_date": "2024-05-20",
+    "status": "Active",
+    "sensor_type": "TrafficCounter"
+  },
+  {
+    "sensor_id": "MultiSensor_El_Orouba_0415",
+    "numeric_id": 415,
+    "lat": 29.976853,
+    "lon": 31.426764,
+    "location_id": 224,
+    "install_date": "2021-01-06",
+    "status": "Active",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "CCTV_Al_Amiriya_Road_segment_996_0416",
+    "numeric_id": 416,
+    "lat": 30.138029,
+    "lon": 31.3566,
+    "location_id": 996,
+    "install_date": "2023-06-22",
+    "status": "Active",
+    "sensor_type": "CCTV"
+  },
+  {
+    "sensor_id": "TrafficCounter_Al_Amiriya_Road_0417",
+    "numeric_id": 417,
+    "lat": 30.136631,
+    "lon": 31.357884,
+    "location_id": 357,
+    "install_date": "2023-08-13",
+    "status": "Active",
+    "sensor_type": "TrafficCounter"
+  },
+  {
+    "sensor_id": "Radar_El_Omraniya_segment_816_0418",
+    "numeric_id": 418,
+    "lat": 30.081787,
+    "lon": 31.230589,
+    "location_id": 816,
+    "install_date": "2024-12-07",
+    "status": "Active",
+    "sensor_type": "Radar"
+  },
+  {
+    "sensor_id": "Radar_Masr_El_Gedida_0419",
+    "numeric_id": 419,
+    "lat": 29.985956,
+    "lon": 31.328611,
+    "location_id": 508,
+    "install_date": "2023-09-14",
+    "status": "Active",
+    "sensor_type": "Radar"
+  },
+  {
+    "sensor_id": "TrafficCounter_Ring_Road_0420",
+    "numeric_id": 420,
+    "lat": 30.150126,
+    "lon": 31.441339,
+    "location_id": 20,
+    "install_date": "2024-12-11",
+    "status": "Active",
+    "sensor_type": "TrafficCounter"
+  },
+  {
+    "sensor_id": "Radar_El_Orouba_0421",
+    "numeric_id": 421,
+    "lat": 29.977243,
+    "lon": 31.426916,
+    "location_id": 962,
+    "install_date": "2024-02-29",
+    "status": "Active",
+    "sensor_type": "Radar"
+  },
+  {
+    "sensor_id": "Radar_Heliopolis_Avenue_segment_505_0422",
+    "numeric_id": 422,
+    "lat": 30.093984,
+    "lon": 31.373995,
+    "location_id": 505,
+    "install_date": "2023-01-12",
+    "status": "Active",
+    "sensor_type": "Radar"
+  },
+  {
+    "sensor_id": "TrafficCounter_Ring_Road_segment_846_0423",
+    "numeric_id": 423,
+    "lat": 30.148439,
+    "lon": 31.441105,
+    "location_id": 846,
+    "install_date": "2023-09-11",
+    "status": "Inactive",
+    "sensor_type": "TrafficCounter"
+  },
+  {
+    "sensor_id": "TrafficCounter_Dokki_segment_663_0424",
+    "numeric_id": 424,
+    "lat": 30.006775,
+    "lon": 31.047738,
+    "location_id": 663,
+    "install_date": "2023-07-23",
+    "status": "Under Maintenance",
+    "sensor_type": "TrafficCounter"
+  },
+  {
+    "sensor_id": "CCTV_Tahrir_0425",
+    "numeric_id": 425,
+    "lat": 30.125211,
+    "lon": 31.222039,
+    "location_id": 110,
+    "install_date": "2024-11-05",
+    "status": "Active",
+    "sensor_type": "CCTV"
+  },
+  {
+    "sensor_id": "MultiSensor_Masr_El_Gedida_0426",
+    "numeric_id": 426,
+    "lat": 29.984314,
+    "lon": 31.32819,
+    "location_id": 887,
+    "install_date": "2024-10-12",
+    "status": "Active",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "Radar_El_Maadi_Corniche_segment_180_0427",
+    "numeric_id": 427,
+    "lat": 29.811421,
+    "lon": 31.329304,
+    "location_id": 180,
+    "install_date": "2022-02-01",
+    "status": "Active",
+    "sensor_type": "Radar"
+  },
+  {
+    "sensor_id": "MultiSensor_Corniche_El_Nil_0428",
+    "numeric_id": 428,
+    "lat": 29.965708,
+    "lon": 31.450905,
+    "location_id": 572,
+    "install_date": "2021-06-07",
+    "status": "Active",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "CCTV_Moustafa_Kamel_segment_901_0429",
+    "numeric_id": 429,
+    "lat": 30.186987,
+    "lon": 31.120511,
+    "location_id": 901,
+    "install_date": "2025-01-05",
+    "status": "Inactive",
+    "sensor_type": "CCTV"
+  },
+  {
+    "sensor_id": "Radar_Giza_Corniche_0430",
+    "numeric_id": 430,
+    "lat": 29.779438,
+    "lon": 31.082858,
+    "location_id": 249,
+    "install_date": "2020-11-05",
+    "status": "Inactive",
+    "sensor_type": "Radar"
+  },
+  {
+    "sensor_id": "Radar_El_Omraniya_0431",
+    "numeric_id": 431,
+    "lat": 30.08505,
+    "lon": 31.230039,
+    "location_id": 13,
+    "install_date": "2025-05-13",
+    "status": "Under Maintenance",
+    "sensor_type": "Radar"
+  },
+  {
+    "sensor_id": "MultiSensor_Sayeda_Zeinab_segment_300_0432",
+    "numeric_id": 432,
+    "lat": 30.154911,
+    "lon": 31.226335,
+    "location_id": 300,
+    "install_date": "2021-03-27",
+    "status": "Active",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "MultiSensor_Al_Amiriya_Road_segment_173_0433",
+    "numeric_id": 433,
+    "lat": 30.142111,
+    "lon": 31.358269,
+    "location_id": 173,
+    "install_date": "2023-10-16",
+    "status": "Active",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "MultiSensor_Kamel_Ibrahim_segment_818_0434",
+    "numeric_id": 434,
+    "lat": 30.166421,
+    "lon": 31.196688,
+    "location_id": 818,
+    "install_date": "2022-07-31",
+    "status": "Active",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "CCTV_Wahat_Road_segment_868_0435",
+    "numeric_id": 435,
+    "lat": 29.800664,
+    "lon": 31.011497,
+    "location_id": 868,
+    "install_date": "2022-11-15",
+    "status": "Active",
+    "sensor_type": "CCTV"
+  },
+  {
+    "sensor_id": "MultiSensor_El_Mokattam_segment_577_0436",
+    "numeric_id": 436,
+    "lat": 29.876367,
+    "lon": 31.175552,
+    "location_id": 577,
+    "install_date": "2023-09-24",
+    "status": "Under Maintenance",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "TrafficCounter_Abdel_Aziz_Fahmy_0437",
+    "numeric_id": 437,
+    "lat": 30.048094,
+    "lon": 31.000453,
+    "location_id": 682,
+    "install_date": "2022-02-17",
+    "status": "Active",
+    "sensor_type": "TrafficCounter"
+  },
+  {
+    "sensor_id": "MultiSensor_October_Corridor_0438",
+    "numeric_id": 438,
+    "lat": 29.936341,
+    "lon": 31.381282,
+    "location_id": 218,
+    "install_date": "2022-05-05",
+    "status": "Active",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "CCTV_Masr_El_Gedida_0439",
+    "numeric_id": 439,
+    "lat": 29.986315,
+    "lon": 31.32915,
+    "location_id": 824,
+    "install_date": "2020-12-14",
+    "status": "Active",
+    "sensor_type": "CCTV"
+  },
+  {
+    "sensor_id": "Radar_El_Sakkakini_segment_81_0440",
+    "numeric_id": 440,
+    "lat": 29.856607,
+    "lon": 31.291087,
+    "location_id": 81,
+    "install_date": "2025-08-08",
+    "status": "Active",
+    "sensor_type": "Radar"
+  },
+  {
+    "sensor_id": "Radar_Abbass_Al_Akkad_segment_879_0441",
+    "numeric_id": 441,
+    "lat": 29.799876,
+    "lon": 31.020706,
+    "location_id": 879,
+    "install_date": "2023-05-09",
+    "status": "Active",
+    "sensor_type": "Radar"
+  },
+  {
+    "sensor_id": "Radar_Giza_Corniche_segment_64_0442",
+    "numeric_id": 442,
+    "lat": 29.778152,
+    "lon": 31.083302,
+    "location_id": 64,
+    "install_date": "2024-03-17",
+    "status": "Active",
+    "sensor_type": "Radar"
+  },
+  {
+    "sensor_id": "CCTV_Heliopolis_Avenue_0443",
+    "numeric_id": 443,
+    "lat": 30.103253,
+    "lon": 31.37323,
+    "location_id": 908,
+    "install_date": "2023-11-13",
+    "status": "Active",
+    "sensor_type": "CCTV"
+  },
+  {
+    "sensor_id": "CCTV_El_Teseen_segment_295_0444",
+    "numeric_id": 444,
+    "lat": 30.067477,
+    "lon": 31.070084,
+    "location_id": 295,
+    "install_date": "2021-09-18",
+    "status": "Under Maintenance",
+    "sensor_type": "CCTV"
+  },
+  {
+    "sensor_id": "Radar_Corniche_El_Nil_0445",
+    "numeric_id": 445,
+    "lat": 29.960574,
+    "lon": 31.450611,
+    "location_id": 845,
+    "install_date": "2023-03-08",
+    "status": "Active",
+    "sensor_type": "Radar"
+  },
+  {
+    "sensor_id": "TrafficCounter_Mohandessin_0446",
+    "numeric_id": 446,
+    "lat": 30.002999,
+    "lon": 31.269476,
+    "location_id": 320,
+    "install_date": "2022-09-25",
+    "status": "Active",
+    "sensor_type": "TrafficCounter"
+  },
+  {
+    "sensor_id": "MultiSensor_Sheikh_Zayed_Road_segment_784_0447",
+    "numeric_id": 447,
+    "lat": 29.957806,
+    "lon": 31.088837,
+    "location_id": 784,
+    "install_date": "2024-07-30",
+    "status": "Active",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "CCTV_El_Nasr_Road_segment_717_0448",
+    "numeric_id": 448,
+    "lat": 30.184261,
+    "lon": 31.540658,
+    "location_id": 717,
+    "install_date": "2023-02-24",
+    "status": "Under Maintenance",
+    "sensor_type": "CCTV"
+  },
+  {
+    "sensor_id": "Radar_El_Marg_0449",
+    "numeric_id": 449,
+    "lat": 29.795863,
+    "lon": 31.429567,
+    "location_id": 532,
+    "install_date": "2022-06-10",
+    "status": "Under Maintenance",
+    "sensor_type": "Radar"
+  },
+  {
+    "sensor_id": "TrafficCounter_Sayeda_Zeinab_0450",
+    "numeric_id": 450,
+    "lat": 30.155175,
+    "lon": 31.226899,
+    "location_id": 518,
+    "install_date": "2022-10-11",
+    "status": "Active",
+    "sensor_type": "TrafficCounter"
+  },
+  {
+    "sensor_id": "Radar_El_Nozha_segment_186_0451",
+    "numeric_id": 451,
+    "lat": 29.805952,
+    "lon": 31.068381,
+    "location_id": 186,
+    "install_date": "2025-08-30",
+    "status": "Active",
+    "sensor_type": "Radar"
+  },
+  {
+    "sensor_id": "CCTV_Masr_El_Gedida_0452",
+    "numeric_id": 452,
+    "lat": 29.986979,
+    "lon": 31.328198,
+    "location_id": 500,
+    "install_date": "2024-01-07",
+    "status": "Active",
+    "sensor_type": "CCTV"
+  },
+  {
+    "sensor_id": "Radar_Giza_Corniche_0453",
+    "numeric_id": 453,
+    "lat": 29.775284,
+    "lon": 31.082477,
+    "location_id": 609,
+    "install_date": "2024-03-06",
+    "status": "Active",
+    "sensor_type": "Radar"
+  },
+  {
+    "sensor_id": "CCTV_Al_Haram_segment_281_0454",
+    "numeric_id": 454,
+    "lat": 30.015971,
+    "lon": 31.2311,
+    "location_id": 281,
+    "install_date": "2023-04-30",
+    "status": "Active",
+    "sensor_type": "CCTV"
+  },
+  {
+    "sensor_id": "Radar_Masr_El_Gedida_segment_10_0455",
+    "numeric_id": 455,
+    "lat": 29.986265,
+    "lon": 31.328591,
+    "location_id": 10,
+    "install_date": "2023-03-25",
+    "status": "Active",
+    "sensor_type": "Radar"
+  },
+  {
+    "sensor_id": "TrafficCounter_Ramses_0456",
+    "numeric_id": 456,
+    "lat": 29.95817,
+    "lon": 31.410337,
+    "location_id": 634,
+    "install_date": "2022-04-22",
+    "status": "Active",
+    "sensor_type": "TrafficCounter"
+  },
+  {
+    "sensor_id": "Radar_Giza_Corniche_segment_565_0457",
+    "numeric_id": 457,
+    "lat": 29.776557,
+    "lon": 31.082439,
+    "location_id": 565,
+    "install_date": "2023-06-20",
+    "status": "Active",
+    "sensor_type": "Radar"
+  },
+  {
+    "sensor_id": "MultiSensor_Corniche_El_Nil_segment_183_0458",
+    "numeric_id": 458,
+    "lat": 29.966879,
+    "lon": 31.450119,
+    "location_id": 183,
+    "install_date": "2024-11-28",
+    "status": "Active",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "CCTV_Masr_El_Gedida_segment_429_0459",
+    "numeric_id": 459,
+    "lat": 29.988396,
+    "lon": 31.327773,
+    "location_id": 429,
+    "install_date": "2021-12-08",
+    "status": "Active",
+    "sensor_type": "CCTV"
+  },
+  {
+    "sensor_id": "TrafficCounter_Corniche_El_Nil_0460",
+    "numeric_id": 460,
+    "lat": 29.965221,
+    "lon": 31.451077,
+    "location_id": 61,
+    "install_date": "2022-08-08",
+    "status": "Inactive",
+    "sensor_type": "TrafficCounter"
+  },
+  {
+    "sensor_id": "MultiSensor_Corniche_El_Nil_segment_910_0461",
+    "numeric_id": 461,
+    "lat": 29.967108,
+    "lon": 31.450792,
+    "location_id": 910,
+    "install_date": "2022-09-19",
+    "status": "Inactive",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "Radar_6th_October_Bridge_0462",
+    "numeric_id": 462,
+    "lat": 29.852917,
+    "lon": 31.195016,
+    "location_id": 676,
+    "install_date": "2021-03-04",
+    "status": "Active",
+    "sensor_type": "Radar"
+  },
+  {
+    "sensor_id": "CCTV_Salah_Salem_segment_483_0463",
+    "numeric_id": 463,
+    "lat": 29.80716,
+    "lon": 31.283666,
+    "location_id": 483,
+    "install_date": "2021-07-26",
+    "status": "Active",
+    "sensor_type": "CCTV"
+  },
+  {
+    "sensor_id": "MultiSensor_El_Obour_Road_segment_538_0464",
+    "numeric_id": 464,
+    "lat": 29.983921,
+    "lon": 31.080069,
+    "location_id": 538,
+    "install_date": "2021-02-13",
+    "status": "Inactive",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "TrafficCounter_Mohandessin_0465",
+    "numeric_id": 465,
+    "lat": 30.006207,
+    "lon": 31.2694,
+    "location_id": 181,
+    "install_date": "2024-11-04",
+    "status": "Active",
+    "sensor_type": "TrafficCounter"
+  },
+  {
+    "sensor_id": "Radar_El_Maadi_Corniche_0466",
+    "numeric_id": 466,
+    "lat": 29.81056,
+    "lon": 31.329034,
+    "location_id": 542,
+    "install_date": "2024-11-17",
+    "status": "Active",
+    "sensor_type": "Radar"
+  },
+  {
+    "sensor_id": "Radar_El_Tayaran_segment_753_0467",
+    "numeric_id": 467,
+    "lat": 29.845095,
+    "lon": 31.070619,
+    "location_id": 753,
+    "install_date": "2021-10-04",
+    "status": "Active",
+    "sensor_type": "Radar"
+  },
+  {
+    "sensor_id": "Radar_Salah_Salem_0468",
+    "numeric_id": 468,
+    "lat": 29.800577,
+    "lon": 31.28414,
+    "location_id": 373,
+    "install_date": "2024-06-05",
+    "status": "Active",
+    "sensor_type": "Radar"
+  },
+  {
+    "sensor_id": "TrafficCounter_El_Qahera_Street_0469",
+    "numeric_id": 469,
+    "lat": 29.874902,
+    "lon": 31.337279,
+    "location_id": 410,
+    "install_date": "2022-08-08",
+    "status": "Active",
+    "sensor_type": "TrafficCounter"
+  },
+  {
+    "sensor_id": "MultiSensor_Abdel_Aziz_Fahmy_segment_205_0470",
+    "numeric_id": 470,
+    "lat": 30.046428,
+    "lon": 31.000127,
+    "location_id": 205,
+    "install_date": "2021-04-25",
+    "status": "Active",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "TrafficCounter_Mohandessin_0471",
+    "numeric_id": 471,
+    "lat": 30.000391,
+    "lon": 31.268548,
+    "location_id": 245,
+    "install_date": "2025-04-07",
+    "status": "Active",
+    "sensor_type": "TrafficCounter"
+  },
+  {
+    "sensor_id": "Radar_Kamel_Ibrahim_segment_266_0472",
+    "numeric_id": 472,
+    "lat": 30.170021,
+    "lon": 31.196298,
+    "location_id": 266,
+    "install_date": "2025-10-07",
+    "status": "Active",
+    "sensor_type": "Radar"
+  },
+  {
+    "sensor_id": "MultiSensor_El_Tayaran_0473",
+    "numeric_id": 473,
+    "lat": 29.84384,
+    "lon": 31.070705,
+    "location_id": 423,
+    "install_date": "2025-03-15",
+    "status": "Under Maintenance",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "Radar_El_Shorouk_Road_0474",
+    "numeric_id": 474,
+    "lat": 29.980327,
+    "lon": 31.506711,
+    "location_id": 143,
+    "install_date": "2020-10-18",
+    "status": "Active",
+    "sensor_type": "Radar"
+  },
+  {
+    "sensor_id": "MultiSensor_Nasr_City_segment_633_0475",
+    "numeric_id": 475,
+    "lat": 30.052197,
+    "lon": 31.07497,
+    "location_id": 633,
+    "install_date": "2024-02-20",
+    "status": "Active",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "CCTV_Sayeda_Zeinab_0476",
+    "numeric_id": 476,
+    "lat": 30.152925,
+    "lon": 31.225678,
+    "location_id": 772,
+    "install_date": "2023-04-14",
+    "status": "Active",
+    "sensor_type": "CCTV"
+  },
+  {
+    "sensor_id": "CCTV_El_Tayaran_segment_902_0477",
+    "numeric_id": 477,
+    "lat": 29.840533,
+    "lon": 31.071075,
+    "location_id": 902,
+    "install_date": "2022-07-16",
+    "status": "Active",
+    "sensor_type": "CCTV"
+  },
+  {
+    "sensor_id": "Radar_Salah_Salem_segment_264_0478",
+    "numeric_id": 478,
+    "lat": 29.806757,
+    "lon": 31.283953,
+    "location_id": 264,
+    "install_date": "2022-02-13",
+    "status": "Active",
+    "sensor_type": "Radar"
+  },
+  {
+    "sensor_id": "Radar_El_Orouba_0479",
+    "numeric_id": 479,
+    "lat": 29.978201,
+    "lon": 31.426213,
+    "location_id": 730,
+    "install_date": "2022-02-27",
+    "status": "Active",
+    "sensor_type": "Radar"
+  },
+  {
+    "sensor_id": "Radar_26_July_0480",
+    "numeric_id": 480,
+    "lat": 30.065068,
+    "lon": 31.532012,
+    "location_id": 941,
+    "install_date": "2023-02-01",
+    "status": "Active",
+    "sensor_type": "Radar"
+  },
+  {
+    "sensor_id": "CCTV_Nasr_City_segment_589_0481",
+    "numeric_id": 481,
+    "lat": 30.046691,
+    "lon": 31.076202,
+    "location_id": 589,
+    "install_date": "2025-06-30",
+    "status": "Inactive",
+    "sensor_type": "CCTV"
+  },
+  {
+    "sensor_id": "Radar_Al_Rehab_Road_0482",
+    "numeric_id": 482,
+    "lat": 29.890662,
+    "lon": 31.031114,
+    "location_id": 582,
+    "install_date": "2024-04-06",
+    "status": "Active",
+    "sensor_type": "Radar"
+  },
+  {
+    "sensor_id": "Radar_El_Teseen_0483",
+    "numeric_id": 483,
+    "lat": 30.071066,
+    "lon": 31.071021,
+    "location_id": 452,
+    "install_date": "2021-11-04",
+    "status": "Active",
+    "sensor_type": "Radar"
+  },
+  {
+    "sensor_id": "MultiSensor_Giza_Corniche_0484",
+    "numeric_id": 484,
+    "lat": 29.779176,
+    "lon": 31.082842,
+    "location_id": 128,
+    "install_date": "2023-04-22",
+    "status": "Inactive",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "TrafficCounter_Salah_Salem_0485",
+    "numeric_id": 485,
+    "lat": 29.80708,
+    "lon": 31.284299,
+    "location_id": 177,
+    "install_date": "2020-10-31",
+    "status": "Active",
+    "sensor_type": "TrafficCounter"
+  },
+  {
+    "sensor_id": "TrafficCounter_Corniche_El_Nil_0486",
+    "numeric_id": 486,
+    "lat": 29.964915,
+    "lon": 31.450933,
+    "location_id": 47,
+    "install_date": "2024-03-19",
+    "status": "Inactive",
+    "sensor_type": "TrafficCounter"
+  },
+  {
+    "sensor_id": "MultiSensor_Salah_Salem_0487",
+    "numeric_id": 487,
+    "lat": 29.807427,
+    "lon": 31.284162,
+    "location_id": 937,
+    "install_date": "2021-12-12",
+    "status": "Active",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "CCTV_El_Nasr_Road_0488",
+    "numeric_id": 488,
+    "lat": 30.188708,
+    "lon": 31.540207,
+    "location_id": 7,
+    "install_date": "2025-03-11",
+    "status": "Under Maintenance",
+    "sensor_type": "CCTV"
+  },
+  {
+    "sensor_id": "MultiSensor_Al_Rehab_Road_segment_722_0489",
+    "numeric_id": 489,
+    "lat": 29.904726,
+    "lon": 31.031749,
+    "location_id": 722,
+    "install_date": "2024-09-13",
+    "status": "Active",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "Radar_Al_Haram_0490",
+    "numeric_id": 490,
+    "lat": 30.01246,
+    "lon": 31.231651,
+    "location_id": 118,
+    "install_date": "2021-09-17",
+    "status": "Active",
+    "sensor_type": "Radar"
+  },
+  {
+    "sensor_id": "MultiSensor_Tahrir_0491",
+    "numeric_id": 491,
+    "lat": 30.125838,
+    "lon": 31.221482,
+    "location_id": 86,
+    "install_date": "2022-04-04",
+    "status": "Active",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "Radar_Al_Amiriya_Road_0492",
+    "numeric_id": 492,
+    "lat": 30.130848,
+    "lon": 31.357893,
+    "location_id": 105,
+    "install_date": "2022-03-19",
+    "status": "Active",
+    "sensor_type": "Radar"
+  },
+  {
+    "sensor_id": "Radar_October_Corridor_0493",
+    "numeric_id": 493,
+    "lat": 29.942161,
+    "lon": 31.380823,
+    "location_id": 510,
+    "install_date": "2021-07-09",
+    "status": "Active",
+    "sensor_type": "Radar"
+  },
+  {
+    "sensor_id": "MultiSensor_Sayeda_Zeinab_0494",
+    "numeric_id": 494,
+    "lat": 30.1517,
+    "lon": 31.225914,
+    "location_id": 383,
+    "install_date": "2025-09-28",
+    "status": "Active",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "MultiSensor_El_Marg_segment_139_0495",
+    "numeric_id": 495,
+    "lat": 29.799957,
+    "lon": 31.429365,
+    "location_id": 139,
+    "install_date": "2024-04-20",
+    "status": "Active",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "TrafficCounter_Salah_Salem_segment_31_0496",
+    "numeric_id": 496,
+    "lat": 29.805847,
+    "lon": 31.284257,
+    "location_id": 31,
+    "install_date": "2021-10-14",
+    "status": "Active",
+    "sensor_type": "TrafficCounter"
+  },
+  {
+    "sensor_id": "MultiSensor_El_Geish_0497",
+    "numeric_id": 497,
+    "lat": 29.920116,
+    "lon": 31.321349,
+    "location_id": 438,
+    "install_date": "2024-07-02",
+    "status": "Active",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "MultiSensor_El_Omraniya_0498",
+    "numeric_id": 498,
+    "lat": 30.089063,
+    "lon": 31.229864,
+    "location_id": 832,
+    "install_date": "2025-02-10",
+    "status": "Under Maintenance",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "TrafficCounter_El_Geish_segment_284_0499",
+    "numeric_id": 499,
+    "lat": 29.917201,
+    "lon": 31.320227,
+    "location_id": 284,
+    "install_date": "2021-01-24",
+    "status": "Active",
+    "sensor_type": "TrafficCounter"
+  },
+  {
+    "sensor_id": "Radar_El_Sakkakini_0500",
+    "numeric_id": 500,
+    "lat": 29.850496,
+    "lon": 31.291481,
+    "location_id": 481,
+    "install_date": "2022-09-26",
+    "status": "Inactive",
+    "sensor_type": "Radar"
+  },
+  {
+    "sensor_id": "TrafficCounter_Al_Haram_segment_543_0501",
+    "numeric_id": 501,
+    "lat": 30.0116,
+    "lon": 31.230746,
+    "location_id": 543,
+    "install_date": "2023-08-31",
+    "status": "Active",
+    "sensor_type": "TrafficCounter"
+  },
+  {
+    "sensor_id": "MultiSensor_El_Nozha_segment_964_0502",
+    "numeric_id": 502,
+    "lat": 29.806743,
+    "lon": 31.067769,
+    "location_id": 964,
+    "install_date": "2023-09-20",
+    "status": "Active",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "MultiSensor_Gamaat_El_Dowal_0503",
+    "numeric_id": 503,
+    "lat": 30.167572,
+    "lon": 31.011566,
+    "location_id": 915,
+    "install_date": "2021-06-06",
+    "status": "Active",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "MultiSensor_El_Marg_0504",
+    "numeric_id": 504,
+    "lat": 29.79751,
+    "lon": 31.428849,
+    "location_id": 293,
+    "install_date": "2025-07-18",
+    "status": "Active",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "MultiSensor_El_Teseen_0505",
+    "numeric_id": 505,
+    "lat": 30.071008,
+    "lon": 31.071339,
+    "location_id": 754,
+    "install_date": "2023-09-13",
+    "status": "Active",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "CCTV_Gamaat_El_Dowal_0506",
+    "numeric_id": 506,
+    "lat": 30.168604,
+    "lon": 31.012346,
+    "location_id": 528,
+    "install_date": "2022-12-22",
+    "status": "Active",
+    "sensor_type": "CCTV"
+  },
+  {
+    "sensor_id": "MultiSensor_Sheikh_Zayed_Road_segment_195_0507",
+    "numeric_id": 507,
+    "lat": 29.953356,
+    "lon": 31.089106,
+    "location_id": 195,
+    "install_date": "2025-03-24",
+    "status": "Active",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "Radar_El_Nasr_Road_segment_695_0508",
+    "numeric_id": 508,
+    "lat": 30.186697,
+    "lon": 31.541046,
+    "location_id": 695,
+    "install_date": "2021-04-18",
+    "status": "Active",
+    "sensor_type": "Radar"
+  },
+  {
+    "sensor_id": "CCTV_El_Sakkakini_segment_662_0509",
+    "numeric_id": 509,
+    "lat": 29.854004,
+    "lon": 31.290695,
+    "location_id": 662,
+    "install_date": "2024-01-22",
+    "status": "Active",
+    "sensor_type": "CCTV"
+  },
+  {
+    "sensor_id": "MultiSensor_Mohandessin_segment_981_0510",
+    "numeric_id": 510,
+    "lat": 30.005563,
+    "lon": 31.269263,
+    "location_id": 981,
+    "install_date": "2022-12-22",
+    "status": "Inactive",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "TrafficCounter_Nasr_City_segment_680_0511",
+    "numeric_id": 511,
+    "lat": 30.051461,
+    "lon": 31.075397,
+    "location_id": 680,
+    "install_date": "2024-10-26",
+    "status": "Under Maintenance",
+    "sensor_type": "TrafficCounter"
+  },
+  {
+    "sensor_id": "MultiSensor_El_Qahera_Street_segment_120_0512",
+    "numeric_id": 512,
+    "lat": 29.878419,
+    "lon": 31.337911,
+    "location_id": 120,
+    "install_date": "2025-06-04",
+    "status": "Active",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "CCTV_El_Orouba_0513",
+    "numeric_id": 513,
+    "lat": 29.973302,
+    "lon": 31.426162,
+    "location_id": 290,
+    "install_date": "2023-01-16",
+    "status": "Active",
+    "sensor_type": "CCTV"
+  },
+  {
+    "sensor_id": "MultiSensor_Masr_El_Gedida_0514",
+    "numeric_id": 514,
+    "lat": 29.992339,
+    "lon": 31.327982,
+    "location_id": 371,
+    "install_date": "2022-01-27",
+    "status": "Under Maintenance",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "CCTV_Giza_Corniche_segment_75_0515",
+    "numeric_id": 515,
+    "lat": 29.777762,
+    "lon": 31.082258,
+    "location_id": 75,
+    "install_date": "2024-11-21",
+    "status": "Active",
+    "sensor_type": "CCTV"
+  },
+  {
+    "sensor_id": "MultiSensor_Masr_El_Gedida_0516",
+    "numeric_id": 516,
+    "lat": 29.98509,
+    "lon": 31.328715,
+    "location_id": 783,
+    "install_date": "2025-01-04",
+    "status": "Active",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "MultiSensor_El_Orouba_0517",
+    "numeric_id": 517,
+    "lat": 29.978087,
+    "lon": 31.426708,
+    "location_id": 462,
+    "install_date": "2021-10-27",
+    "status": "Under Maintenance",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "Radar_El_Nozha_0518",
+    "numeric_id": 518,
+    "lat": 29.801872,
+    "lon": 31.066922,
+    "location_id": 21,
+    "install_date": "2023-06-09",
+    "status": "Active",
+    "sensor_type": "Radar"
+  },
+  {
+    "sensor_id": "TrafficCounter_6th_October_Bridge_0519",
+    "numeric_id": 519,
+    "lat": 29.852985,
+    "lon": 31.194467,
+    "location_id": 82,
+    "install_date": "2024-03-27",
+    "status": "Active",
+    "sensor_type": "TrafficCounter"
+  },
+  {
+    "sensor_id": "TrafficCounter_Ramses_0520",
+    "numeric_id": 520,
+    "lat": 29.956866,
+    "lon": 31.41065,
+    "location_id": 999,
+    "install_date": "2021-01-30",
+    "status": "Under Maintenance",
+    "sensor_type": "TrafficCounter"
+  },
+  {
+    "sensor_id": "Radar_Smart_Village_Road_0521",
+    "numeric_id": 521,
+    "lat": 29.776379,
+    "lon": 31.532274,
+    "location_id": 917,
+    "install_date": "2024-03-16",
+    "status": "Active",
+    "sensor_type": "Radar"
+  },
+  {
+    "sensor_id": "MultiSensor_El_Maadi_Corniche_segment_927_0522",
+    "numeric_id": 522,
+    "lat": 29.80785,
+    "lon": 31.32893,
+    "location_id": 927,
+    "install_date": "2023-05-28",
+    "status": "Active",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "Radar_Moustafa_Kamel_0523",
+    "numeric_id": 523,
+    "lat": 30.190703,
+    "lon": 31.120263,
+    "location_id": 932,
+    "install_date": "2024-01-24",
+    "status": "Inactive",
+    "sensor_type": "Radar"
+  },
+  {
+    "sensor_id": "TrafficCounter_El_Orouba_segment_130_0524",
+    "numeric_id": 524,
+    "lat": 29.976566,
+    "lon": 31.425543,
+    "location_id": 130,
+    "install_date": "2021-01-14",
+    "status": "Active",
+    "sensor_type": "TrafficCounter"
+  },
+  {
+    "sensor_id": "TrafficCounter_El_Nasr_Road_0525",
+    "numeric_id": 525,
+    "lat": 30.190598,
+    "lon": 31.541401,
+    "location_id": 561,
+    "install_date": "2025-03-16",
+    "status": "Active",
+    "sensor_type": "TrafficCounter"
+  },
+  {
+    "sensor_id": "MultiSensor_Heliopolis_Avenue_0526",
+    "numeric_id": 526,
+    "lat": 30.102409,
+    "lon": 31.372637,
+    "location_id": 524,
+    "install_date": "2024-03-22",
+    "status": "Active",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "TrafficCounter_Masr_El_Gedida_0527",
+    "numeric_id": 527,
+    "lat": 29.986929,
+    "lon": 31.329476,
+    "location_id": 303,
+    "install_date": "2025-03-31",
+    "status": "Active",
+    "sensor_type": "TrafficCounter"
+  },
+  {
+    "sensor_id": "TrafficCounter_El_Nozha_0528",
+    "numeric_id": 528,
+    "lat": 29.804166,
+    "lon": 31.068302,
+    "location_id": 989,
+    "install_date": "2021-01-01",
+    "status": "Under Maintenance",
+    "sensor_type": "TrafficCounter"
+  },
+  {
+    "sensor_id": "MultiSensor_Gamaat_El_Dowal_0529",
+    "numeric_id": 529,
+    "lat": 30.166844,
+    "lon": 31.011764,
+    "location_id": 727,
+    "install_date": "2020-12-08",
+    "status": "Active",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "MultiSensor_Smart_Village_Road_segment_208_0530",
+    "numeric_id": 530,
+    "lat": 29.781543,
+    "lon": 31.532384,
+    "location_id": 208,
+    "install_date": "2022-04-13",
+    "status": "Active",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "MultiSensor_Heliopolis_Avenue_0531",
+    "numeric_id": 531,
+    "lat": 30.106233,
+    "lon": 31.372455,
+    "location_id": 637,
+    "install_date": "2021-04-29",
+    "status": "Active",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "CCTV_Giza_Corniche_segment_797_0532",
+    "numeric_id": 532,
+    "lat": 29.778847,
+    "lon": 31.082749,
+    "location_id": 797,
+    "install_date": "2022-02-15",
+    "status": "Active",
+    "sensor_type": "CCTV"
+  },
+  {
+    "sensor_id": "MultiSensor_Sheikh_Zayed_Road_0533",
+    "numeric_id": 533,
+    "lat": 29.952677,
+    "lon": 31.089364,
+    "location_id": 136,
+    "install_date": "2023-12-31",
+    "status": "Active",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "MultiSensor_Nasr_City_0534",
+    "numeric_id": 534,
+    "lat": 30.051237,
+    "lon": 31.074591,
+    "location_id": 492,
+    "install_date": "2021-05-16",
+    "status": "Active",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "CCTV_6th_October_Bridge_0535",
+    "numeric_id": 535,
+    "lat": 29.864692,
+    "lon": 31.194027,
+    "location_id": 419,
+    "install_date": "2021-07-02",
+    "status": "Inactive",
+    "sensor_type": "CCTV"
+  },
+  {
+    "sensor_id": "MultiSensor_Masr_El_Gedida_segment_646_0536",
+    "numeric_id": 536,
+    "lat": 29.98468,
+    "lon": 31.329221,
+    "location_id": 646,
+    "install_date": "2022-02-17",
+    "status": "Active",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "Radar_Abbass_Al_Akkad_0537",
+    "numeric_id": 537,
+    "lat": 29.803205,
+    "lon": 31.019414,
+    "location_id": 76,
+    "install_date": "2025-02-20",
+    "status": "Active",
+    "sensor_type": "Radar"
+  },
+  {
+    "sensor_id": "MultiSensor_El_Omraniya_0538",
+    "numeric_id": 538,
+    "lat": 30.087861,
+    "lon": 31.231059,
+    "location_id": 769,
+    "install_date": "2021-03-27",
+    "status": "Active",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "CCTV_Corniche_El_Nil_segment_866_0539",
+    "numeric_id": 539,
+    "lat": 29.968277,
+    "lon": 31.451039,
+    "location_id": 866,
+    "install_date": "2021-01-20",
+    "status": "Active",
+    "sensor_type": "CCTV"
+  },
+  {
+    "sensor_id": "Radar_Nasr_City_0540",
+    "numeric_id": 540,
+    "lat": 30.049831,
+    "lon": 31.074899,
+    "location_id": 432,
+    "install_date": "2023-03-12",
+    "status": "Active",
+    "sensor_type": "Radar"
+  },
+  {
+    "sensor_id": "MultiSensor_Dokki_0541",
+    "numeric_id": 541,
+    "lat": 30.003835,
+    "lon": 31.046334,
+    "location_id": 41,
+    "install_date": "2023-09-23",
+    "status": "Active",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "MultiSensor_Ramses_0542",
+    "numeric_id": 542,
+    "lat": 29.956707,
+    "lon": 31.410151,
+    "location_id": 651,
+    "install_date": "2022-12-02",
+    "status": "Active",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "TrafficCounter_Al_Amiriya_Road_0543",
+    "numeric_id": 543,
+    "lat": 30.133662,
+    "lon": 31.357641,
+    "location_id": 228,
+    "install_date": "2024-09-27",
+    "status": "Active",
+    "sensor_type": "TrafficCounter"
+  },
+  {
+    "sensor_id": "TrafficCounter_El_Nasr_Road_0544",
+    "numeric_id": 544,
+    "lat": 30.188919,
+    "lon": 31.540822,
+    "location_id": 260,
+    "install_date": "2023-02-27",
+    "status": "Active",
+    "sensor_type": "TrafficCounter"
+  },
+  {
+    "sensor_id": "CCTV_El_Mokattam_0545",
+    "numeric_id": 545,
+    "lat": 29.879318,
+    "lon": 31.175307,
+    "location_id": 453,
+    "install_date": "2025-07-05",
+    "status": "Active",
+    "sensor_type": "CCTV"
+  },
+  {
+    "sensor_id": "Radar_Ring_Road_0546",
+    "numeric_id": 546,
+    "lat": 30.145843,
+    "lon": 31.440965,
+    "location_id": 907,
+    "install_date": "2025-07-05",
+    "status": "Active",
+    "sensor_type": "Radar"
+  },
+  {
+    "sensor_id": "MultiSensor_El_Teseen_0547",
+    "numeric_id": 547,
+    "lat": 30.069726,
+    "lon": 31.070968,
+    "location_id": 916,
+    "install_date": "2022-12-18",
+    "status": "Active",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "MultiSensor_Wahat_Road_0548",
+    "numeric_id": 548,
+    "lat": 29.800667,
+    "lon": 31.012293,
+    "location_id": 843,
+    "install_date": "2022-11-02",
+    "status": "Active",
+    "sensor_type": "MultiSensor"
+  },
+  {
+    "sensor_id": "Radar_El_Orouba_segment_391_0549",
+    "numeric_id": 549,
+    "lat": 29.980473,
+    "lon": 31.425182,
+    "location_id": 391,
+    "install_date": "2023-02-11",
+    "status": "Active",
+    "sensor_type": "Radar"
+  },
+  {
+    "sensor_id": "CCTV_Mohandessin_0550",
+    "numeric_id": 550,
+    "lat": 30.000289,
+    "lon": 31.269071,
+    "location_id": 380,
+    "install_date": "2024-05-31",
+    "status": "Active",
+    "sensor_type": "CCTV"
+  }
+]

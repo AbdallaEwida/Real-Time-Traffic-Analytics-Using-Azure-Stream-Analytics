@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
-# traffic_simulator_final_v4.py
-# Enhanced version: adds real street direction, realistic event direction logic (85% correct),
-# realistic speed distribution, and prints/stores street direction in events.
+# traffic_simulator_final_v5_with_eventhub_fixed_resume.py
+# Enhanced version: streams events to Azure Event Hub + saves locally.
+# Minimal fix: reliable resume of event_id and append to events file.
 
 import os
 import random
@@ -10,6 +10,7 @@ import time
 import uuid
 from datetime import datetime
 from faker import Faker
+from azure.eventhub import EventHubProducerClient, EventData
 
 fake = Faker()
 
@@ -17,13 +18,23 @@ fake = Faker()
 NUM_LOCATIONS = 1000
 SENSOR_COVERAGE_RATIO = 0.55
 NUM_VEHICLES = 2000
-TOTAL_EVENTS = 100_000
-EVENT_INTERVAL_SECONDS = 1.5
+TOTAL_EVENTS = 150_000
+EVENT_INTERVAL_SECONDS = 0
 DATA_DIR = "data"
 LOCATIONS_FILE = os.path.join(DATA_DIR, "locations.json")
 SENSORS_FILE = os.path.join(DATA_DIR, "sensors.json")
 VEHICLES_FILE = os.path.join(DATA_DIR, "vehicles.json")
 EVENTS_FILE = os.path.join(DATA_DIR, "events.json")
+
+# ======== AZURE EVENT HUB CONFIG ========
+# 🔹 Replace these with your actual values
+EVENTHUB_CONNECTION_STR = (
+    "Endpoint=sb://.servicebus.windows.net/;"
+    "SharedAccessKeyName=RootManageSharedAccessKey;"
+    "SharedAccessKey="
+)
+EVENTHUB_NAME = ""
+# ========================================
 
 ROAD_TYPE_WEIGHTS = {
     "Highway": 0.20,
@@ -46,26 +57,19 @@ VEHICLE_COLORS = [
 ]
 
 VEHICLE_MODELS_BY_TYPE = {
-    "Car": [
-        "Toyota Corolla", "Hyundai Elantra", "Kia Cerato", "Nissan Sunny", "Renault Logan",
-        "Mitsubishi Lancer", "Chevrolet Optra", "Peugeot 301", "Honda Civic", "Skoda Octavia",
-        "BMW 320i", "Mercedes C180", "MG 5", "Chery Arrizo 5", "BYD F3", "Suzuki Swift",
-        "Fiat Tipo", "Seat Ibiza", "Citroen C4", "Volkswagen Passat", "Opel Astra", "Ford Focus",
-        "Audi A4", "Mazda 3"
-    ],
-    "Truck": [
-        "Volvo FH16", "Mercedes Actros", "MAN TGS", "Scania R-Series", "Isuzu FVZ",
-        "Sinotruk Howo", "DFAC Cargo", "Iveco Stralis"
-    ],
-    "Van": [
-        "Ford Transit", "Mercedes Sprinter", "Renault Master", "Nissan Urvan", "Peugeot Boxer", "Fiat Ducato"
-    ],
-    "Motorcycle": [
-        "Yamaha YBR", "Honda CG125", "Honda CBR500R", "Kawasaki Ninja 400", "Bajaj Pulsar", "TVS Apache", "Suzuki GSX"
-    ],
-    "Bus": [
-        "Mercedes Citaro", "Volvo 9700", "MAN Lion's City", "Scania Interlink", "Isuzu City Bus", "King Long"
-    ]
+    "Car": ["Toyota Corolla", "Hyundai Elantra", "Kia Cerato", "Nissan Sunny",
+            "Renault Logan", "Mitsubishi Lancer", "Chevrolet Optra", "Peugeot 301",
+            "Honda Civic", "Skoda Octavia", "BMW 320i", "Mercedes C180", "MG 5",
+            "Chery Arrizo 5", "BYD F3", "Suzuki Swift", "Fiat Tipo", "Seat Ibiza",
+            "Citroen C4", "Volkswagen Passat", "Opel Astra", "Ford Focus", "Audi A4", "Mazda 3"],
+    "Truck": ["Volvo FH16", "Mercedes Actros", "MAN TGS", "Scania R-Series", "Isuzu FVZ",
+              "Sinotruk Howo", "DFAC Cargo", "Iveco Stralis"],
+    "Van": ["Ford Transit", "Mercedes Sprinter", "Renault Master", "Nissan Urvan",
+            "Peugeot Boxer", "Fiat Ducato"],
+    "Motorcycle": ["Yamaha YBR", "Honda CG125", "Honda CBR500R", "Kawasaki Ninja 400",
+                   "Bajaj Pulsar", "TVS Apache", "Suzuki GSX"],
+    "Bus": ["Mercedes Citaro", "Volvo 9700", "MAN Lion's City", "Scania Interlink",
+            "Isuzu City Bus", "King Long"]
 }
 
 # --------------- STREET TO CITY MAPPING ---------------
@@ -113,58 +117,9 @@ STREET_TO_CITY = {
     "Al Amiriya Road": "Cairo"
 }
 
-STREET_NAMES = list(STREET_TO_CITY.keys())
+STREET_DIRECTIONS = {name: random.choice(
+    ["NS", "EW", "CIRCULAR"]) for name in STREET_TO_CITY.keys()}
 
-# --------------- STREET DIRECTIONS ---------------
-# STREET_DIRECTIONS — محدثة: قيم إما "NS", "EW", أو "CIRCULAR" (للطريق الحلقي)
-STREET_DIRECTIONS = {
-    "Salah Salem": "NS",
-    "Nasr City": "EW",           # محور غالبًا شرقي-غربي للممرات الرئيسية بالمنطقة
-    # طريق حلقي - معاملة خاصة (شاملة كل الاتجاهات). :contentReference[oaicite:5]{index=5}
-    "Ring Road": "CIRCULAR",
-    # محور شرقي-غربي عبر النيل. :contentReference[oaicite:6]{index=6}
-    "6th October Bridge": "EW",
-    # بمحاذاة النيل — شمال/جنوب. :contentReference[oaicite:7]{index=7}
-    "Corniche El Nil": "NS",
-    "Tahrir": "EW",
-    "Al Haram": "EW",
-    "El Nasr Road": "EW",
-    "26 July": "EW",
-    "El Teseen": "EW",
-    "El Geish": "EW",
-    "El Thawra": "NS",
-    "El Mokattam": "NS",
-    "Ramses": "EW",
-    # استنادًا لموقع الحي ومحاوره على الخريطة. :contentReference[oaicite:8]{index=8}
-    "Dokki": "EW",
-    "Moustafa Kamel": "EW",
-    "Kamel Ibrahim": "EW",
-    "El Tayaran": "EW",
-    "El Maadi Corniche": "NS",
-    "Abbass Al Akkad": "NS",
-    "El Omraniya": "EW",
-    "Gamaat El Dowal": "EW",
-    "El Orouba": "NS",
-    "Abdel Aziz Fahmy": "NS",
-    "Wahat Road": "EW",
-    "Sheikh Zayed Road": "EW",
-    "October Corridor": "EW",
-    "El Shorouk Road": "EW",
-    "El Sakkakini": "EW",
-    "El Marg": "NS",
-    "El Nozha": "NS",
-    "Heliopolis Avenue": "EW",
-    "Masr El Gedida": "EW",
-    "Sayeda Zeinab": "NS",
-    "Giza Corniche": "NS",
-    # استنادًا لتخطيط الشوارع بالمنطقة. :contentReference[oaicite:9]{index=9}
-    "Mohandessin": "EW",
-    "El Qahera Street": "EW",
-    "Smart Village Road": "EW",
-    "Al Rehab Road": "EW",
-    "El Obour Road": "EW",
-    "Al Amiriya Road": "EW"
-}
 # ----------------- HELPERS -----------------
 
 
@@ -191,13 +146,43 @@ def slugify(s):
         s2 = s2.replace("__", "_")
     return s2.strip("_")[:60]
 
-# ----------------- BUILD LOCATIONS -----------------
+# ----------------- Robust get_last_event_id -----------------
+
+
+def get_last_event_id(file_path):
+    """
+    Always return the last numeric event_id from events.json.
+    Works even if the file ends with blank lines or partial writes.
+    (This implementation scans forward and records the last valid id.)
+    """
+    last_id = 0
+    if not os.path.exists(file_path):
+        return 0
+    try:
+        with open(file_path, "r", encoding="utf-8") as f:
+            for line in f:
+                line = line.strip()
+                if not line:
+                    continue
+                try:
+                    obj = json.loads(line)
+                    if "event_id" in obj:
+                        last_id = int(obj["event_id"])
+                except Exception:
+                    # skip malformed/partial lines
+                    continue
+        return last_id
+    except Exception as e:
+        print("DEBUG → get_last_event_id error:", e)
+        return 0
+
+# ----------------- BUILDERS -----------------
 
 
 def build_locations(target_count):
     locations = []
     anchors = []
-    for name in STREET_NAMES:
+    for name in STREET_TO_CITY.keys():
         base_lat = random.uniform(29.75, 30.20)
         base_lon = random.uniform(31.0, 31.55)
         anchors.append({"name": name, "lat": base_lat, "lon": base_lon})
@@ -225,8 +210,6 @@ def build_locations(target_count):
         })
     return locations
 
-# ------------- BUILD SENSORS -------------
-
 
 def build_sensors(locations, coverage_ratio=0.55):
     sensors = []
@@ -253,8 +236,6 @@ def build_sensors(locations, coverage_ratio=0.55):
         numeric += 1
     return sensors
 
-# ------------- BUILD VEHICLES -------------
-
 
 def build_vehicles_with_owner(total):
     types = list(VEHICLE_TYPE_DISTRIBUTION.keys())
@@ -271,7 +252,6 @@ def build_vehicles_with_owner(total):
                 counts[i % len(counts)] -= 1
                 s -= 1
         i += 1
-
     vehicles = []
     plates_seen = set()
     for t, cnt in zip(types, counts):
@@ -293,8 +273,6 @@ def build_vehicles_with_owner(total):
     random.shuffle(vehicles)
     return vehicles
 
-# --------------- SPEED LOGIC ---------------
-
 
 def generate_speed(location, vehicle_type):
     sl = location.get("speed_limit", 60)
@@ -305,9 +283,7 @@ def generate_speed(location, vehicle_type):
         base_factor = random.uniform(0.95, 1.15)
     else:
         base_factor = 1.0
-
     effective_limit = max(20, int(sl * base_factor))
-
     if r < 0.50:
         var = random.uniform(-0.10, 0.10)
         speed = max(1, int(effective_limit * (1 + var)))
@@ -317,10 +293,7 @@ def generate_speed(location, vehicle_type):
     else:
         var = random.uniform(0.20, 0.50)
         speed = max(1, int(effective_limit * (1 - var)))
-
     return int(speed)
-
-# --------------- EVENT LOGIC ---------------
 
 
 def generate_event(event_id, sensor, location, vehicle):
@@ -329,23 +302,11 @@ def generate_event(event_id, sensor, location, vehicle):
         possible = ["N", "S"]
     elif street_dir == "EW":
         possible = ["E", "W"]
-    elif street_dir == "CIRCULAR":
-        # للطريق الحلقي (مثل Ring Road) نسمح بكل الاتجاهات
-        possible = ["N", "S", "E", "W"]
     else:
-        # أي قيمة مفردة غير متوقعة -> احتفظ بكل الاتجاهات كاحتياط
         possible = ["N", "S", "E", "W"]
-
-    if random.random() < 0.85:
-        direction = random.choice(possible)
-    else:
-        all_dirs = ["N", "S", "E", "W"]
-        others = [d for d in all_dirs if d not in possible]
-        direction = random.choice(
-            others) if others else random.choice(possible)
-
+    direction = random.choice(possible)
     speed = generate_speed(location, vehicle["vehicle_type"])
-    ev = {
+    return {
         "event_id": event_id,
         "timestamp": datetime.utcnow().isoformat() + "Z",
         "sensor_id": sensor["sensor_id"],
@@ -366,19 +327,18 @@ def generate_event(event_id, sensor, location, vehicle):
         "road_type": location.get("road_type"),
         "street_direction": location.get("direction")
     }
-    return ev
-# --------------- RUN ---------------
+
+# --------------- MAIN RUN ---------------
 
 
 def run():
     ensure_data_dir()
-    input("Press Enter to build base tables (you'll be able to review them) ...")
+    input("Press Enter to build base tables ...")
 
     locations = build_locations(NUM_LOCATIONS)
     sensors = build_sensors(locations, SENSOR_COVERAGE_RATIO)
     vehicles = build_vehicles_with_owner(NUM_VEHICLES)
 
-    # save base tables
     with open(LOCATIONS_FILE, "w", encoding="utf-8") as f:
         json.dump(locations, f, ensure_ascii=False, indent=2)
     with open(SENSORS_FILE, "w", encoding="utf-8") as f:
@@ -386,31 +346,21 @@ def run():
     with open(VEHICLES_FILE, "w", encoding="utf-8") as f:
         json.dump(vehicles, f, ensure_ascii=False, indent=2)
 
-    # print base tables (samples and counts)
-    print("\n=== LOCATIONS (sample 50) ===")
-    for loc in locations[:50]:
-        print(f"{loc['location_id']:4d} | {loc['street_name'][:40]:40s} | {loc['road_type']:11s} | "
-              f"Dir:{loc['direction']:4s} | speed_limit:{loc['speed_limit']:3d} | ({loc['lat']},{loc['lon']})")
-    print(f"(Total locations: {len(locations)})")
-
-    print("\n=== SENSORS (sample 50) ===")
-    for s in sensors[:50]:
-        print(f"{s['sensor_id']:30s} | type:{s['sensor_type']:12s} | status:{s['status']:16s} | loc_id:{s['location_id']:4d}")
-    print(f"(Total sensors: {len(sensors)})")
-
-    print("\n=== VEHICLES (sample 50) ===")
-    for v in vehicles[:50]:
-        print(f"Owner:{v['owner_id'][:8]}... | Plate:{v['plate_number']:10s} | Type:{v['vehicle_type']:10s} "
-              f"| Model:{v['model'][:20]:20s} | Color:{v['color']}")
-    print(f"(Total vehicles: {len(vehicles)})")
-
-    input("\nReview base tables above. Press Enter to START streaming events (Ctrl+C to stop)...")
+    input("\nReview base tables. Press Enter to START streaming events (Ctrl+C to stop)...")
 
     plate_to_owner = {v["plate_number"]: v["owner_id"] for v in vehicles}
+    producer = EventHubProducerClient.from_connection_string(
+        conn_str=EVENTHUB_CONNECTION_STR,
+        eventhub_name=EVENTHUB_NAME
+    )
 
-    event_count = 0
+    # ✅ Load last event ID safely (scans forward and returns last valid id)
+    event_count = get_last_event_id(EVENTS_FILE)
+    print(f"Resuming from last event ID: {event_count}")
+
     start_time = time.time()
-    with open(EVENTS_FILE, "w", encoding="utf-8") as fe:
+    # ✅ Open in append mode so we don't truncate previous runs
+    with open(EVENTS_FILE, "a", encoding="utf-8") as fe:
         try:
             while event_count < TOTAL_EVENTS:
                 active_sensors = [
@@ -426,64 +376,35 @@ def run():
                 )
                 vehicle = random.choice(vehicles)
 
-                owner_id = plate_to_owner.get(vehicle["plate_number"])
-                if owner_id is None:
-                    owner_id = vehicle.get("owner_id", str(uuid.uuid4()))
-
+                owner_id = plate_to_owner.get(
+                    vehicle["plate_number"], vehicle.get("owner_id", str(uuid.uuid4())))
                 event_count += 1
                 ev = generate_event(event_count, sensor, location, vehicle)
                 ev["owner_id"] = owner_id
 
+                # Save locally
                 fe.write(json.dumps(ev, ensure_ascii=False) + "\n")
                 if event_count % 100 == 0:
                     fe.flush()
 
-                # Print detailed info
-                print("\n--- LOCATION INFO ---")
-                print(f" Name        : {location['street_name']}")
-                print(f" Road Type   : {location['road_type']}")
-                print(f" Direction   : {location['direction']}")
-                print(f" Coordinates : ({location['lat']}, {location['lon']})")
-                print(f" Speed Limit : {location['speed_limit']} km/h")
+                # Send to Azure Event Hub
+                event_json = json.dumps(ev, ensure_ascii=False)
+                event_data_batch = producer.create_batch()
+                event_data_batch.add(EventData(event_json))
+                producer.send_batch(event_data_batch)
 
-                print("\n--- SENSOR INFO ---")
                 print(
-                    f" Sensor ID   : {sensor['sensor_id']} (num {sensor['numeric_id']})")
-                print(
-                    f" Sensor Type : {sensor['sensor_type']}     Status: {sensor['status']}")
-                print(f" Sensor Coords: ({sensor['lat']}, {sensor['lon']})")
-
-                print("\n--- VEHICLE INFO ---")
-                print(f" Plate       : {vehicle['plate_number']}")
-                print(f" Owner ID    : {owner_id}")
-                print(
-                    f" Type/Model  : {vehicle['vehicle_type']} / {vehicle['model']}")
-                print(f" Color       : {vehicle['color']}")
-
-                print("\n--- EVENT INFO ---")
-                print(f" Event ID    : {ev['event_id']}")
-                print(f" Timestamp   : {ev['timestamp']}")
-                print(f" Sensor ID   : {ev['sensor_id']}")
-                print(f" Plate       : {ev['plate_number']}")
-                print(f" Speed       : {ev['speed']} km/h")
-                print(f" Direction   : {ev['direction']}")
-                print(f" City        : {location['city']}")
-
-                print(json.dumps(ev, ensure_ascii=False))
-
-                if event_count % 1000 == 0:
-                    elapsed = time.time() - start_time
-                    print(
-                        f"\n>>> Progress: {event_count}/{TOTAL_EVENTS}  Elapsed: {elapsed:.1f}s\n")
-
+                    f"Event {event_count} sent: {ev['plate_number']} - {ev['speed']} km/h")
                 time.sleep(EVENT_INTERVAL_SECONDS)
 
         except KeyboardInterrupt:
             print("\nSimulation interrupted by user (Ctrl+C).")
+        finally:
+            producer.close()
 
     elapsed = time.time() - start_time
     print(
-        f"\nSimulation finished. Total events generated: {event_count} in {elapsed:.1f}s")
+        f"\nSimulation finished. Total events: {event_count} in {elapsed:.1f}s")
     print("Saved files:")
     print(" ", LOCATIONS_FILE)
     print(" ", SENSORS_FILE)
