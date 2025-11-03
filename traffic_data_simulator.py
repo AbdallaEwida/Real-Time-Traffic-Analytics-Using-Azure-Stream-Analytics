@@ -19,7 +19,7 @@ NUM_LOCATIONS = 1000
 SENSOR_COVERAGE_RATIO = 0.55
 NUM_VEHICLES = 2000
 TOTAL_EVENTS = 150_000
-EVENT_INTERVAL_SECONDS = 0
+EVENT_INTERVAL_SECONDS = 0.25
 DATA_DIR = "data"
 LOCATIONS_FILE = os.path.join(DATA_DIR, "locations.json")
 SENSORS_FILE = os.path.join(DATA_DIR, "sensors.json")
@@ -325,7 +325,8 @@ def generate_event(event_id, sensor, location, vehicle):
         "location_lat": location["lat"],
         "location_lon": location["lon"],
         "road_type": location.get("road_type"),
-        "street_direction": location.get("direction")
+        "street_direction": location.get("direction"),
+        "speed_limit": location.get("speed_limit")
     }
 
 # --------------- MAIN RUN ---------------

@@ -1,0 +1,74 @@
+[
+  {
+    "WindowEnd": "2025-11-03T12:36:00.0000000+00:00",
+    "location_id": "520",
+    "location_name": "Ramses",
+    "road_type": "Bridge",
+    "vehicle_count": "3",
+    "avg_speed": "27.666666666666668",
+    "speed_limit_in_area": "50"
+  },
+  {
+    "WindowEnd": "2025-11-03T13:08:30.0000000+00:00",
+    "location_id": "578",
+    "location_name": "Heliopolis Avenue (segment 578)",
+    "road_type": "Highway",
+    "vehicle_count": "3",
+    "avg_speed": "31",
+    "speed_limit_in_area": "60"
+  },
+  {
+    "WindowEnd": "2025-11-03T13:54:30.0000000+00:00",
+    "location_id": "944",
+    "location_name": "El Marg (segment 944)",
+    "road_type": "Bridge",
+    "vehicle_count": "3",
+    "avg_speed": "23.333333333333332",
+    "speed_limit_in_area": "40"
+  },
+  {
+    "WindowEnd": "2025-11-03T13:55:00.0000000+00:00",
+    "location_id": "944",
+    "location_name": "El Marg (segment 944)",
+    "road_type": "Bridge",
+    "vehicle_count": "4",
+    "avg_speed": "23.5",
+    "speed_limit_in_area": "40"
+  },
+  {
+    "WindowEnd": "2025-11-03T15:01:00.0000000+00:00",
+    "location_id": "336",
+    "location_name": "El Teseen (segment 336)",
+    "road_type": "Highway",
+    "vehicle_count": "3",
+    "avg_speed": "23.666666666666668",
+    "speed_limit_in_area": "40"
+  },
+  {
+    "WindowEnd": "2025-11-03T15:01:30.0000000+00:00",
+    "location_id": "607",
+    "location_name": "6th October Bridge",
+    "road_type": "Intersection",
+    "vehicle_count": "3",
+    "avg_speed": "30.333333333333332",
+    "speed_limit_in_area": "60"
+  },
+  {
+    "WindowEnd": "2025-11-03T15:05:00.0000000+00:00",
+    "location_id": "899",
+    "location_name": "Ring Road (segment 899)",
+    "road_type": "Main Road",
+    "vehicle_count": "3",
+    "avg_speed": "34",
+    "speed_limit_in_area": "60"
+  },
+  {
+    "WindowEnd": "2025-11-03T15:21:00.0000000+00:00",
+    "location_id": "497",
+    "location_name": "Dokki (segment 497)",
+    "road_type": "Intersection",
+    "vehicle_count": "3",
+    "avg_speed": "23.666666666666668",
+    "speed_limit_in_area": "40"
+  }
+]

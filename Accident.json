@@ -1,0 +1,346 @@
+[
+  {
+    "WindowEnd": "2025-11-03T12:31:00.0000000+00:00",
+    "location_id": "179",
+    "location_name": "El Thawra",
+    "risky_vehicle_count": "2",
+    "avg_speed": "115",
+    "speed_limit_in_area": "80"
+  },
+  {
+    "WindowEnd": "2025-11-03T12:36:00.0000000+00:00",
+    "location_id": "650",
+    "location_name": "Al Amiriya Road",
+    "risky_vehicle_count": "2",
+    "avg_speed": "146.5",
+    "speed_limit_in_area": "100"
+  },
+  {
+    "WindowEnd": "2025-11-03T12:39:00.0000000+00:00",
+    "location_id": "960",
+    "location_name": "Ramses",
+    "risky_vehicle_count": "2",
+    "avg_speed": "116",
+    "speed_limit_in_area": "80"
+  },
+  {
+    "WindowEnd": "2025-11-03T12:45:00.0000000+00:00",
+    "location_id": "790",
+    "location_name": "El Nozha",
+    "risky_vehicle_count": "2",
+    "avg_speed": "58.5",
+    "speed_limit_in_area": "40"
+  },
+  {
+    "WindowEnd": "2025-11-03T12:43:00.0000000+00:00",
+    "location_id": "435",
+    "location_name": "Gamaat El Dowal",
+    "risky_vehicle_count": "2",
+    "avg_speed": "116.5",
+    "speed_limit_in_area": "80"
+  },
+  {
+    "WindowEnd": "2025-11-03T12:44:00.0000000+00:00",
+    "location_id": "249",
+    "location_name": "Al Rehab Road",
+    "risky_vehicle_count": "2",
+    "avg_speed": "58",
+    "speed_limit_in_area": "40"
+  },
+  {
+    "WindowEnd": "2025-11-03T12:55:00.0000000+00:00",
+    "location_id": "430",
+    "location_name": "Giza Corniche (segment 430)",
+    "risky_vehicle_count": "2",
+    "avg_speed": "117.5",
+    "speed_limit_in_area": "80"
+  },
+  {
+    "WindowEnd": "2025-11-03T12:54:00.0000000+00:00",
+    "location_id": "435",
+    "location_name": "Gamaat El Dowal",
+    "risky_vehicle_count": "2",
+    "avg_speed": "116",
+    "speed_limit_in_area": "80"
+  },
+  {
+    "WindowEnd": "2025-11-03T12:52:00.0000000+00:00",
+    "location_id": "164",
+    "location_name": "El Nozha",
+    "risky_vehicle_count": "2",
+    "avg_speed": "58.5",
+    "speed_limit_in_area": "40"
+  },
+  {
+    "WindowEnd": "2025-11-03T13:08:00.0000000+00:00",
+    "location_id": "561",
+    "location_name": "Nasr City",
+    "risky_vehicle_count": "2",
+    "avg_speed": "73.5",
+    "speed_limit_in_area": "50"
+  },
+  {
+    "WindowEnd": "2025-11-03T13:13:00.0000000+00:00",
+    "location_id": "460",
+    "location_name": "El Sakkakini (segment 460)",
+    "risky_vehicle_count": "2",
+    "avg_speed": "115.5",
+    "speed_limit_in_area": "80"
+  },
+  {
+    "WindowEnd": "2025-11-03T13:23:00.0000000+00:00",
+    "location_id": "556",
+    "location_name": "Al Amiriya Road",
+    "risky_vehicle_count": "2",
+    "avg_speed": "88",
+    "speed_limit_in_area": "60"
+  },
+  {
+    "WindowEnd": "2025-11-03T13:27:00.0000000+00:00",
+    "location_id": "164",
+    "location_name": "El Nozha",
+    "risky_vehicle_count": "2",
+    "avg_speed": "58.5",
+    "speed_limit_in_area": "40"
+  },
+  {
+    "WindowEnd": "2025-11-03T13:35:00.0000000+00:00",
+    "location_id": "225",
+    "location_name": "Ramses",
+    "risky_vehicle_count": "2",
+    "avg_speed": "117",
+    "speed_limit_in_area": "80"
+  },
+  {
+    "WindowEnd": "2025-11-03T13:34:00.0000000+00:00",
+    "location_id": "922",
+    "location_name": "El Thawra",
+    "risky_vehicle_count": "2",
+    "avg_speed": "88.5",
+    "speed_limit_in_area": "60"
+  },
+  {
+    "WindowEnd": "2025-11-03T13:40:00.0000000+00:00",
+    "location_id": "445",
+    "location_name": "Smart Village Road",
+    "risky_vehicle_count": "2",
+    "avg_speed": "58",
+    "speed_limit_in_area": "40"
+  },
+  {
+    "WindowEnd": "2025-11-03T13:43:00.0000000+00:00",
+    "location_id": "591",
+    "location_name": "El Teseen",
+    "risky_vehicle_count": "2",
+    "avg_speed": "115.5",
+    "speed_limit_in_area": "80"
+  },
+  {
+    "WindowEnd": "2025-11-03T13:46:00.0000000+00:00",
+    "location_id": "520",
+    "location_name": "Ramses",
+    "risky_vehicle_count": "2",
+    "avg_speed": "73",
+    "speed_limit_in_area": "50"
+  },
+  {
+    "WindowEnd": "2025-11-03T13:49:00.0000000+00:00",
+    "location_id": "315",
+    "location_name": "Dokki",
+    "risky_vehicle_count": "2",
+    "avg_speed": "87",
+    "speed_limit_in_area": "60"
+  },
+  {
+    "WindowEnd": "2025-11-03T13:55:00.0000000+00:00",
+    "location_id": "926",
+    "location_name": "Wahat Road",
+    "risky_vehicle_count": "2",
+    "avg_speed": "118.5",
+    "speed_limit_in_area": "80"
+  },
+  {
+    "WindowEnd": "2025-11-03T13:50:00.0000000+00:00",
+    "location_id": "548",
+    "location_name": "Al Amiriya Road",
+    "risky_vehicle_count": "2",
+    "avg_speed": "117",
+    "speed_limit_in_area": "80"
+  },
+  {
+    "WindowEnd": "2025-11-03T14:00:00.0000000+00:00",
+    "location_id": "4",
+    "location_name": "Corniche El Nil (segment 4)",
+    "risky_vehicle_count": "2",
+    "avg_speed": "86",
+    "speed_limit_in_area": "60"
+  },
+  {
+    "WindowEnd": "2025-11-03T14:03:00.0000000+00:00",
+    "location_id": "880",
+    "location_name": "El Tayaran",
+    "risky_vehicle_count": "2",
+    "avg_speed": "144",
+    "speed_limit_in_area": "100"
+  },
+  {
+    "WindowEnd": "2025-11-03T14:03:00.0000000+00:00",
+    "location_id": "533",
+    "location_name": "Tahrir (segment 533)",
+    "risky_vehicle_count": "2",
+    "avg_speed": "86",
+    "speed_limit_in_area": "60"
+  },
+  {
+    "WindowEnd": "2025-11-03T14:08:00.0000000+00:00",
+    "location_id": "721",
+    "location_name": "El Geish",
+    "risky_vehicle_count": "2",
+    "avg_speed": "58",
+    "speed_limit_in_area": "40"
+  },
+  {
+    "WindowEnd": "2025-11-03T14:12:00.0000000+00:00",
+    "location_id": "982",
+    "location_name": "Ring Road (segment 982)",
+    "risky_vehicle_count": "2",
+    "avg_speed": "102.5",
+    "speed_limit_in_area": "70"
+  },
+  {
+    "WindowEnd": "2025-11-03T14:18:00.0000000+00:00",
+    "location_id": "595",
+    "location_name": "Al Haram (segment 595)",
+    "risky_vehicle_count": "2",
+    "avg_speed": "102",
+    "speed_limit_in_area": "70"
+  },
+  {
+    "WindowEnd": "2025-11-03T14:22:00.0000000+00:00",
+    "location_id": "919",
+    "location_name": "El Sakkakini (segment 919)",
+    "risky_vehicle_count": "2",
+    "avg_speed": "147.5",
+    "speed_limit_in_area": "100"
+  },
+  {
+    "WindowEnd": "2025-11-03T14:21:00.0000000+00:00",
+    "location_id": "623",
+    "location_name": "El Teseen",
+    "risky_vehicle_count": "2",
+    "avg_speed": "71",
+    "speed_limit_in_area": "50"
+  },
+  {
+    "WindowEnd": "2025-11-03T14:25:00.0000000+00:00",
+    "location_id": "180",
+    "location_name": "Moustafa Kamel",
+    "risky_vehicle_count": "2",
+    "avg_speed": "59.5",
+    "speed_limit_in_area": "40"
+  },
+  {
+    "WindowEnd": "2025-11-03T14:25:00.0000000+00:00",
+    "location_id": "571",
+    "location_name": "El Geish (segment 571)",
+    "risky_vehicle_count": "2",
+    "avg_speed": "100.5",
+    "speed_limit_in_area": "70"
+  },
+  {
+    "WindowEnd": "2025-11-03T14:34:00.0000000+00:00",
+    "location_id": "623",
+    "location_name": "El Teseen",
+    "risky_vehicle_count": "2",
+    "avg_speed": "71.5",
+    "speed_limit_in_area": "50"
+  },
+  {
+    "WindowEnd": "2025-11-03T14:38:00.0000000+00:00",
+    "location_id": "430",
+    "location_name": "Giza Corniche (segment 430)",
+    "risky_vehicle_count": "2",
+    "avg_speed": "118.5",
+    "speed_limit_in_area": "80"
+  },
+  {
+    "WindowEnd": "2025-11-03T14:43:00.0000000+00:00",
+    "location_id": "772",
+    "location_name": "Salah Salem",
+    "risky_vehicle_count": "2",
+    "avg_speed": "74",
+    "speed_limit_in_area": "50"
+  },
+  {
+    "WindowEnd": "2025-11-03T14:43:00.0000000+00:00",
+    "location_id": "849",
+    "location_name": "Abdel Aziz Fahmy (segment 849)",
+    "risky_vehicle_count": "2",
+    "avg_speed": "102",
+    "speed_limit_in_area": "70"
+  },
+  {
+    "WindowEnd": "2025-11-03T14:45:00.0000000+00:00",
+    "location_id": "666",
+    "location_name": "El Thawra",
+    "risky_vehicle_count": "2",
+    "avg_speed": "143",
+    "speed_limit_in_area": "100"
+  },
+  {
+    "WindowEnd": "2025-11-03T14:50:00.0000000+00:00",
+    "location_id": "656",
+    "location_name": "Tahrir",
+    "risky_vehicle_count": "2",
+    "avg_speed": "115.5",
+    "speed_limit_in_area": "80"
+  },
+  {
+    "WindowEnd": "2025-11-03T15:01:00.0000000+00:00",
+    "location_id": "537",
+    "location_name": "Giza Corniche (segment 537)",
+    "risky_vehicle_count": "2",
+    "avg_speed": "58",
+    "speed_limit_in_area": "40"
+  },
+  {
+    "WindowEnd": "2025-11-03T15:13:00.0000000+00:00",
+    "location_id": "905",
+    "location_name": "Dokki",
+    "risky_vehicle_count": "2",
+    "avg_speed": "145",
+    "speed_limit_in_area": "100"
+  },
+  {
+    "WindowEnd": "2025-11-03T15:20:00.0000000+00:00",
+    "location_id": "182",
+    "location_name": "Al Haram",
+    "risky_vehicle_count": "2",
+    "avg_speed": "148",
+    "speed_limit_in_area": "100"
+  },
+  {
+    "WindowEnd": "2025-11-03T15:18:00.0000000+00:00",
+    "location_id": "816",
+    "location_name": "El Nozha",
+    "risky_vehicle_count": "2",
+    "avg_speed": "86.5",
+    "speed_limit_in_area": "60"
+  },
+  {
+    "WindowEnd": "2025-11-03T15:22:00.0000000+00:00",
+    "location_id": "821",
+    "location_name": "El Shorouk Road (segment 821)",
+    "risky_vehicle_count": "2",
+    "avg_speed": "57",
+    "speed_limit_in_area": "40"
+  },
+  {
+    "WindowEnd": "2025-11-03T15:40:00.0000000+00:00",
+    "location_id": "763",
+    "location_name": "Mohandessin",
+    "risky_vehicle_count": "2",
+    "avg_speed": "118",
+    "speed_limit_in_area": "80"
+  }
+]
