@@ -30,6 +30,17 @@ CREATE TABLE dbo.UnderSpeedOutput (
 );
 GO
 
+--  (Wrong Way Violation)
+CREATE TABLE dbo.WrongWayOutput (
+    WindowEnd DATETIMEOFFSET,
+    event_id BIGINT,
+    plate_number NVARCHAR(50),
+    location_name NVARCHAR(100),
+    VehicleDirection NVARCHAR(10),
+    StreetDirection NVARCHAR(10)
+);
+GO
+
 --  (Congestion)
 CREATE TABLE dbo.CongestionOutput (
     WindowEnd DATETIMEOFFSET,
@@ -68,7 +79,9 @@ WITH CastedEvents AS (
         road_type,
         TRY_CAST(speed AS float) AS speed,
         TRY_CAST(speed_limit AS float) AS speed_limit,
-        sensor_id
+        sensor_id,
+        street_direction,
+        direction,
     FROM trafficeventsinput TIMESTAMP BY timestamp
     WHERE TRY_CAST(speed AS float) BETWEEN 0 AND 200
 )
@@ -110,6 +123,21 @@ WHERE
     c.speed < (c.speed_limit * 0.8)
     AND c.road_type != 'Intersection';
 
+    -- Wrong Way Violation )
+SELECT
+    c.EventTime AS WindowEnd,
+    c.event_id,
+    c.plate_number,
+    c.location_name,
+    c.direction AS VehicleDirection,
+    c.street_direction AS StreetDirection
+INTO wrongwayOutput
+FROM CastedEvents c
+WHERE
+    (c.street_direction = 'NS' AND (c.direction = 'E' OR c.direction = 'W'))
+    OR
+    (c.street_direction = 'EW' AND (c.direction = 'N' OR c.direction = 'S'));
+
 -- Congestion
 SELECT
     System.Timestamp AS WindowEnd,
@@ -143,4 +171,4 @@ WHERE
     (c.speed > (c.speed_limit * 1.4)) 
     OR (c.speed < 10 AND c.road_type IN ('Highway', 'Main Road'))
 GROUP BY TUMBLINGWINDOW(second, 60), c.location_id, c.location_name
-HAVING COUNT_BIG(*) >= 2;
+HAVING COUNT_BIG(*) >= 3;

@@ -19,7 +19,7 @@ NUM_LOCATIONS = 1000
 SENSOR_COVERAGE_RATIO = 0.55
 NUM_VEHICLES = 2000
 TOTAL_EVENTS = 150_000
-EVENT_INTERVAL_SECONDS = 0.25
+EVENT_INTERVAL_SECONDS = 0.1
 DATA_DIR = "data"
 LOCATIONS_FILE = os.path.join(DATA_DIR, "locations.json")
 SENSORS_FILE = os.path.join(DATA_DIR, "sensors.json")
@@ -298,12 +298,19 @@ def generate_speed(location, vehicle_type):
 
 def generate_event(event_id, sensor, location, vehicle):
     street_dir = location.get("direction", "CIRCULAR")
-    if street_dir == "NS":
-        possible = ["N", "S"]
-    elif street_dir == "EW":
-        possible = ["E", "W"]
+    if street_dir != 'CIRCULAR' and random.random() < 0.05:
+        if street_dir == "NS":
+            possible = ["E", "W"]
+        else:
+            possible = ["N", "S"]
     else:
-        possible = ["N", "S", "E", "W"]
+        if street_dir == "NS":
+            possible = ["N", "S"]
+        elif street_dir == "EW":
+            possible = ["E", "W"]
+        else:
+            possible = ["N", "S", "E", "W"]
+
     direction = random.choice(possible)
     speed = generate_speed(location, vehicle["vehicle_type"])
     return {
