@@ -84,12 +84,13 @@ Once the data is processed, the Power BI dashboard displays real-time metrics su
 ---
 
 ## 👥 Team
+* Abdalla Nasser Bekhit Abdalla Ewida: Team Leader , Technical Team Lead
+* Nour Hassan Hamdy Gamil: Data Simulation & Python Integration
+* Zahran Alaa Sayed Mohammed: System Testing & Quality Assurance
+* Rawan Khaled Mohamed Mustafa: Data Engineering & SQL Queries 
+* Sohaila Ahmed Ali Elgmal: Azure Cloud & Pipeline Architect 
+* Menna Muhammad Ali Eissa: Visualization Lead - Power BI 
+<img width="1229" height="504" alt="image" src="https://github.com/user-attachments/assets/341bcc5f-cb4b-4cc6-9208-fb020a1a9a26" />
 
-* **Abdalla Nasser Bekhit Abdalla Ewida** – Team Leader / Python & Data Simulation
-* **Nour Hassan Hamdy Gamil** – Testing & Quality Assurance
-* **Menna Muhammad Ali Eissa** – Power BI Visualization
-* **Zahran Alaa Sayed Mohammed** – Data Engineering
-* **Rawan Khaled Mohamed Mustafa** – SQL Development
-* **Sohaila Ahmed Ali Elgmal** – Azure Cloud Architecture
 
 ---
