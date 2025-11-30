@@ -81,7 +81,7 @@ WITH CastedEvents AS (
         TRY_CAST(speed_limit AS float) AS speed_limit,
         sensor_id,
         street_direction,
-        direction,
+        direction
     FROM trafficeventsinput TIMESTAMP BY timestamp
     WHERE TRY_CAST(speed AS float) BETWEEN 0 AND 200
 )
