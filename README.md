@@ -90,7 +90,6 @@ Once the data is processed, the Power BI dashboard displays real-time metrics su
 * Rawan Khaled Mohamed Mustafa: Data Engineering & SQL Queries 
 * Sohaila Ahmed Ali Elgmal: Azure Cloud & Pipeline Architect 
 * Menna Muhammad Ali Eissa: Visualization Lead - Power BI 
-<img width="1229" height="504" alt="image" src="https://github.com/user-attachments/assets/341bcc5f-cb4b-4cc6-9208-fb020a1a9a26" />
 
 
 ---
